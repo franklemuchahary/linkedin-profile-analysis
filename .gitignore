@@ -1,0 +1,4 @@
+.DS_S*
+.env
+.ipynb_checkpoints
+*checkpoints.csv
