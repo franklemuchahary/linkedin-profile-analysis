@@ -1,0 +1,894 @@
+profile_id_dummy,education_institute,degree_name,start_year_degree,end_year_degree,profile_category,degree_bachelor,degree_master,degree_doctorate,degree_mba,education_degree_all,major_type
+DataScience_0,Missouri Southern State University,"bachelor's degree, mathematics",2005,2010,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_1,Delhi University,"bachelor of arts (b.a.), economics",2002,2005,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_1,Anna University,"master of science (m.sc.), economics",2006,2008,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_2,Northcentral University,"doctor of philosophy - phd, data science specialization, minor in machine learning",1900,1900,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_2,The University of Iowa Tippie College of Business,"mba, business analytics",2007,2007,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_2,"Indian Institute of Technology, Bombay",operations research,1900,1900,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_3,The University of Texas at Austin,"master's degree, quantitative methods",1900,1900,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_3,The University of Texas at Austin,"master of science - ms, statistics and data sciences",2017,2018,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_4,"National Institute of Technology, Tiruchirappalli","bachelor of technology (b.tech.), instrumentation and control engineering",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_4,W. P. Carey School of Business – Arizona State University,"master of science (ms), business analytics",2014,2015,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_4,Harvard Business School Online,"the credential of readiness, business analytics, economics for managers and financial accounting",2022,2022,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_5,University of Mumbai,"bachelor of engineering (b.e.), computer engineering",2013,2017,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_5,Saint Mary's College of California,"certificate program, global management practices and leadership strategies",2016,2016,DataScience,,,,,None#None#None#None,Other
+DataScience_5,Georgia Institute of Technology,"master of science - ms, computer science",2017,2018,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_6,Central South University,"master, applied probability",2003,2006,DataScience,,master,,,None#master#None#None,Other
+DataScience_6,Michigan State University,"phd, soil science; soil x-ray ct imaging",2006,2012,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_6,Michigan State University,"master, applied statistics",2006,2011,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_7,Cornell University,"bachelor of science (b.s.), electrical and computer engineering",2004,2008,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_7,Cornell University,"master of engineering (m.eng.), electrical and computer engineering",2009,2010,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_7,Vanderbilt University,"doctor of philosophy (ph.d.), electrical engineering",2010,2014,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_8,Sri Venkateswara University,"master of science( m.sc.,) , statistics",1998,2000,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_8,Sri Venkateswara University,"doctor of philosophy - phd, statistics",2001,2005,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_8,International Institute of Information Technology Bangalore,"executive pg program in machine learning & artificial intelligence, ml and ai",2020,2021,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_9,University of Nevada-Las Vegas,"post-doctoral, artificial intelligence",2015,2016,DataScience,,,,,None#None#None#None,Other
+DataScience_9,Université Badji Mokhtar de Annaba,"doctor of philosophy (phd), artificial intelligence and computer vision",2010,2014,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_9,Université Badji Mokhtar de Annaba,"master by research, artificial intelligence and pattern recognition",2008,2010,DataScience,,master,,,None#master#None#None,Other
+DataScience_10,Indian Statistical Institute,"master of science - ms, applied statistics and data analysis",2007,2009,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_10,St. Xavier's College,"b.sc, statistics",2004,2007,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_11,National Institute of Technology Karnataka Surathkal,"b. tech, computer science",2005,2009,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_11,National Institute of Technology Karnataka,"b tech, computer science",2005,2009,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_11,University of Waterloo,"mmath, computer science",2009,2011,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_12,The George Washington University,"master's degree, computer engineering",2010,2013,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_12,The George Washington University,"doctor of philosophy (phd), computer engineering",2014,2021,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_12,Shahid Beheshti University,"bachelor's degree, electrical and electronics engineering",2004,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_13,University of Pittsburgh,"phd, artificial intelligence, learning sciences",2008,2011,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_13,Carnegie Mellon University,"post-doctoral fellowship, human computer interaction",2011,2013,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_13,University of Pittsburgh,"ms, artificial intelligence, learning sciences",1999,2007,DataScience,,master,,,None#master#None#None,Other
+DataScience_14,Azad University (IAU),"bachelor's degree, industrial engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_14,Iran University of Science and Technology,"master's degree, industrial engineering",1900,1900,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_14,Binghamton University,"doctor of philosophy - phd, industrial and systems engineering",1900,1900,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_15,Università degli Studi di Milano,"bs, physics",2000,2006,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_15,Università degli Studi dell'Insubria,"phd, astronomy and astrophysics",2006,2009,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_16,"Indian Institute of Technology, Kanpur","master of technology - mtech, computer science",2014,2016,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_16,Panjab University,"bachelor of technology - btech, computer science",2010,2014,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_16,Delhi Public School - Bathinda,high school,1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_17,"Galvanize - Denver, Platte","data science immersive, data science immersive",2017,2017,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_17,Colorado State University,"doctor of philosophy (ph.d.), biochemistry and molecular biology",2008,2012,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_17,University of Arkansas,"bachelor’s degree, chemistry and biochemistry",2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_18,Georgia Institute of Technology,"master of science - ms, electrical and computer engineering",1999,2001,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_18,Georgia Institute of Technology,"doctor of philosophy - phd, electrical and computer engineering",2001,2006,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_18,University of Central Florida,"bachelor of science (b.s.), computer engineering",1994,1998,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_19,SSN College of Engineering,"bachelor of engineering (be), electrical and electronics engineering",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_19,Carnegie Mellon University - Heinz College of Information Systems and Public Policy,"master of information systems management, business intelligence and data analytics",2014,2015,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_19,Harrisburg University of Science and Technology,"masters in analytics, machine learning",2019,2019,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_20,Georgia Institute of Technology,"master of science - ms, computer science",2023,2023,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_20,UC Irvine,"bachelor of science - bs, civil engineering",2013,2013,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_20,Peking University,university of california education abroad program,2011,2011,DataScience,,,,,None#None#None#None,Other
+DataScience_21,University of Reading,"phd., atmosphere, oceans and climate, tropical cyclones and climate change",2010,2014,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_21,University of Southampton,"mocean, oceanography",2006,2010,DataScience,,,,,None#None#None#None,Other
+DataScience_22,SVN College Madurai,"bachelor of science (b.sc.), mathematics",1999,2002,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_22,"Sirumalar Girls Hr. Sec. School, Madurai",,1992,1999,DataScience,,,,,None#None#None#None,Other
+DataScience_22,Thiagarajar College of Engineering,master of computer applications (mca),2002,2005,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_23,Goa Institute of Management,"master of business administration (m.b.a.), finance, general",1900,1900,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_23,"Birla Institute of Technology and Science, Pilani","m.tech, chemical engineering",1900,1900,DataScience,,,,,None#None#None#None,Engineering
+DataScience_23,Malaviya National Institute of Technology Jaipur,"bachelor of technology (btech), chemical engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_24,Purdue University,"doctor of philosophy (phd), aerospace, aeronautical and astronautical engineering",2012,2015,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_24,Wright State University,"master of science (m.s.), mechanical engineering",2011,2012,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_25,University of Florida,"doctor of philosophy - phd, mechanical and aerospace engg",2002,2005,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_25,University of Florida,"m.s, aerospace engg",1999,2002,DataScience,,master,,,None#master#None#None,Other
+DataScience_25,"Indian Institute of Technology, Madras","btech, aerospace engg",1995,1999,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_26,Malaviya National Institute of Technology Jaipur,"b.tech, chemical engineering",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_26,National Chemical Laboratory Pune,"master of technology (m.tech.), chemical engineering: modeling and simulation",2011,2013,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_27,MIT Professional Education,leadership & innovation,2020,2020,DataScience,,,,,None#None#None#None,Other
+DataScience_27,University of North Carolina at Charlotte,"master's degree, data science and business analytics",2016,2017,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_27,University of North Carolina at Charlotte,"doctor of philosophy - phd, computing and information systems",2018,2022,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_28,Southeast University,"ms, physics",2001,2004,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_28,University of Missouri-Columbia,"phd, physics",2004,2010,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_28,University of Missouri-Columbia,"ma, statistics",2007,2010,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_29,US Army,"certified ammo 67, logistics and transportation",2003,2009,DataScience,,,,,None#None#None#None,Other
+DataScience_29,University of Colorado Denver,"master's degree, economics",2013,2016,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_29,Western Michigan University,"bachelor's, economics, anthropology",2010,2012,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_30,Missouri University of Science and Technology,"masters degree, computer science",2014,2015,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_30,Osmania University,"bachelor of engineering (b.e.), computer science",2010,2014,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_30,Narayana Junior College,mathematics physics chemistry,2008,2010,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_31,"Indian Institute of Technology, Madras","master's degree, electrical, electronics and communications engineering",2003,2005,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_31,Udacity,"nanodegree, computer vision",2018,2018,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_31,Udacity,"nanodegree, deep learning",2018,2018,DataScience,,,,,None#None#None#None,Other
+DataScience_32,Beihang University,"bachelor of engineering (be), aerospace engineering & international business",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_32,University of Minnesota,"ph.d., mechanical engineering",1900,1900,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_32,Arizona State University,"ms, mechanical engineering",1900,1900,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_33,Udacity,computer vision nanodegree,2018,2018,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_33,"T A Pai Management Institute, Manipal",mba,2013,2015,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_33,University of Cincinnati Carl H. Lindner College of Business,"ms, business analytics",2018,2019,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_34,North Carolina State University - Institute for Advanced Analytics,"master of science in analytics (msa), advanced analytics",2013,2014,DataScience,,master,,,None#master#None#None,Other
+DataScience_34,North Carolina State University,"mba, operations & services innovation",2008,2010,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_34,Duke University,"ms, statistics",1996,1997,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_35,Penn State University,"graduate certificate, supply chain management",2014,2015,DataScience,,,,,None#None#None#None,Other
+DataScience_35,Mississippi State University,"phd, industrial and systems engineering (operations research)",2009,2013,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_35,Bangladesh University of Engineering and Technology,"m.sc. engineering, industrial and production engineering",2006,2008,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_36,Georgia Institute of Technology,"master of science - ms, analytics",2021,2022,DataScience,,master,,,None#master#None#None,Other
+DataScience_36,National Institute of Technology Warangal,"bachelor of technology, electrical & electronics engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_36,CDAC,"diploma in advanced computing, programming languages (c, c++, java, d2k, networking, unix and operating system)",1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_37,AMITY University Gurgaon,"master of computer applications (mca), computer science",2013,2016,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_37,International School of Engineering (INSOFE),big data analytics and optimization,2017,2018,DataScience,,,,,None#None#None#None,Other
+DataScience_37,Indira Gandhi National Open University,"bca, computer science",2009,2012,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_38,Technical University of Munich,"master of science (ms), communications engineering",2011,2013,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_38,National Institute of Technology Raipur,"bachelor’s degree, electronics and telecommunication",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_39,Northwestern University,"ph.d., transportation",1999,2004,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_40,"N C Jindal Public School, new delhi",science,1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_40,Guru Gobind Singh Indraprastha University,"bachelor of technology (btech), computer science",2009,2013,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_40,San Jose State University,"master's degree, data science",2018,2020,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_41,"Indian Institute of Technology, Kanpur","dual degree, mathematics and scientific computing",2007,2012,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_42,The Johns Hopkins University,"data science with r, six courses",2014,2015,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_42,University of Notre Dame,"bachelor's degree, mathematics/business",1989,1993,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_42,Babson F.W. Olin Graduate School of Business,"mba, magna cum laude",2009,2011,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_43,Anna University,"b.e, electrical, electronics and communications engineering",2002,2006,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_43,INDIAN SCHOOL OF BUSINESS MANAGEMENT AND ADMINISTRATION,"master of business administration - mba, finance",2007,2009,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_44,University of Tehran,"master of science, petroleum engineering (reservoir engineering)",2007,2009,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_44,Sharif University of Technology,"bachelor of science, petroleum engineering",2004,2007,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_44,Texas A&M University,"phd, petroleum engineering",2009,2013,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_45,Fergusson College,"higher secondary certificate, physics mathematics chemistry english computer science",2009,2011,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_45,"Birla Institute of Technology and Science, Pilani","b.e. hons, electrical and electronics engineering",2011,2015,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_45,University of Illinois Urbana-Champaign,"master's degree, data science (msim)",2017,2018,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_46,Indian Institute of Science (IISc),"master of engineering (m.eng.), computer science",2014,2016,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_46,"University Institute Of Engineering and Technology, MDU Rohtak","bachelor of technology (b.tech.), computer science",2007,2011,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_46,OS DAV Public School Kaithal,higher scondary,2005,2007,DataScience,,,,,None#None#None#None,Other
+DataScience_47,Amity University,,1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_47,Netaji Subhas Institute of Technology,"bachelor of engineering, computer engineering",2013,2017,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_47,Columbia University,"master's degree, data science",2018,2019,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_48,Udacity,"self-driving car engineer nano-degree, artificial intelligence",2020,2022,DataScience,,,,,None#None#None#None,Engineering
+DataScience_48,Udacity,data structures and algorithms nano-degree,2019,2019,DataScience,,,,,None#None#None#None,Other
+DataScience_48,Cornell University,"ph.d, mechanical engineering",2006,2011,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_49,JNTUH College of Engineering Hyderabad,"bachelor of technology (b.tech.), electronics and communications engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_50,Sri Sarada College for Women(Autonomous),"bachelor's degree, statistics",2009,2012,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_50,Loyola College,"master of philosophy (m.phil.), statistics",2014,2015,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_50,Loyola College,"master’s degree, statistics",2014,2015,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_52,University of Wisconsin-Parkside,"master of business administration - mba, dual concentration: supply chain management / data analytics",2021,2022,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_52,Georgia Institute of Technology,"master of science - ms, cybersecurity",2019,2021,DataScience,,master,,,None#master#None#None,Other
+DataScience_52,University of Wisconsin-Green Bay,"master of science (ms), data science",2016,2018,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_53,"Indian Institute of Science Education and Research, Kolkata","master of science (ms), geological and earth sciences/geosciences",2007,2012,DataScience,,master,,,None#master#None#None,Other
+DataScience_53,University of Massachusetts Amherst,"doctor of philosophy (ph.d.), computational geoscience",2012,2017,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_53,HBX | Harvard Business School,core: credential of readiness,2015,2016,DataScience,,,,,None#None#None#None,Other
+DataScience_54,University of Toronto,"bachelor of applied science (basc), engineering",2011,2016,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_54,University of Chicago,"master’s degree, master of science in analytics (msca)",2016,2018,DataScience,,master,,,None#master#None#None,Other
+DataScience_54,Oregon State University,"bachelor of science - bs, computer science",2019,2021,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_55,Anna University,"bachelor's degree, electrical, electronics and communications engineering",2009,2013,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_55,Stevens Institute of Technology,"masters in financial engineering, finance",2017,2018,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_56,University of Southern California,"master's degree, statistics",2010,2011,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_56,University of Science and Technology of China,bachelor's degree,2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_56,University of Southern California,"doctor of philosophy (phd), bioinformatics and computational biology",2007,2013,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_57,"Indian Institute of Technology, Kharagpur","dual degree (btech + mtech), computer science",2009,2014,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_58,2021 Qiskit Global Summer School on Quantum Machine Learning,"certificate of quantum excellence, quantum computing, quantum machine learning",2021,2021,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_58,"Tribhuvan University, Nepal","bachelor's degree, physics, mathematics",2004,2006,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_58,Florida International University,"doctor of philosophy (phd), theoretical and mathematical physics",2011,2017,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_59,University of Waterloo,"phd in statistics, financial economectrics",2006,2012,DataScience,,,phd,,None#None#None#phd,Business / Economics
+DataScience_60,Bilkent University,"master of arts (m.a.), economics",2007,2009,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_60,Bilkent University,"bachelor of science (bs), business administration and management, general",2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_60,University of Michigan,"doctor of philosophy (ph.d.), economics",2009,2015,DataScience,,,phd,,None#None#None#phd,Business / Economics
+DataScience_61,Indian Institute of Science (IISc),"master of engineering (m.eng.), aerospace engineering",1999,2001,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_61,"IIEST, Shibpur","bachellor of engineering, civil engineering",1995,1999,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_61,Indian Institute of Science (IISc),"ph.d, aerospace engineering",2001,2004,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_62,Data Analytics Edge from MIT EDX,"data science certification, data science",2015,2015,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_62,Stanford Center for Professional Development,sustainability studies,2019,2019,DataScience,,,,,None#None#None#None,Other
+DataScience_62,Bharathiar University,"bachelor in engineering, instrumentation and control",1984,1988,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_63,University of Maryland Global Campus,"master, software engineering",2001,2003,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_63,Columbia University,"graduate certificate in health informatics, healthcare it",2010,2011,DataScience,,,,,None#None#None#None,Other
+DataScience_63,Drexel University,"doctor of health science, epidemiology, biostat, ai/ml",2019,2022,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_64,Stanford University,"doctor of philosophy (phd), theoretical neuroscience",2011,2016,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_64,Stanford University,"master of science (ms), neuromorphic engineering",2009,2011,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_64,"University of California, Berkeley","ba, physics, neurobiology and minor in eecs",2005,2009,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_65,University of Connecticut,"master of business administration (mba), mis & finance",1900,1900,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_65,University of Connecticut,"master of science (m.s.), applied financial mathematics",1900,1900,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_65,University of Connecticut,"ph.d., electrical & computer engineering, information & decision systems concentrations, applied machine learning & computer vision research",2004,2009,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_66,Muhlenberg College,"bachelor of science (b.s.), physics and mathematics",1995,1999,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_66,University of Miami,"doctor of philosophy (ph.d.), geophysics",2001,2008,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_67,"Indian Institute of Technology, Delhi","bachelor of technology (btech), mechanical engineering",2012,2016,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_67,Best High School,higher secondary certificate,1900,1900,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_68,University of Amsterdam,"master's degree, education policy for global development",2018,2019,DataScience,,master,,,None#master#None#None,Other
+DataScience_68,University of Pennsylvania,"master of science - ms, social policy and data analytics",2020,2022,DataScience,,master,,,None#master#None#None,Other
+DataScience_68,Universitat Autònoma de Barcelona,"master of arts - ma, education policy analysis",2017,2019,DataScience,,master,,,None#master#None#None,Other
+DataScience_69,University of Minnesota - Carlson School of Management,"master of science - ms, business analytics",2018,2019,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_69,"National Institute of Technology, Tiruchirappalli","bachelor of technology - btech, mechanical engineering",2011,2015,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_70,University of Illinois Urbana-Champaign,"master in computer science, data science",2018,2020,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_70,Amity University,"bachelor of technology (b.tech.), computer science",2008,2012,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_71,University of Rochester,"doctorate, electrical and computer engineering",2007,2012,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_71,Zhejiang University,"bachelor, measuring & control technology and instrumentations",2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_71,RIT,,1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_72,KTH Royal Institute of Technology,"ph.d.(joint thesis), theoretical and computational physics",1900,1900,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_72,Peking University,"ph.d  (joint thesis), theoretical and computational physics",1900,1900,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_72,Shandong University,"bachelor's degree, physics",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_73,Massachusetts Institute of Technology,"master of science (m.s.), aerospace, aeronautical and astronautical engineering",2007,2009,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_73,Quantic School of Business and Technology,executive mba,2018,2019,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_73,Massachusetts Institute of Technology,"bachelor of science (bs), aerospace, aeronautical and astronautical engineering",2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_74,"Indian Institute of Technology, Bombay","b.tech, chemical engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_74,Rensselaer Polytechnic Institute - The Lally School of Management,"master's degree, business analytics",2017,2018,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_75,MIT Sloan School of Management,"mba, finance, strategy",2001,2003,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_75,"University of California, Los Angeles","ms, electrical engineering",1994,1996,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_75,Massachusetts Institute of Technology,master of business administration (m.b.a.),2001,2003,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_76,"Birla Institute of Technology, Mesra","mca, computer applications",2000,2003,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_76,Nanyang Technological University Singapore,"exchange research fellow, school of communication & information",2006,2006,DataScience,,,,,None#None#None#None,Other
+DataScience_76,Indian Institute of Management Bangalore,"phd, quantitative methods and information systems",2003,2008,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_77,Institution of Electronics and Telecommunication Engineers,"bachelor’s degree, electrical, electronics and communications engineering",1989,1992,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_77,Anna University,"masters in engineering, electrical and electronics engineering",1993,1995,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_77,Northeastern University,"ph.d., electrical and computer engineering",1997,2002,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_78,Bangor University,"bsc, mathematics",1994,1997,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_78,University of Strathclyde,"phd, mathematical biology",1998,2001,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_78,Loughborough University,"msc, mathematical modelling for industry",1997,1998,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_79,University of Washington,"doctor of philosophy (ph.d.), finance, general",2010,2015,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_79,University of Washington,"mba, finance, general",2009,2010,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_79,University of Washington - Michael G. Foster School of Business,"master of science (m.sc.), finance, general",2011,2014,DataScience,,master,,,None#master#None#None,Other
+DataScience_80,North Carolina State University,"doctor of philosophy - phd, major: ise, minor:  statistics and computer science (interdisciplinarity)",2017,2017,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_81,Rice University,"master's degree, statistics",2017,2019,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_81,Shanghai University of International Business and Economics,"bachelor of science - bs, applied statistics",2013,2017,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_82,California State Polytechnic University-Pomona,"bachelors of science, mechanical engineering",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_82,University of Wisconsin-Madison,"master of science (msc), manufacturing systems engineering",1900,1900,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_83,Esade,exchange program,2013,2013,DataScience,,,,,None#None#None#None,Other
+DataScience_83,University of Illinois Urbana-Champaign,"master's degree, data science and analytics",2018,2020,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_83,Tongji University,"bachelor's degree, engineering/industrial management",2010,2014,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_84,Flatiron School,data science,1900,1900,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_84,Purdue University,"bachelor of science - bs, analytics",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_85,Nova Southeastern University,"doctor of philosophy (phd), natural language processing",1900,1900,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_85,Indira Gandhi National Open University,"mba, operations research",1900,1900,DataScience,,,,mba,None#None#mba#None,Business / Economics
+DataScience_85,Manonmaniam Sundaranar University,"master of computer applications - mca, computational and applied mathematics",1900,1900,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_87,Stony Brook University,"bachelor of science (bs), applied mathematics and statistics; economics",2014,2017,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_87,Columbia University,"master's degree, statistics",2017,2019,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_88,Udacity,machine learning engineer nanodegree,2020,2020,DataScience,,,,,None#None#None#None,Engineering
+DataScience_88,The University of Texas at Dallas,"master of science - ms, business analytics",2018,2020,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_88,G H Patel College of Engineering & Technology,"bachelor of engineering - be, electronics and communication",2009,2013,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_89,"Indian Institute of Management, Indore","master of business administration (m.b.a.), marketing",2013,2014,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_89,"IIEST, Shibpur","bachelor of engineering (b.e.), mining and mineral engineering",2004,2007,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_89,Texas McCombs School of Business,advanced business analytics,2014,2014,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_90,fast.ai,deep learning,2017,2018,DataScience,,,,,None#None#None#None,Other
+DataScience_90,National Institute of Technology Warangal,"bachelor's degree, electrical and electronics engineering",2008,2012,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_91,Columbia University,"ms, data science",2018,2019,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_91,Banasthali Vidyapith,bachelor of computer applications,2009,2012,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_91,Jawaharlal Nehru University,"master of computer applications (mca), computer science",2012,2015,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_92,"DAV Group of Schools (TNAES), Chennai","primary to higher secondary, science (biology)",2003,2013,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_92,The University of Texas at Dallas,"master of science - ms, management information systems, general",2019,2021,DataScience,,master,,,None#master#None#None,Other
+DataScience_92,Anna University,"bachelor's degree, electrical and electronics engineering",2013,2017,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_93,"University of California, Davis","doctor of philosophy (ph.d.), biostatistics",2012,2017,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_93,California State University Channel Islands,"bachelor's degree, mathematics",2008,2010,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_94,Pontifícia Universidade Católica do Rio de Janeiro,"graduate, business administration and management, general",1994,1997,DataScience,,,,,None#None#None#None,Business / Economics
+DataScience_94,Pontifícia Universidade Católica do Rio de Janeiro,"master of science, business administration",2004,2006,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_94,Ibmec,"master of business administration (mba), banking, corporate, finance, and securities law",1998,2000,DataScience,,master,,mba,None#master#mba#None,Business / Economics
+DataScience_95,University of Illinois Springfield,"master of science (ms), management information systems (mis)",2011,2012,DataScience,,master,,,None#master#None#None,Other
+DataScience_95,The Institution of Engineers India,"bachelor’s degree, numerical programming and fortran",1992,1996,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_96,New York University,"master of science (m.s.), data science",2014,2016,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_96,Brandeis University,"bachelor of arts (b.a.), economics and mathematics",2010,2014,DataScience,bachelor,,,,bachelor#None#None#None,Business / Economics
+DataScience_97,"Indian Institute of Technology, Indore","bachelor of technology (b.tech.), electrical engineering",2010,2014,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_97,University of Cincinnati Carl H. Lindner College of Business,"master of science - ms, business analytics",2017,2018,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_98,careers for Thrikkakkara,"bachelor of technology (b.tech.), electronics and communications engineering",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_98,University of Connecticut School of Business,"master of science (ms), business analytics and project management",2017,2018,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_99,George Mason University,"masters in data analytics engineering, data science",2016,2018,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_99,"University of Engineering and Technology, Taxila","bachelor of science (b.s.), computer science",2012,2016,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_100,"Indian Institute of Technology, Bombay","bachelor of technology (btech), computer science and engineering",2009,2013,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_101,"Indian Institute of Technology, Roorkee","bachelor of technology (b.tech.), chemical engineering",2003,2007,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_101,Oklahoma State University,"masters degree, business analytics and data sciences",1900,1900,DataScience,,master,,,None#master#None#None,Business / Economics
+DataScience_102,Bal Bharati Public School,"12th grade, science",1990,1997,DataScience,,,,,None#None#None#None,Other
+DataScience_102,"Indian Institute of Technology, Kanpur","b. tech., chemical engineering",1998,2002,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_102,University of Florida,"ph.d., chemical engineering",2002,2007,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_103,Electrical and computer Engineering,"doctor of philosophy (phd), deep learning",2018,2022,DataScience,,,phd,,None#None#None#phd,Other
+DataScience_103,Addis Ababa University,"master of science (m.s.), mathematics (combinatorics)",2009,2012,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_103,Oklahoma State University,"master of science (m.s.), electrical and computer engineering",2014,2016,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_104,The George Washington University,"ms, computer science",2001,2003,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_104,The George Washington University,"ma, physics",1999,2001,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_104,Shanghai Jiao Tong University,"bs, applied physics",1988,1992,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_105,Stanford University,"graduate certificate in data mining (high honours), statistics",1900,1900,DataScience,,,,,None#None#None#None,STEM (Non-Engineering)
+DataScience_105,University of Vermont,"doctor of philosophy (ph.d.) (abd), mechanical engineering",1900,1900,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_105,The Johns Hopkins University,"master of science (m.s.) with honors, data science",1900,1900,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_106,University at Buffalo,"ph.d., chemical and biological engineering",2001,2008,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_106,Xiamen University,"ms, chemical engineering",1998,2001,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_106,Xiamen University,"be, chemical engineering",1994,1998,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_107,Capella University,"master’s degree, information technology - enterprise software architecture",2009,2015,DataScience,,master,,,None#master#None#None,Other
+DataScience_107,The George Washington University,"graduate certificate, project management",2004,2006,DataScience,,,,,None#None#None#None,Other
+DataScience_107,University of Wisconsin-La Crosse,"master’s degree, data science",2016,2021,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_108,University of Oklahoma,"master of science (ms), computer science",2004,2005,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_108,Dartmouth College,"phd student, computer science",2005,2006,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_108,Duke University,"doctor of philosophy (phd), computer science",2006,2012,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_109,Maharaja Surajmal Institute Of Technology msitnewdelhi,"bachelor of technology (btech), information technology",2016,2019,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_109,Illinois Institute of Technology,"master's degree, data science",2022,2023,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_110,University of Michigan,"master's degree, industrial and operations engineering",2004,2007,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_110,University of Michigan,"ma, statistics",2006,2009,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_110,University of Michigan,"phd, industrial engineering and mechanical engineering",2004,2010,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_111,Michigan State University,"master of science (ms), computer science and engineering",1900,1900,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_111,"Indian Institute of Technology, Kharagpur","bachelor of technology (btech), computer science",1900,1900,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_112,Bengal College of Engineering and Technology,"bachelor of technology (b.tech.), electronics and commu",2008,2012,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_112,University of Southern California,"master of science (ms), computer science",2014,2015,DataScience,,master,,,None#master#None#None,STEM (Non-Engineering)
+DataScience_113,West Virginia University,"doctor of philosophy (ph.d.), engineering",2010,2014,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_113,West Virginia University,"master of science (msc), petroleum and natural gas engineering",2010,2012,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_113,Sharif University of Technology,"bachelor of science (bsc), petroleum engineering",2005,2010,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_114,University at Buffalo,"master's degree, geography",2000,2000,DataScience,,master,,,None#master#None#None,Other
+DataScience_114,Clark University,"bachelor's degree, geography",1992,1996,DataScience,bachelor,,,,bachelor#None#None#None,Other
+DataScience_115,The Ohio State University,"doctor of philosophy (ph.d.), statistics",2012,2017,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_115,Fudan University,"b.s., mathematics",2012,2012,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_116,University of Delaware,"doctor of philosophy (ph.d.), bioinformatics and systems biology",1900,1900,DataScience,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+DataScience_116,Louisiana State University,masters,1900,1900,DataScience,,,,,None#None#None#None,Other
+DataScience_117,New York University,"master's degree, computer engineering",2019,2020,DataScience,,master,,,None#master#None#None,Engineering
+DataScience_117,Delhi College of Engineering,"bachelor of technology, electronics and communication with specialization in applied physics",2015,2019,DataScience,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+DataScience_117,"Frank Anthony Public School,New Delhi",,2001,2015,DataScience,,,,,None#None#None#None,Other
+DataScience_118,Penn State University,"ph.d., computer engineering",2014,2014,DataScience,,,phd,,None#None#None#phd,Engineering
+DataScience_118,Dalhousie University,"be, electrical engineering",2004,2004,DataScience,bachelor,,,,bachelor#None#None#None,Engineering
+DataScience_119,Dhirubhai Ambani Institute of Information and Communication Technology,"bachelor of technology (b.tech.), ict (information and communication technology)",2006,2010,DataScience,bachelor,,,,bachelor#None#None#None,Other
+CTO_0,Carnegie Mellon University,"bachelor of science - bs, electrical and computer engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_0,Carnegie Mellon University,"bachelor of science - bs, computer science",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_1,University of Arkansas,"doctor of philosophy - phd, industrial engineering",2016,2021,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_1,The University of Manchester,"bsc, mathematics and management science",1987,1990,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_1,London Business School,"mba, business administration / analytics",1997,1999,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_2,Webster University,"master of business administration (mba), business administration and management, general",2005,2006,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_2,Loyola College,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_2,"Aptech Computer Education, Chennai, India","higher diploma, computer software engineering",1994,1996,CTO,,,,,None#None#None#None,Engineering
+CTO_13,Ecole normale supérieure,"visiting student, mathematics",2006,2006,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_13,Princeton University,"phd, computer science",2006,2011,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_13,Chennai Mathematical Institute,"bsc, mathematics",2003,2006,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_14,University of Alabama at Birmingham,"bsme, mech. engineering",2003,2007,CTO,,,,,None#None#None#None,Engineering
+CTO_14,University of Alabama at Birmingham,"doctor of philosophy (phd), civil engineering",2011,2015,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_14,University of Alabama at Birmingham,"msme, mech. engineering",2008,2011,CTO,,,,,None#None#None#None,Engineering
+CTO_15,Queens College,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_16,Delhi College of Engineering,"bachelor of engineering, electrical engineering",1994,1998,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_16,"Indian Institute of Management, Calcutta","mba, finance and management of information technology",1998,2000,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_17,"University of Nevada, Reno","ms, computer science",2009,2010,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_17,Boğaziçi University,"bs, computer engineering",2004,2009,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_17,"University of Nevada, Reno","phd, computer science and engineering",2009,2012,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_18,"University of California, Berkeley","bs, chemistry",1983,1985,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_18,Stanford University,"phd, physical chemistry",1985,1990,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_19,"Indian Institute of Technology, Kanpur","bachelor's degree, electrical engineering",2011,2015,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_20,Cornell University,"certificate, executive leadership",2020,2021,CTO,,,,,None#None#None#None,Other
+CTO_20,Università degli Studi di Palermo,"doctor of philosophy - phd, machine learning and robotics",1900,1900,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_21,Harvard Business School,"maximizing your leadership potential (mylpi), organizational leadership",2017,2017,CTO,,,,,None#None#None#None,Other
+CTO_21,University of Virginia,masters in data science,2020,2021,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_21,Virginia Tech - Pamplin College of Business,"master of business administration (m.b.a.), finance, general",2002,2004,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_22,University of Calgary,"bachelor of science, computer science, applied mathematics, applied physics",1994,2000,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_22,Boston University,"master of science, computer science",2006,2009,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_23,California State Polytechnic University-Pomona,"bachelor of science, electronics and computer engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_24,The University of Chicago Booth School of Business,"mba, finance, strategy",2002,2002,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_24,University of Cincinnati,"ms, electrical engineering",1994,1994,CTO,,master,,,None#master#None#None,Engineering
+CTO_24,Andhra University,"be, electrical engineering",1991,1991,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_25,UC Santa Barbara,"master’s degree, electrical and electronics engineering",2015,2017,CTO,,master,,,None#master#None#None,Engineering
+CTO_25,KU Leuven,"bachelor’s degree, electrical and electronics engineering",2012,2015,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_26,Ansal Institute of Technology,"advanced diploma, computer science",2008,2010,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_26,North Dakota State University,"bs, computer science",2010,2012,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_26,North Dakota State University,master of business administration - mba,2013,2014,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_27,Rensselaer Polytechnic Institute - The Lally School of Management,"bachelors of science, management",1988,1988,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_27,Hudson Valley Community College,"associate in science, liberal arts and sciences",1987,1987,CTO,,,,,None#None#None#None,Other
+CTO_27,The Bronx High School of Science,,1980,1984,CTO,,,,,None#None#None#None,Other
+CTO_28,University of Madras,"b.e, computer science and engineering",1994,1998,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_29,Orta Doğu Teknik Üniversitesi / Middle East Technical University,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_29,Northwestern University,"doctor of philosophy - phd, computer science",1900,1900,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_30,Purdue University,"master of science (ms), mis & statistics",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_30,University of Delaware,"post-grad coursework, computer science",1900,1900,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_30,Georgetown University,"bachelor of science (bs), double major: mis, computer science double minor: government, international business",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_31,DePaul University College of Law,"jd, certificate in intellectual property law",2003,2006,CTO,,,,,None#None#None#None,Other
+CTO_31,DePaul University,"ms, computer science (data analytics, algorithms, bioinformatics)",2004,2006,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_31,The Ohio State University,"ba, psychology, political science",1999,2003,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_32,"Indian Institute of Technology, Delhi",bachelor of technology,1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_32,University of Illinois Chicago,"master of science - ms, chemical engineering",1900,1900,CTO,,master,,,None#master#None#None,Engineering
+CTO_32,University of Illinois Chicago,"master of science - ms, computer science",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_33,"University of California, Berkeley","doctor of philosophy (ph.d.), mechanical engineering",1900,1900,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_33,"Indian Institute of Technology, Madras",mechanical engineering,1900,1900,CTO,,,,,None#None#None#None,Engineering
+CTO_34,New Jersey Institute of Technology,"bs, computer science",1980,1985,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_36,Texas A&M University,,1979,1981,CTO,,,,,None#None#None#None,Other
+CTO_37,College of Southern Nevada,"computer science, computer science",2007,2009,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_37,MITx Courses,"micromasters, logistics, materials, and supply chain management",2018,2022,CTO,,,,,None#None#None#None,Other
+CTO_37,Bonanza High School,,2001,2005,CTO,,,,,None#None#None#None,Other
+CTO_38,Carnegie Mellon University,"ph.d., computer engineering",1990,1994,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_38,Carnegie Mellon University,"bachelor's degree, computer engineering",1985,1989,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_38,Rensselaer Polytechnic Institute,"master's degree, computer and systems engineering",1989,1990,CTO,,master,,,None#master#None#None,Engineering
+CTO_39,University of Rajasthan,"bachelor of science (b.sc.), science",1992,1995,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_39,Wharton Online,"leadership in the 21st century, organizational leadership",1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_39,Savitribai Phule Pune University,"master of computer applications (mca), computer science",1995,1997,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_40,Dickinson College,"bs, computer science and mathematics",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_40,University of Minnesota,"ms, computer science",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_41,The Wharton School,"mba, entrepreneurship",2010,2012,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_41,The Wharton School,,2010,2012,CTO,,,,,None#None#None#None,Other
+CTO_41,"Indian Institute of Technology (Banaras Hindu University), Varanasi",bachelor of technology,1992,1996,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_42,Bharathidasan University,"be, computer science engineering",1987,1991,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_42,University of Phoenix,"master of business administration (mba), technology management",1997,1999,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_43,Centre for Development of Advanced Computing (C-DAC),"postgraduate degree, computer science; computer science",2005,2005,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_43,Dr. A.P.J. Abdul Kalam Technical University,bachelor of technology (btech),2000,2004,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_44,School # 30,,1979,1989,CTO,,,,,None#None#None#None,Other
+CTO_44,Pace University,"bba, management information systems",1992,1994,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_44,New York University - Polytechnic School of Engineering,"ms, information systems engineering",1996,1998,CTO,,master,,,None#master#None#None,Engineering
+CTO_45,San Diego State University,"mba, management - international",1900,1900,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_45,San Diego State University,"bs, information technologies - minor: computer science",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_46,Acharya Nagarjuna University,"bachelor of technology - btech, mechanical engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_47,Georgetown University,"master's degree, security studies - technology & security",2018,2020,CTO,,master,,,None#master#None#None,Other
+CTO_47,NATO SCHOOL OBERAMMERGAU,"certification, cbrn defense orientation course, international law of cyber operations seminar",2013,2013,CTO,,,,,None#None#None#None,Other
+CTO_47,Harvard University,"bachelor's degree, political science and government",2010,2015,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_48,BIT Mesra Student-Industry Relations Cell,bachelor of engineering - btech,1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_49,"Indian Institute of Management, Lucknow","pgdm for working executives, finance & marketing",2005,2008,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_49,Aligarh Muslim University,"b.tech, electronics",1997,2001,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_50,"University of California, Los Angeles",b.a. design,1991,1995,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_51,Indian Institute of Science (IISc),"mtech - systems design, electronics",2006,2008,CTO,,,,,None#None#None#None,Other
+CTO_51,Sainik School Bijapur,"cbse xii, science",1995,2002,CTO,,,,,None#None#None#None,Other
+CTO_51,National Institute of Technology Surat,"be, electronics",2002,2006,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_52,The University of Texas at Dallas,"bs, physics",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_52,The University of Texas at Dallas,"bs, mathematics",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_53,Rice University,"phd, computer science",1995,2000,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_53,Rice University,"ms, computer science",1995,1997,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_53,"Indian Institute of Technology, Delhi","b.tech., computer science and engineering",1991,1995,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_54,PSG College of Technology,"b.e.,, computer science",1993,1997,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_54,"Birla Institute of Technology and Science, Pilani","m.s, computer science",1999,1999,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_54,Harvard Business School Executive Education,"leading transformative change, business administration and management, general",2017,2017,CTO,,,,,None#None#None#None,Business / Economics
+CTO_57,Università degli Studi di Firenze,"economia e commercio, artificial intelligence",1992,1997,CTO,,,,,None#None#None#None,Business / Economics
+CTO_57,Università degli Studi di Firenze,"laurea, economics",1989,1997,CTO,,,,,None#None#None#None,Business / Economics
+CTO_58,Stanford University,"m.s., statistics",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_58,Stanford University,"phd, statistics & psychological studies (focus: machine learning)",1900,1900,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_58,University of Nebraska-Lincoln,"ma, quantitative and qualitative methods",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_59,The Ohio State University,"doctor of philosophy (phd), genetics algorithm, modeling, super computing",1986,1990,CTO,,,phd,,None#None#None#phd,Other
+CTO_60,Startup Leadership Program,"fellow, entrepreneurship",2010,2011,CTO,,,,,None#None#None#None,Other
+CTO_60,Motilal Nehru National Institute Of Technology,"b.tech, civil engg.",2002,2006,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_60,Boys High School and College,,1989,2000,CTO,,,,,None#None#None#None,Other
+CTO_61,Leeds Beckett University,computer science,1900,1900,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_62,University of Illinois System,"doctor of philosophy (ph.d.), computer science, artificial intelligence, software engineering, software architecture",2010,2014,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_62,Northwestern University - Kellogg School of Management,"executive scholar program, ""general management"",""technology & operations"",""financial management"",""marketing & sales management""",2004,2010,CTO,,,,,None#None#None#None,Other
+CTO_62,Northwestern University,"master of engineering management (mem), engineering management, operations management",2004,2007,CTO,,master,,,None#master#None#None,Engineering
+CTO_63,Cardiff University / Prifysgol Caerdydd,"bachelor of science (bsc), economics",2002,2005,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_63,Cardiff University / Prifysgol Caerdydd,"mba, masters in business administration",2006,2008,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_64,n.k. public school,,2001,2005,CTO,,,,,None#None#None#None,Other
+CTO_65,Vanderbilt University - Owen Graduate School of Management,"mangement leadership program , organizational leadership",2019,2019,CTO,,,,,None#None#None#None,Other
+CTO_65,Bangalore University,"bachelor of engineering - be, computer science engineering",1991,1995,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_66,Harvard Business School,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_66,Cabrillo College,electronics,1981,1983,CTO,,,,,None#None#None#None,Other
+CTO_67,Cleveland State University,management information systems and services,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_67,The Ohio State University,electrical and electronics engineering,1900,1900,CTO,,,,,None#None#None#None,Engineering
+CTO_68,Athens,,1989,1992,CTO,,,,,None#None#None#None,Other
+CTO_68,University of North Carolina Wilmington,"bs, business systems",1992,1996,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_69,Centre College,"bs, computer science",2003,2007,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_70,St. John's University,"bs, computer science",1986,1990,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_71,North Carolina State University,"bachelor's degree, computer engineering",1998,2002,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_72,University of Central Oklahoma,"bachelor of science (b.s.), computer science",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_73,Columbia Engineering,"m.s., computer science",2006,2007,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_73,Sardar Patel Vidyalaya,,1993,1999,CTO,,,,,None#None#None#None,Other
+CTO_73,Savitribai Phule Pune University,"b.e., computer engineering",1999,2003,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_74,Rensselaer Business School- The Lally School of Management and Technology,master of business administration,1900,1900,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_74,Madurai Kamaraj University,"bachelor’s degree, engineering, computer science",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_75,NYU Stern School of Business,"mba, information technology",1988,1992,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_75,Fox School of Business at Temple University,"bba, economics",1981,1983,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_75,Stanford University,"director's consortium, executive education for public board members",2016,2016,CTO,,,,,None#None#None#None,Other
+CTO_76,"University of California, Los Angeles","bachelor of arts, economics with honors: alumni scholar, chancellor's marshall",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_77,Pakistan Navy Engineering College,"b.s, electrical engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_77,Oklahoma State University,"m.s., m.b.a, electrical and computer engineeirng",1900,1900,CTO,,master,,,None#master#None#None,Business / Economics
+CTO_78,Massachusetts Institute of Technology,"mit entrepreneurship online bootcamp, entrepreneurship/entrepreneurial studies",2018,2018,CTO,,,,,None#None#None#None,Other
+CTO_78,OUBC,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_78,St Thomas Residential School,,1990,1995,CTO,,,,,None#None#None#None,Other
+CTO_79,Miami University,"b.s., systems analysis",1982,1986,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_80,Tsinghua University,"b.s., electrical engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_80,Princeton University,"ph.d., electrical engineering",1900,1900,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_81,Rice University,"phd, computer science",1987,1992,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_83,Carnegie Mellon University,"ms, software engineering",1993,1994,CTO,,master,,,None#master#None#None,Engineering
+CTO_83,University of Buenos Aires,licenciado en analisis de sistemas,1985,1989,CTO,,,,,None#None#None#None,Other
+CTO_84,University of New Orleans,"bs, ms, computer science",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_85,The Ohio State University,"m.s., computer science",1992,1993,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_85,University of Illinois Urbana-Champaign,computer science,1993,1994,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_85,"Birla Institute of Technology and Science, Pilani","b.e. (hons.), computer science",1988,1992,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_86,Harvard Business School Executive Education,"executive program, entrepreneurship/entrepreneurial studies",2002,2003,CTO,,,,,None#None#None#None,Other
+CTO_86,GE Crotonville,"bmc , international business",2014,2014,CTO,,,,,None#None#None#None,Business / Economics
+CTO_86,MIT Sloan School of Management,computer science and artificial intelligence laboratory and leading sustainable systems,2016,2019,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_87,University of Pittsburgh,"bs in cs, majored in computer science ; minors in math and studio arts",1983,1987,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_88,Seattle University,"master's degree, computer software engineering",1989,1992,CTO,,master,,,None#master#None#None,Engineering
+CTO_88,Western Washington University,"bachelor's degree, business administration and management, general",1980,1986,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_89,University of Otago,"non-matriculating student, computer science and mathmatics",1988,1988,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_89,University of Puget Sound,"bs, computer science, math",1983,1987,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_91,Cameron University,"bachelor of science, computer science",1991,1996,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_91,University of Iowa,mba,1996,1997,CTO,,,,,None#None#None#None,Business / Economics
+CTO_92,University of Pittsburgh,"bachelor of science, information science, information systems",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_92,University of Phoenix,master of business administration (mba),1900,1900,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_92,Carnegie Mellon University,master of science in information technology (msit),1900,1900,CTO,,master,,,None#master#None#None,Other
+CTO_93,"University of Tennessee, Knoxville","bs, bachelor of science, management and information systems",1986,1990,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_94,Muthiah Polytechnic,"diploma, electrical and electronics",1992,1995,CTO,,,,,None#None#None#None,Other
+CTO_94,Thiagarajar College of Engineering,"bachelor of engineering (b.e.), electronics and communications engineering",1995,1998,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_95,University of Massachusetts Amherst,"bs, computer science, computer systems engineering, mathematics",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_95,Columbia University,"ms, computer science",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_95,Northwestern University - Kellogg School of Management,"value proposition certification, marketing",1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_96,Iowa State University - Ivy College of Business,"bachelor's degree, management information systems, general",1992,1996,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_97,North Carolina State University,"ms, computer science",1998,2000,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_97,Florida Atlantic University,"bs, mathematics",1995,1997,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_98,National Talent Scholarship holder,,1996,2007,CTO,,,,,None#None#None#None,Other
+CTO_98,Rice University,"phd, computer science",2002,2007,CTO,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+CTO_98,"Indian Institute of Technology, Kharagpur","b. tech, computer science and engineering",1998,2002,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_99,"Indian Institute of Technology, Bombay",bachelor of technology - btech,1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_99,"Indian Institute of Technology, Bombay","btech, mechanical engg",1992,1996,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_99,"Indian Institute of Management, Calcutta","mba, computer information systems, finance",1996,1998,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_100,Massachusetts Institute of Technology,"bachelor of science (b.s.), mathematics and computer science",1991,1995,CTO,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+CTO_100,Duke University - The Fuqua School of Business,"mba, business administration and management, general",1999,2001,CTO,,,,mba,None#None#mba#None,Business / Economics
+CTO_101,National University of Sciences and Technology (NUST),"ms, software engineering",1997,1999,CTO,,master,,,None#master#None#None,Engineering
+CTO_101,Landmark,"landmark forum, self-awareness and personal assessment",2017,2017,CTO,,,,,None#None#None#None,Other
+CTO_101,Goodman School of Business at Brock University,"executive leadership certificate, coaching and employee involvement strategies",2009,2009,CTO,,,,,None#None#None#None,Other
+CTO_102,UC Santa Barbara,,1992,1996,CTO,,,,,None#None#None#None,Other
+CTO_102,San Jose High School,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_104,Drexel University,"bs, electrical engineering",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_105,University of Mumbai,"bachelor's degree, economics",1994,1997,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_105,DePaul University,"master of science - ms, management information systems, general",2002,2007,CTO,,master,,,None#master#None#None,Other
+CTO_106,University of Illinois Urbana-Champaign,"ph.d. and m.s., electrical and computer engineering",1981,1984,CTO,,,phd,,None#None#None#phd,Engineering
+CTO_106,"Indian Institute of Technology, Kharagpur","b.tech, electronics engineering",1976,1981,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_106,Don Bosco High School,"indian school certificate, science",1966,1975,CTO,,,,,None#None#None#None,Other
+CTO_107,University of Haifa Israel,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_108,University of Pittsburgh,"b.s., psychology",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_108,University of Pittsburgh Katz Graduate School of Business,m.b.a.,1900,1900,CTO,,,,,None#None#None#None,Business / Economics
+CTO_108,St Fidelis,,1900,1900,CTO,,,,,None#None#None#None,Other
+CTO_109,University of Southern California,"business administration, entreprenuer program and information systems",1996,1996,CTO,,,,,None#None#None#None,Business / Economics
+CTO_109,Harvard Law School,"program on negotiation and leadership, negotiation, mediation and leadership",2010,2010,CTO,,,,,None#None#None#None,Other
+CTO_110,"DeVry Institute of Technology, Chicago","electrical, electronics and communications engineering",1984,1987,CTO,,,,,None#None#None#None,Engineering
+CTO_111,Drury University,"bachelor of arts, business administration, computer science",1996,2000,CTO,bachelor,,,,bachelor#None#None#None,Business / Economics
+CTO_112,The University of Queensland,"doctor of philosophy (phd), agriculture, genetics, analytics",1900,1900,CTO,,,phd,,None#None#None#phd,Other
+CTO_112,The University of Queensland,"bachelor's degree, agricultural and horticultural plant breeding",1900,1900,CTO,bachelor,,,,bachelor#None#None#None,Other
+CTO_113,University of Houston,mathematics and computer science,1900,1900,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_114,Symbiosis Institute of Management Studies,post graduate diploma: business administration and finance,2005,2006,CTO,,master,,,None#master#None#None,Business / Economics
+CTO_114,Carnegie Mellon University,professional certificate : relationship management,2008,2008,CTO,,,,,None#None#None#None,Other
+CTO_114,University of Pennsylvania,"fintech: foundations & applications of financial technology, cryptocurrency, blockchain, crowdfunding, modern investing, ai, real estate technology",2021,2021,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_116,Virginia Tech,"bachelor of science (b.s.), industrial & systems engineering + business minor",1998,2001,CTO,bachelor,,,,bachelor#None#None#None,Engineering
+CTO_116,University of Washington - Michael G. Foster School of Business,"master of business administration - mba, business administration and management, general",2015,2017,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_117,The University of Huddersfield,"master of science, computer science",1900,1900,CTO,,master,,,None#master#None#None,STEM (Non-Engineering)
+CTO_117,Washington University in St. Louis,master of business administration (m.b.a.),1900,1900,CTO,,master,,mba,None#master#mba#None,Business / Economics
+CTO_118,Berklee College of Music,music production and technology,2011,2012,CTO,,,,,None#None#None#None,Other
+CTO_118,Massachusetts Institute of Technology,mathematics,2005,2011,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+CTO_118,Harvard University,computer science,2012,2014,CTO,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_0,Faculty of Management Studies - University of Delhi,master of business administration (mba),2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_0,Narayana Junior College - India,mathematics physics chemistry,2010,2012,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_0,National Institute of Technology Karnataka,"bachelor of technology - btech, computer science engineering",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_1,University of Illinois Urbana-Champaign,"master of business administration - mba, entrepreneurship/entrepreneurial studies",2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_1,Rice University,"bachelor’s degree, chemical and biomolecular engineering, economics",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_2,Walsh College,"master of business administration - mba, technology and data science",2021,2022,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_2,Liverpool John Moores University,"online master's degree, machine learning and artificial intelligence",2020,2022,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_2,BMS Institute of Technology and Management,"bachelor of technology (b.tech.), computer science",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_6,Vellore Institute of Technology,"bachelor's degree, electronics and communication engineering",2013,2017,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_6,Jamnalal Bajaj Institute of Management Studies (JBIMS),"masters in management studies, business administration and management, general",2021,2022,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_7,Emory University - Goizueta Business School,"master of business administration - mba, strategy, business analysis (stem)",2020,2022,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_7,Savitribai Phule Pune University,"bachelor of engineering (b.e.), mechanical",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_8,Symbiosis Centre for Management Studies- Pune,"bachelor’s degree, bba in finance and accounts",2012,2015,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_8,National University of Singapore,"master of business administration - mba, strategy and organization & consulting",2020,2022,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_8,Lourdes Convent High School,"business/commerce, general",2001,2012,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_9,"Birla Institute of Technology and Science, Pilani","b.e.(hons.) electrical and electronics engineering, m.sc.(hons.) chemistry",2009,2014,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_9,EDHEC Business School,"international exchange participant, strategy consulting and digital transformation",2018,2018,Consultant,,,,,None#None#None#None,Other
+Consultant_9,"Indian Institute of Management, Indore",master of business administration (mba),2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_10,Rajiv Gandhi Prodyogiki Vishwavidyalaya,"bachelor's degree, computer software engineering",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_10,Indian Institute of Management Ahmedabad,post graduate programme,2013,2015,Consultant,,master,,,None#master#None#None,Other
+Consultant_11,DIT UNIVERSITY,"bachelor of technology (b.tech.), mechanical engineering",2011,2015,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_11,"DAV Public School, Amritsar",,1996,2011,Consultant,,,,,None#None#None#None,Other
+Consultant_12,Delhi Public School  Mathura Road,"high school, science",2002,2013,Consultant,,,,,None#None#None#None,Other
+Consultant_12,Netaji Subhas Institute of Technology,"bachelor’s degree, electronics and communications engineering",2013,2017,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_12,University of Minnesota - Carlson School of Management,"master of science - ms, business analytics",2022,2022,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_13,Carnegie Mellon University - Heinz College of Information Systems and Public Policy,"master of science - ms, management, data analytics and information technology",2021,2023,Consultant,,master,,,None#master#None#None,Other
+Consultant_13,"Daulat Ram College, Delhi University","bachelor of arts (b.a.) hons., economics",2012,2015,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_13,Harris School of Public Policy at the University of Chicago,anubhav lecture series,2018,2018,Consultant,,,,,None#None#None#None,Other
+Consultant_14,Jaypee University of Information Technology,"bachelor's degree, biotechnology",2014,2018,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_14,Laureate Public School,"cbse 12, biological and biomedical sciences",2013,2014,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_14,Yeshiva University,"master of science - ms, biotechnology management & entrepreneurship",2021,2022,Consultant,,master,,,None#master#None#None,STEM (Non-Engineering)
+Consultant_15,Purdue University Krannert School of Management,"master of science - ms, business analytics and information management",2022,2023,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_15,Fr. Conceicao Rodrigues Institute of Technology,"bachelor of engineering - be, electronics and communications engineering",2013,2017,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_15,Indian Institute of Foreign Trade,"master of business administration - mba, international business",2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_16,Shri Ram College of Commerce,"bachelor of commerce with honours (b.com hons), business/commerce, general",2015,2018,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_16,The London School of Economics and Political Science (LSE),"summer school, asset markets and corporate finance",2016,2016,Consultant,,,,,None#None#None#None,Other
+Consultant_16,Delhi Public School - R. K. Puram,"business/commerce, general",2003,2015,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_17,Indian School of Business,master of business administration (mba),2017,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_17,Maharaja Agrasen Institute Of Technology,"bachelor of technology (b.tech.), computer science",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_17,Indian Military Academy,"post graduate diploma, military and strategic leadership",2013,2014,Consultant,,master,,,None#master#None#None,Other
+Consultant_18,Patna Science College,,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_18,"Questrom School of Business, Boston University",mba & ms-digital technology,2020,2022,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_18,"Indian Institute of Technology, Kanpur","integrated ms, mathematics and scientific computing",2005,2010,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_19,Acharya Nagarjuna University,"bachelor's degree, electrical and electronics engineering",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_19,Wright State University,"master's degree, electrical and electronics engineering",2013,2015,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_19,"University of California, Davis - Graduate School of Management",master of business administration - mba,2021,2023,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_20,Indian School of Business,master of business administration - mba,2020,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_20,"South Asian university, New Delhi",master in economics,2013,2015,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_20,"SGTB Khalsa College, Delhi University",b.a. (hons.) economics,2010,2013,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_21,University of Pennsylvania,"master of liberal arts, organizational behavior studies",2018,2020,Consultant,,master,,,None#master#None#None,Other
+Consultant_21,American University,"bachelor of arts (b.a.), psychology",2017,2017,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_22,Vellore Institute of Technology,"bachelor of technology, electronics and communication engineering",2015,2019,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_22,Duke University - The Fuqua School of Business,masters in management studies,2022,2022,Consultant,,master,,,None#master#None#None,Other
+Consultant_22,Narsee Monjee Educational Trust's - Jamnabai Narsee School,"isc, science",1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_23,The Institute of Chartered Accountants of India,"chartered accountant, accounting and finance",2013,2017,Consultant,,,,,None#None#None#None,Other
+Consultant_23,R A Podar College of Commerce & Economics Matunga Mumbai 400 019,"bachelor of commerce - bcom, accounting and finance",2011,2016,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_23,University of Mumbai,"master's degree, business/commerce, general",2017,2018,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_24,Northwestern University - Kellogg School of Management,master of business administration - mba,2022,2023,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_24,"National Institute of Technology Karnataka,Surathkal","bachelor of technology (btech), chemical engineering",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_24,Kalka Public School (Fiitjee Pinnacle),"high school, science",2010,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_25,Lycée Masséna,"preparatory class to the grandes écoles (cpge), mpsi-mp",2017,2019,Consultant,,,,,None#None#None#None,Other
+Consultant_25,Ecole Centrale de Marseille,"master of engineering - meng, general engineering",2019,2021,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_25,University of Rochester,"master of science - ms, technical entrepreneurship and management",2021,2022,Consultant,,master,,,None#master#None#None,Other
+Consultant_26,Central Board of Secondary Education,"high school (tenth grade board examination) , general",1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_26,UNC Kenan-Flagler Business School,master of business administration - mba,2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_26,Jaypee Institute Of Information Technology,"bachelor's degree, computer science and engineering",2011,2015,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_27,L.M. College Of Pharmacy,"bachelor’s degree, pharmacy",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_27,National Institute of Pharmaceutical Education and Research,"master’s degree, pharmaceutical technology",2012,2014,Consultant,,master,,,None#master#None#None,Other
+Consultant_27,UNC Kenan-Flagler Business School,"master of business administration - mba, marketing",2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_28,Massachusetts Institute of Technology,"executive program, digital marketing analytics",2020,2020,Consultant,,,,,None#None#None#None,Other
+Consultant_28,Indian Institute of Management Bangalore,"post graduate diploma in management (equivalent to mba), strategy and marketing",2008,2010,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_28,HEC Paris,"exchange term, strategy",2009,2009,Consultant,,,,,None#None#None#None,Other
+Consultant_29,"Indian Institute of Technology, Delhi","bachelor of technology - btech, biochemical engineering and biotechnology",2015,2019,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_29,"Delhi Public School, Faridabad",,2000,2015,Consultant,,,,,None#None#None#None,Other
+Consultant_30,"KJ Somaiya College of Engineering, Vidyavihar","bachelor of engineering, electronics and communications engineering",2013,2017,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_30,Purdue University,"master's degree, engineering management",2021,2022,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_31,Maharashtra Institute of Technology,"bachelor of engineering - be, mechanical engineering",2017,2017,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_31,University of Connecticut School of Business,"master of science - ms, business analytics and project management",2021,2022,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_32,Stanford University,"m.a., linguistics",1978,1980,Consultant,,master,,,None#master#None#None,Other
+Consultant_32,Stanford University,"ph.d., linguistics, minor in japanese",1980,1985,Consultant,,,phd,,None#None#None#phd,Other
+Consultant_32,San Francisco Conservatory of Music,"bmus, orchestra conducting, clarinet performance",1975,1977,Consultant,,,,,None#None#None#None,Other
+Consultant_33,National Institute of Technology Kurukshetra,"bachelor of technology (b.tech.), electronics and communications engineering",2006,2010,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_33,Narayana Junior College,,2005,2006,Consultant,,,,,None#None#None#None,Other
+Consultant_33,Indian School of Business,"master of business administration (mba), marketing and operations",2014,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_34,Faculty of Management Studies - University of Delhi,"master of business administration (m.b.a.), marketing and finance",2012,2014,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_34,Netaji Subhas Institute of Technology,"bachelor's degree, electronics and communications engineering",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_35,Little Flower School,"matriculation, history, civics, math, geography, basic sciences, computer applications, hindi, english",2002,2014,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_35,"Indian Institute of Technology, Bombay","bachelor of technology (b.tech.), chemical engineering",2016,2020,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_35,Vidya Bharati Chinmaya Vidyalaya,"intermediate, english, computer science, science, math",2014,2016,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_36,Emory University - Goizueta Business School,"executive education, business",2011,2011,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_36,Massachusetts Institute of Technology,data science and big data analytics,2018,2018,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_36,The Johns Hopkins University,"executive, executive data science & data science specialization",2016,2017,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_37,Vellore Institute of Technology,"bachelor of technology - btech, mechanical engineering",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_37,Massachusetts Institute of Technology,"master of science - ms, supply chain management",2021,2022,Consultant,,master,,,None#master#None#None,Other
+Consultant_37,Faculty of Management Studies - University of Delhi,"master of business administration - mba, operations and marketing",2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_38,Indian Institute of Management Udaipur,"master of business administration - mba, business administration and management, general",2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_38,National Institute of Technology Warangal,"engineer’s degree, civil engineering",2012,2016,Consultant,,,,,None#None#None#None,Engineering
+Consultant_38,Berlin British School,high school,2008,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_39,"Indian Institute of Management, Lucknow",master of business administration - mba,2017,2019,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_39,Delhi Technological University (Formerly DCE),"bachelor of technology (b.tech.), electrical and electronics engineering",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_40,Carnegie Mellon University - Tepper School of Business,master of business administration - mba,2022,2024,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_40,Jawaharlal Nehru Technological University,"bachelor of technology - btech, electronics and communications engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_41,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),master of business administration - mba,2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_41,B. M. S. College of Engineering,"bachelor of technology - btech, mechanical engineering",2010,2014,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_41,Sommerville Scool Noida,,1996,2010,Consultant,,,,,None#None#None#None,Other
+Consultant_42,HEC Paris,master of business administration - mba,2021,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_42,Northwestern University - Kellogg School of Management,master of business administration - mba,2019,2021,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_42,"Indian Institute of Technology, Bombay","master of technology (m.tech.), nanotechnology",2010,2015,Consultant,,master,,,None#master#None#None,Other
+Consultant_43,Columbia Engineering,"m.s., business analytics with concentration in fintech",1900,1900,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_43,Columbia Business School,"m.s., business analytics",2018,2020,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_43,The Wharton School,"undergraduate exchange student, statistics and economics",1900,1900,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_44,"Birla Institute of Technology and Science, Pilani","bachelor of engineering (b.e.), electrical and electronics engineering",2011,2016,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_44,"Birla Institute of Technology and Science, Pilani","master's degree, economics",2011,2016,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_45,"Birla Institute of Technology and Science, Pilani",chemical engineering,2010,2014,Consultant,,,,,None#None#None#None,Engineering
+Consultant_45,Kendriya Vidyalaya,"intermediate, science",2008,2010,Consultant,,,,,None#None#None#None,Other
+Consultant_45,National Institute of Industrial Engineering,"master of business administration - mba, operations & strategy",2017,2019,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_46,INSEAD,master of business administration - mba,2010,2011,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_46,"Indian Institute of Technology, Bombay",bachelor of technology - btech,2000,2004,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_47,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),"bachelor of technology (b.tech.), computers",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_47,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),"master of business administration (mba), finance",1900,1900,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_47,Harvard University,"hpair fellow - entrepreneurship, entrepreneurship/entrepreneurial studies",2013,2013,Consultant,,,,,None#None#None#None,Other
+Consultant_48,Northwestern University - Kellogg School of Management,master of business administration (mba),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_48,"Indian Institute of Technology, Kanpur","btech, mechanical engineering",2003,2007,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_48,Bansals,,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_49,Maharani Gayatri Devi Girls School,,1994,2006,Consultant,,,,,None#None#None#None,Other
+Consultant_49,SVKM's Narsee Monjee Institute of Management Studies (NMIMS),"mba-tech, finance/marketing",2006,2011,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_49,Northwestern University - Kellogg School of Management,master of business administration (mba),2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_50,Shaheed Sukhdev College Of Business Studies,"bachelor of business studies, finance, general",2009,2012,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_50,G.D.Goenka Public School,finance,2001,2009,Consultant,,,,,None#None#None#None,Other
+Consultant_51,Indian Institute of Management Bangalore,"post graduate diploma in management, marketing, strategy and finance",2008,2010,Consultant,,master,,mba,None#master#mba#None,Other
+Consultant_51,Northwestern University - Kellogg School of Management,"master of business administration (mba), management & strategy, finance and marketing",2014,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_51,"Indian Institute of Technology (Banaras Hindu University), Varanasi","bachelor of technology, metallurgical engineering",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_52,Cornell University,"doctor of philosophy (phd), mechanical engineering",1900,1900,Consultant,,,phd,,None#None#None#phd,Engineering
+Consultant_52,"Indian Institute of Technology, Delhi","bachelor of technology (b.tech.), mechanical engineering",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_52,Cornell University,"master of science (m.s.), mechanical engineering",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_53,The University of Texas at Austin,"bachelor of science (bs), chemical engineering",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_53,Anderson High School,,2008,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_54,University of Cincinnati,"ms, mechanical engineering",2003,2005,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_54,Harvard Business School,"executive program, driving corporate performance",2010,2010,Consultant,,,,,None#None#None#None,Other
+Consultant_54,Northwestern University - Kellogg School of Management,"mba, finance & analytical consulting",2011,2013,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_55,MIT Sloan School of Management,"mba, strategy and finance",2007,2009,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_55,"Indian Institute of Technology, Kharagpur","b-tech, electrical engineering",1900,1900,Consultant,,,,,None#None#None#None,Engineering
+Consultant_56,Indian Institute of Management Ahmedabad,"pgp, general management",2011,2013,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_56,"SSN College of Engineering, Anna University","b.e., electronics & communications",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_57,Indian School of Business,"master of business administration (mba), strategy and marketing",2015,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_57,Indian Institute of Technology Jodhpur,"bachelor of technology (b.tech.), electrical and electronics engineering",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_57,"Sir Parashurambhau College, Pune","higher secondary school certificate, science",2007,2009,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_59,Indian Institute of Management Ahmedabad,"pgpx (one-year mba), management",2006,2007,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_59,New Jersey Institute of Technology,"m.s., mechanical engineering",1995,1996,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_59,"Indian Institute of Technology, Bombay","b.tech, mechanical engineering",1991,1995,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_60,Vanderbilt University,"bs, economics, computer science",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_60,Southern Methodist University,"ms, systems engineering",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_61,Yale University,"phd program, classics, comparative literature",1992,2000,Consultant,,,phd,,None#None#None#phd,Other
+Consultant_61,Princeton University,"1992, comparative literature",1988,1992,Consultant,,,,,None#None#None#None,Other
+Consultant_62,Purdue University,"master’s degree, industrial engineering",2013,2015,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_62,"University of California, Berkeley","bachelor of science (bs), nuclear engineering, mechanical engineering",2004,2007,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_62,Indiana University - Kelley School of Business,"master of business administration (m.b.a.), business administration and management, general",2014,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_63,Bangalore University,"be, computer science",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_63,Stevens Institute of Technology,"mba, technology management",1900,1900,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_63,"Birla Institute of Technology and Science, Pilani","ms, software systems",1900,1900,Consultant,,master,,,None#master#None#None,Other
+Consultant_64,The University of Chicago Booth School of Business,"mba (with honors), finance, strategy, operations, entrepreneurship",1900,1900,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_64,"Institute of Management Technology, Ghaziabad","postgraduate diploma in business management, marketing,",1900,1900,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_64,Osmania University,"bachelor of computer applications, computer science",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_65,Faculty of Management Studies - University of Delhi,"mba, strategy, marketing and finance",2002,2004,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_65,Osmania University,"be, mechanical engineering",1998,2002,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_66,University of Cambridge,"master of philosophy (m.phil.), technology policy",1900,1900,Consultant,,master,,,None#master#None#None,Other
+Consultant_66,Massachusetts Institute of Technology,"master of engineering (m.eng.), electrical engineering and computer science",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_66,Massachusetts Institute of Technology,"bachelor of science (b.s.), electrical engineering and computer science",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_67,Weatherhead School of Management at Case Western Reserve University,mem,2004,2005,Consultant,,,,,None#None#None#None,Other
+Consultant_67,Case Western Reserve University,bachelors of systems and control engineering,2005,2005,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_67,McKinsey & Company,mini mba,2007,2007,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_68,Westwood High School,international baccalaureate diploma,2003,2007,Consultant,,,,,None#None#None#None,Other
+Consultant_68,The University of Texas at Austin,"bba, supply chain management",2007,2010,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_68,Harvard Business School,master of business administration (mba),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_69,Columbia Business School,certificate in esg investing,2022,2022,Consultant,,,,,None#None#None#None,Other
+Consultant_69,University of Cambridge,master of business administration (mba),1900,1900,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_69,Carnegie Mellon University,"m.s. civil & environmental engineering, advanced infrastructure systems",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_70,The University of Texas at Arlington,"bachelor of science, information systems",2001,2001,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_70,Texas McCombs School of Business,master of business administration - mba,2008,2008,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_71,University of Chicago,"master’s degree, analytics",1900,1900,Consultant,,master,,,None#master#None#None,Other
+Consultant_71,Galgotia's College of Engineering and Technology,"bachelor's degree, electronics and communication engineering",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_72,New York University - Leonard N. Stern School of Business,"mba, strategy, finance, marketing",1900,1900,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_72,Rutgers University,"ba, economics, information technology & informatics",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_73,Harvard Business School,mba,2002,2004,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_73,Boğaziçi University,"msc., mechanical engineering",1990,1994,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_74,Cornell Johnson Graduate School of Management,master of business administration (m.b.a.),2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_74,Delhi College of Engineering,"bachelor’s degree, electronics and communication",2006,2010,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_75,"Indian Institute of Technology, Madras","btech, electronics and communication",1994,1998,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_75,"Indian Institute of Management, Calcutta","mba, finance, it, strategy",1998,2000,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_76,Maharaja Sayajirao University,"be, electronics and communications",1993,1997,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_76,University of Illinois Chicago,"master of science - ms, computer science",1998,2000,Consultant,,master,,,None#master#None#None,STEM (Non-Engineering)
+Consultant_76,Stanford University,"graduate certificate, data mining and applications, management science and engineering",2012,2013,Consultant,,,,,None#None#None#None,Engineering
+Consultant_77,Northwestern University,"bachelor of arts - ba, economics, political science",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_77,The Wharton School,"mba, marketing, finance",1900,1900,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_77,Yale University,"bachelor of arts - ba, economics, political science, ethics",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_78,Cornell University,"bs, chemical engineering",1997,1997,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_78,William Penn Charter School,,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_78,Cornell University,"m.eng, operations research and industrial engineering",1999,1999,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_79,The Wharton School,"master of business administration (mba), strategy and marketing",1997,1999,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_79,Cornell University,"bachelor of science (bs), economics and marketing",1990,1994,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_80,Massachusetts Institute of Technology,"postdoctoral research fellow, organic chemistry",1999,2000,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_80,RWTH Aachen University,"phd, chemistry",1997,1999,Consultant,,,phd,,None#None#None#phd,STEM (Non-Engineering)
+Consultant_80,University of Cologne,"diploma, chemistry",1991,1996,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_81,"Indian Institute of Technology, Bombay","b. tech, m. tech, mechanical engineering",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_82,The Wharton School,master of business administration (mba),2005,2007,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_82,"Indian Institute of Technology, Kharagpur",b.tech,1995,1999,Consultant,,,,,None#None#None#None,Other
+Consultant_82,The Wharton School,mba,2005,2007,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_83,University of Rochester - Simon Business School,"mba, competitive and organizational strategy, finance, pricing",2011,2013,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_83,United States Military Academy at West Point,"bsc. w/ honors, economics",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_85,University at Buffalo,"master of science, mechanical engineering",2007,2008,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_85,Northwestern University,"phd, materials science and engineering",2009,2014,Consultant,,,phd,,None#None#None#phd,Engineering
+Consultant_85,University at Buffalo,"bachelor of science, mechanical engineering, physics",2003,2007,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_86,"University of California, Los Angeles","master of business administration (mba), entrepreneurship/entrepreneurial studies",2014,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_86,"University of California, Irvine - The Paul Merage School of Business","certification in management for technical professionals, business administration and management, general",2012,2012,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_86,"University of California, Riverside","m.s, electrical engineering",2006,2008,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_87,University of Cambridge,"bachelors & masters degrees, manufacturing engineering",1994,1998,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_87,Stanford University Graduate School of Business,mba,2001,2003,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_88,Universitat Politècnica de Catalunya,"master of science (m.sc.), telecommunications engineering",2009,2012,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_88,Politecnico di Torino,"master of science (m.sc.), telecommunications engineering",2009,2012,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_88,University of Southern California,"master’s degree, computer engineering",2011,2012,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_90,St. Xavier's College,"bachelor of arts (b.a.), economics",1984,1989,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_90,Indian Institute of Management Ahmedabad,"master of business administration (mba), finance, general",1989,1991,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_91,INSEAD,master of business administration (mba),2016,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_91,Birla Vidya Niketan,,2007,2007,Consultant,,,,,None#None#None#None,Other
+Consultant_91,Delhi College of Engineering,"b.e, electronics and communication",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_92,"Indian Institute of Technology, Bombay","bachelor of technology (b.tech), mechanical engineering",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_92,University of Virginia Darden School of Business,master of business administration (mba),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_93,Indian Institute of Management Ahmedabad,"post graduate program in management, business administration and management, general",2010,2012,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_93,"Indian Institute of Technology, Delhi","bachelor of technology (b.tech.), civil engineering",2006,2010,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_93,Schulich School of Business - York University,"master of business administration (m.b.a.), business administration and management, general",2011,2011,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_94,"Indian Institute of Technology, Madras","b. tech., m. tech., mechanical engineering, energy technology",2000,2005,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_94,Stanford University,"m.s., decision and risk analysis",2005,2007,Consultant,,master,,,None#master#None#None,Other
+Consultant_95,Columbia Business School,master of business administration (mba),2018,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_95,Columbia Law School,doctor of law (jd),2018,2018,Consultant,,,,,None#None#None#None,Other
+Consultant_95,Georgetown University,"bachelor's degree, government and history",2009,2009,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_96,Northern Illinois University,"ba, economics",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_97,Harvard Business School,"mba, business administration and management, general",2006,2008,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_98,"Government Law College, Mumbai","bls ll.b., law",2008,2013,Consultant,,,,,None#None#None#None,Other
+Consultant_98,Central European University,exchange programme - ceu business school,2016,2016,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_98,Indian Institute of Management Ahmedabad,post graduate programme in management,2015,2017,Consultant,,master,,,None#master#None#None,Other
+Consultant_99,University of Virginia,"bs, systems engineering with high distinction",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_99,Northwestern University - McCormick School of Engineering,"master of engineering management (mem), design and operations",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_99,Northwestern University - Kellogg School of Management,"master of business administration (mba), finance, management & organizations",1900,1900,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_100,Panjab University,"engineer's degree, chemical engineering",2009,2013,Consultant,,,,,None#None#None#None,Engineering
+Consultant_100,Duke University - The Fuqua School of Business,"master of business administration (m.b.a.), concentrations in strategy",2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_101,University of Virginia,"ba, economics, biology",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_102,The Fletcher School at Tufts University,"ma, international relations",1900,1900,Consultant,,master,,,None#master#None#None,Other
+Consultant_102,University of Virginia,"ba, anthropology / archaeology",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_104,"Indian Institute of Technology, Kanpur","b.tech, biological sciences and bioengineering",2006,2010,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_104,Northwestern University - Kellogg School of Management,"master of business administration (mba), marketing",2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_105,Indian Institute of Management Ahmedabad,mba,1992,1994,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_105,"Indian Institute of Technology, Madras","b tech, computer science",1988,1992,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_106,University of Balamand,"master of science (ms), manufacturing engineering",2009,2011,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_106,Lebanese University,"bachelor of science (bs), physics",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_106,Weatherhead School of Management at Case Western Reserve University,master of business administration (m.b.a.),2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_107,CFA Institute,certified financial analyst (cfa),1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_107,University of Brighton,"bachelor's degree, european business with technology",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_107,Politecnico di Torino,"first class degree, esperto della produzione industriale / production engineering",1900,1900,Consultant,,,,,None#None#None#None,Engineering
+Consultant_108,"Indian Institute of Technology, Madras","engineer’s degree, electrical engineering",2000,2005,Consultant,,,,,None#None#None#None,Engineering
+Consultant_108,Indian School of Business,"post-graduate programme in management, finance & strategy",2008,2009,Consultant,,,,,None#None#None#None,Other
+Consultant_109,Delhi College of Engineering,"bachelor of engineering, electrical engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_110,National Aviation University,"msc, computer sciences",2005,2011,Consultant,,master,,,None#master#None#None,STEM (Non-Engineering)
+Consultant_110,Northwestern University - Kellogg School of Management,master of business administration - mba,2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_110,Indian Institute of Management Ahmedabad,"mba, pgp",2010,2012,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_110,Netaji Subhas Institute of Technology,"be, computers",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_111,Indian Institute of Management Ahmedabad,master of business administration (m.b.a.),2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_111,HEC Paris,master of business administration (m.b.a.),2015,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_111,"Indian Institute of Technology, Bombay","bachelor's degree, civil engineering with minors in electrical engineering",2010,2014,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_112,University of Connecticut,"bachelor of science (b.s.), computer science and engineering",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_114,National Aviation University,"msc, computer sciences",2005,2011,Consultant,,master,,,None#master#None#None,STEM (Non-Engineering)
+Consultant_114,Northwestern University - Kellogg School of Management,master of business administration - mba,2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_115,Rutgers University,"mini mba, digital marketing",1900,1900,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_115,Rutgers University,masters in business and science,1900,1900,Consultant,,master,,,None#master#None#None,Business / Economics
+Consultant_115,Punjab Engineering College,bachelor of engineering (be),1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_117,Cornell University,master of business administration - mba,2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_117,University of St. Thomas,"bachelor of arts - ba, finance",2006,2010,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_118,EMLYON Business,"m.sc in management, marketing & finance",2014,2014,Consultant,,master,,,None#master#None#None,Other
+Consultant_118,XLRI Jamshedpur,"master of business administration (m.b.a.), marketing and finance",2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_118,Indian Institute of Space Science and Technology,"b.tech, aerospace engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_119,Osmania University,"be, electrical",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_119,University of North Texas,"master of science (m.s.), electrical engineering",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_119,Cornell University,executive leadership and decision making,2015,2015,Consultant,,,,,None#None#None#None,Other
+Consultant_120,Delhi Public School - R. K. Puram,,1996,2008,Consultant,,,,,None#None#None#None,Other
+Consultant_120,"Indian Institute of Technology, Delhi","minor degree in business management, business administration and management, general",2008,2013,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_120,"Indian Institute of Technology, Delhi","bachelor of technology (b.tech) and master of technology (m.tech), chemical engineering",2008,2013,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_121,University of South Florida,"master's degree, management information systems",2014,2015,Consultant,,master,,,None#master#None#None,Other
+Consultant_121,Rajiv Gandhi Technical University,"bachelor of engineering (b.eng.), computer science",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_122,Northwestern University - Kellogg School of Management,master of business administration (mba),2017,2019,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_122,International Baccalaureate,"high school, international school of beaverton",2006,2010,Consultant,,,,,None#None#None#None,Other
+Consultant_122,The University of Texas at Austin,"bachelor's degree with highest honors, chemical engineering",2010,2014,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_124,ITESO Universidad Jesuita de Guadalajara,"bachelor of science (b.s.), chemical engineering",2000,2004,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_124,The University of Texas at Austin,"doctor of philosophy (ph.d.), chemical engineering",2011,2016,Consultant,,,phd,,None#None#None#phd,Engineering
+Consultant_124,Universidad de Guadalajara,"master of science (m.s.), chemical engineering",2005,2007,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_125,Indian Institute of Management Ahmedabad,"mba, management",2011,2013,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_125,"Indian Institute of Technology, Delhi","b.tech, mechanical engineering",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_125,Ramjas,,1999,2004,Consultant,,,,,None#None#None#None,Other
+Consultant_126,"Indian Institute of Technology, Kharagpur","dual degree (b.tech + m.tech), electronics & electrical communication engineering",2005,2010,Consultant,,,,,None#None#None#None,Engineering
+Consultant_126,Schulich School of Business - York University,"exchange student, mba",2011,2012,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_126,Indian Institute of Management Bangalore,"pgdm, management",2010,2012,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_127,DPS Ranchi,,1993,2005,Consultant,,,,,None#None#None#None,Other
+Consultant_127,"Indian Institute of Technology, Kharagpur","bachelor of technology (btech) (hons.) instrumentation, electrical, electronics and communications engineering",2005,2009,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_127,Indian School of Business,"master of business administration (mba), operations",2014,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_129,"Management Development Institute, Gurgaon","master of business administration (m.b.a.), marketing, finance",1900,1900,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_129,Kurukshetra University,"bachelor of technology (b.tech.), electronics & communication engineering",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_130,Institute and Faculty of Actuaries,,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_130,The Institute of Chartered Accountants of India,all india rank 1 (may 2014),1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_131,Veermata Jijabai Technological Institute (VJTI),"bachelor of technology (b.tech.), computer engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_131,Indian Institute of Management Ahmedabad,master of business administration (mba),2012,2014,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_131,Ramnivas Ruia Junior College,higher secondary certificate,2005,2007,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_132,XLRI Jamshedpur,"mba, finance",2010,2012,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_132,"Indian Institute of Technology, Bombay","bachelor of technology (b.tech.), electrical engineering",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_132,"Birla High School, kolkata",,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_133,University of St.Gallen,"international study programme, business administration and management, general",2014,2014,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_133,The Institute of Chartered Accountants of India,"chartered accountant, accounting and finance",2007,2011,Consultant,,,,,None#None#None#None,Other
+Consultant_133,"Indian Institute of Management, Lucknow","master of business administration (mba), finance and strategy",2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_134,Netaji Subhas Institute of Technology,"b.e., electronics and communication",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_134,Texas McCombs School of Business,"master of business administration (mba), exchange student",2014,2014,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_134,Indian Institute of Management Ahmedabad,"master of business administration (mba), business administration and management, general",2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_135,Technische Universität Berlin,"bachelor of engineering (b.eng.), mechanical engineering",2010,2010,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_135,Northwestern University - Kellogg School of Management,master of business administration (m.b.a.),2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_135,National University of Singapore,"bachelor of engineering (honors), mechanical engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_136,University of Virginia Darden School of Business,master of business administration (m.b.a.),2015,2017,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_136,The George Washington University School of Business,"b.b.a., finance & international business",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_137,"Indian Institute of Technology, Roorkee","integrated dual degree (b.tech + m.tech), computer science",2007,2012,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_137,Indian Institute of Management Ahmedabad,master of business administration (mba),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_137,University of Cologne,"exchange semester, business administration and management",2014,2014,Consultant,,,,,None#None#None#None,Business / Economics
+Consultant_138,MIT Sloan School of Management,"master of business administration - mba, business administration and management, general",2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_138,Massachusetts Institute of Technology,"bachelor of science - bs, mathematics",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_139,"Indian Institute of Technology, Bombay","bachelor of engineering, civil engineering technology",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_139,Delhi Public School - R. K. Puram,,1900,1900,Consultant,,,,,None#None#None#None,Other
+Consultant_140,The University of Chicago Booth School of Business,master of business administration (mba),1900,1900,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_140,Dhirubhai Ambani Institute of Information and Communication Technology,"bachelor of technology (b.tech.), ict",1900,1900,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_141,Thapar Institute of Engineering & Technology,"bachelor’s degree, chemical engineering",1999,2003,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_141,"Institute of Management Technology, Ghaziabad","master of business administration (m.b.a.), marketing/ finance",2006,2008,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_142,"Rayat Institute of engg. & Information Technology, Railmajra","bachelor of technology - btech, mechanical engineering",2004,2008,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_142,"Government Model Sr Sec School, Sector 35, Chandigarh",non- medical,2002,2004,Consultant,,,,,None#None#None#None,Other
+Consultant_142,Faculty of Management Studies - University of Delhi,"mba, marketing, finance, operations",2011,2013,Consultant,,,,mba,None#None#mba#None,Business / Economics
+Consultant_143,"Indian Institute of Technology, Kanpur","bachelor of technology (b.tech.), electrical engineering",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_143,CentraleSupélec,summer internship,2010,2010,Consultant,,,,,None#None#None#None,Other
+Consultant_143,Indian Institute of Management Ahmedabad,"master of business administration (mba), management",2012,2014,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_145,University of Virginia Darden School of Business,master of business administration (m.b.a.),2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_145,Harvard Business School Online,core credential of readiness,2015,2015,Consultant,,,,,None#None#None#None,Other
+Consultant_145,Bryn Mawr College,"bachelor's degree, mathematics, creative writing",2009,2013,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_147,University of Pennsylvania,"bachelor of science (bs), mechanical engineering",2010,2014,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_147,Columbia University,"master's degree, mechanical engineering",2014,2015,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_148,The Wharton School,"master of business administration - mba, strategic management & business analytics",2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_148,UC Santa Barbara,"bachelor’s degree, economics & accounting",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_149,Yale School of Management,"master of business administration (m.b.a.), business administration and management, general",2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_149,Harvard University,"bachelor of arts, economics",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_149,European School of Brussels,european baccalaureate,2000,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_150,Nanyang Technological University Singapore,"student exchange program, mechanical",2012,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_150,"Indian Institute of Technology, Bombay","dual degree (b.tech.+ m.tech.), mechanical engineering",2008,2013,Consultant,,,,,None#None#None#None,Engineering
+Consultant_150,"Indian Institute of Management, Calcutta",master of business administration - mba,2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_151,St. Gregorios High School,"class 10, basic sceiences, maths , social sciences,english literature",1995,2008,Consultant,,,,,None#None#None#None,STEM (Non-Engineering)
+Consultant_151,"Indian Institute of Management, Calcutta","master of business administration (m.b.a.), finance and strategy",2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_151,"Birla Institute of Technology and Science, Pilani","engineer's degree, mechanical engineering",2010,2014,Consultant,,,,,None#None#None#None,Engineering
+Consultant_152,University of Michigan,"doctor of philosophy (phd), mechanical engineering",1900,1900,Consultant,,,phd,,None#None#None#phd,Engineering
+Consultant_152,University of Michigan,"master of science (m.sc.), mechanical engineering",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_152,University of Michigan,"master of science (m.sc.), electrical and computer engineering",1900,1900,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_153,European School of Brussels,european baccalaureate,2000,2012,Consultant,,,,,None#None#None#None,Other
+Consultant_153,Harvard University,"bachelor of arts, economics",2012,2016,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_154,"Indian Institute of Management, Calcutta",post graduate diploma in management (pgdm),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_154,Mannheim Business School,exchange student,2014,2014,Consultant,,,,,None#None#None#None,Other
+Consultant_154,"Indian Institute of Technology, Delhi","bachelor of technology (btech), mechanical engineering",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
+Consultant_155,Massachusetts Institute of Technology,master of science (m.s.) in mechanical engineering,2013,2015,Consultant,,master,,,None#master#None#None,Engineering
+Consultant_155,Massachusetts Institute of Technology,"dual degree s.b., mechanical engineering & management science",2007,2011,Consultant,,,,,None#None#None#None,Engineering
+Consultant_155,MIT Sloan School of Management,master of business administration (mba),2013,2015,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_156,Robert Gordon University,"msc, software technology",2001,2002,Consultant,,master,,,None#master#None#None,Other
+Consultant_156,Robert Gordon University,"msc, masters, software technology",2001,2002,Consultant,,master,,,None#master#None#None,Other
+Consultant_156,University of Madras,"bsc(hons), computer science",1997,2000,Consultant,bachelor,,,,bachelor#None#None#None,STEM (Non-Engineering)
+Consultant_157,University of North Carolina at Chapel Hill,"bachelor of science (b.s.), business administration (finance)",2007,2011,Consultant,bachelor,,,,bachelor#None#None#None,Business / Economics
+Consultant_157,UCLA Anderson School of Management,master of business administration (m.b.a.),2016,2018,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_158,Texas McCombs School of Business,"bba, management information systems, bhp",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Other
+Consultant_158,Harvard Business School,"master of business administration (mba), business administration and management, general",2014,2016,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_159,Indian Institute of Management Bangalore,master of business administration (mba),2012,2014,Consultant,,master,,mba,None#master#mba#None,Business / Economics
+Consultant_159,EBS Universität für Wirtschaft und Recht,student exchange,2013,2013,Consultant,,,,,None#None#None#None,Other
+Consultant_159,"Indian Institute of Technology, Delhi","bachelor of technology (b.tech.), mechanical engineering",2008,2012,Consultant,bachelor,,,,bachelor#None#None#None,Engineering
