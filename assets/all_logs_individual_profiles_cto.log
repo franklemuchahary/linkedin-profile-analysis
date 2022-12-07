@@ -1,0 +1,252 @@
+2022-11-04 20:01:33,928 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 90
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 215, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 20:03:12,724 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 3
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:03:23,179 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 4
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:03:33,792 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 5
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:03:48,106 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 6
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:04:02,813 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 7
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:04:16,433 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 8
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:04:19,457 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 35
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 215, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 20:04:32,179 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 9
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:04:47,955 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 10
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:05:03,267 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 11
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:05:17,895 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 12
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 137, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:10:25,084 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 103
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 176, in scrape_single_profile_helper
+    education_section = soup_html.find(name='div', attrs={'id':'education'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:15:09,380 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 82
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 215, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 20:17:05,874 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 115
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 215, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 20:17:27,013 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 55
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 176, in scrape_single_profile_helper
+    education_section = soup_html.find(name='div', attrs={'id':'education'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:17:43,368 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 56
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 176, in scrape_single_profile_helper
+    education_section = soup_html.find(name='div', attrs={'id':'education'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 20:18:36,346 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 119
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 215, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+

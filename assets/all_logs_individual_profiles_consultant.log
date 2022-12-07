@@ -1,0 +1,232 @@
+2022-11-04 23:09:14,631 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 3
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 140, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 23:09:29,609 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 123
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:09:30,754 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 4
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 140, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 23:09:40,129 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 84
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:09:48,175 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 5
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 140, in scrape_single_profile_helper
+    work_ex_section = soup_html.find(name='div', attrs={'id':'experience'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 23:12:58,466 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 128
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:13:16,009 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 89
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:19:29,446 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 58
+    ---
+    'NoneType' object has no attribute 'parent'
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 179, in scrape_single_profile_helper
+    education_section = soup_html.find(name='div', attrs={'id':'education'}).parent
+AttributeError: 'NoneType' object has no attribute 'parent'
+
+============================================================
+
+
+2022-11-04 23:24:05,951 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 103
+    ---
+    Message: script timeout
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000102d902c8 chromedriver + 4752072
+1   chromedriver                        0x0000000102d10463 chromedriver + 4228195
+2   chromedriver                        0x000000010297398a chromedriver + 440714
+3   chromedriver                        0x00000001029eadc8 chromedriver + 929224
+4   chromedriver                        0x00000001029d1d02 chromedriver + 826626
+5   chromedriver                        0x00000001029ea134 chromedriver + 926004
+6   chromedriver                        0x00000001029d1b33 chromedriver + 826163
+7   chromedriver                        0x00000001029a29fd chromedriver + 633341
+8   chromedriver                        0x00000001029a4051 chromedriver + 639057
+9   chromedriver                        0x0000000102d5d30e chromedriver + 4543246
+10  chromedriver                        0x0000000102d61a88 chromedriver + 4561544
+11  chromedriver                        0x0000000102d696df chromedriver + 4593375
+12  chromedriver                        0x0000000102d628fa chromedriver + 4565242
+13  chromedriver                        0x0000000102d382cf chromedriver + 4391631
+14  chromedriver                        0x0000000102d815b8 chromedriver + 4691384
+15  chromedriver                        0x0000000102d81739 chromedriver + 4691769
+16  chromedriver                        0x0000000102d9781e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 223, in scrape_single_profile_helper
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 491, in execute_script
+    return self.execute(command, {
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: script timeout
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000102d902c8 chromedriver + 4752072
+1   chromedriver                        0x0000000102d10463 chromedriver + 4228195
+2   chromedriver                        0x000000010297398a chromedriver + 440714
+3   chromedriver                        0x00000001029eadc8 chromedriver + 929224
+4   chromedriver                        0x00000001029d1d02 chromedriver + 826626
+5   chromedriver                        0x00000001029ea134 chromedriver + 926004
+6   chromedriver                        0x00000001029d1b33 chromedriver + 826163
+7   chromedriver                        0x00000001029a29fd chromedriver + 633341
+8   chromedriver                        0x00000001029a4051 chromedriver + 639057
+9   chromedriver                        0x0000000102d5d30e chromedriver + 4543246
+10  chromedriver                        0x0000000102d61a88 chromedriver + 4561544
+11  chromedriver                        0x0000000102d696df chromedriver + 4593375
+12  chromedriver                        0x0000000102d628fa chromedriver + 4565242
+13  chromedriver                        0x0000000102d382cf chromedriver + 4391631
+14  chromedriver                        0x0000000102d815b8 chromedriver + 4691384
+15  chromedriver                        0x0000000102d81739 chromedriver + 4691769
+16  chromedriver                        0x0000000102d9781e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+
+============================================================
+
+
+2022-11-04 23:25:13,021 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 144
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:25:54,207 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 146
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:29:27,540 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 113
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-04 23:30:54,209 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 116
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 218, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+

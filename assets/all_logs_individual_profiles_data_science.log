@@ -1,0 +1,28 @@
+2022-11-02 04:36:03,497 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 51
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 214, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-02 04:40:26,329 - 
+    Error in Fetching Profile
+    ---
+    Error for  Profile Dummy ID: 86
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/scrape_individual_profiles.py", line 214, in scrape_single_profile_helper
+    all_skills_link = all_skills_link[0].parent.parent.find('a')['href']
+IndexError: list index out of range
+
+============================================================
+
+

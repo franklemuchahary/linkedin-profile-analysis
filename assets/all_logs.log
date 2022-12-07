@@ -1,0 +1,1181 @@
+2022-11-05 13:29:44,051 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 4 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,140 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 5 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,225 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 6 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,313 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 7 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,398 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 8 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,494 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 9 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,583 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 10 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,666 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 11 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:29:44,759 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 12 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x0000000101ae32c8 chromedriver + 4752072
+1   chromedriver                        0x0000000101a63463 chromedriver + 4228195
+2   chromedriver                        0x00000001016c6b18 chromedriver + 441112
+3   chromedriver                        0x0000000101703e21 chromedriver + 691745
+4   chromedriver                        0x0000000101704061 chromedriver + 692321
+5   chromedriver                        0x00000001016f77b7 chromedriver + 640951
+6   chromedriver                        0x0000000101724d2d chromedriver + 826669
+7   chromedriver                        0x00000001016f7685 chromedriver + 640645
+8   chromedriver                        0x0000000101724e5e chromedriver + 826974
+9   chromedriver                        0x000000010173d134 chromedriver + 926004
+10  chromedriver                        0x0000000101724b33 chromedriver + 826163
+11  chromedriver                        0x00000001016f59fd chromedriver + 633341
+12  chromedriver                        0x00000001016f7051 chromedriver + 639057
+13  chromedriver                        0x0000000101ab030e chromedriver + 4543246
+14  chromedriver                        0x0000000101ab4a88 chromedriver + 4561544
+15  chromedriver                        0x0000000101abc6df chromedriver + 4593375
+16  chromedriver                        0x0000000101ab58fa chromedriver + 4565242
+17  chromedriver                        0x0000000101a8b2cf chromedriver + 4391631
+18  chromedriver                        0x0000000101ad45b8 chromedriver + 4691384
+19  chromedriver                        0x0000000101ad4739 chromedriver + 4691769
+20  chromedriver                        0x0000000101aea81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-05 13:30:33,936 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 3
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-05 13:30:44,817 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 4
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-05 13:30:55,646 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 5
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-05 13:31:06,579 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 6
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-05 13:31:17,607 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 7
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-05 13:31:47,798 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 9
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:27:31,195 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 4 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:31,391 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 5 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:31,642 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 6 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:31,748 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 7 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:31,885 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 8 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:31,985 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 9 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:32,093 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 10 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:32,206 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 11 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:32,323 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 12 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:27:32,406 - 
+    Fetching Single User Profile Name
+    ---
+    Error for Person Num: 13 in Page Num: 1
+    ---
+    Message: no such element: Unable to locate element: {"method":"xpath","selector":".//a/span/span"}
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f5b5e21 chromedriver + 691745
+4   chromedriver                        0x000000010f5b6061 chromedriver + 692321
+5   chromedriver                        0x000000010f5a97b7 chromedriver + 640951
+6   chromedriver                        0x000000010f5d6d2d chromedriver + 826669
+7   chromedriver                        0x000000010f5a9685 chromedriver + 640645
+8   chromedriver                        0x000000010f5d6e5e chromedriver + 826974
+9   chromedriver                        0x000000010f5ef134 chromedriver + 926004
+10  chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+11  chromedriver                        0x000000010f5a79fd chromedriver + 633341
+12  chromedriver                        0x000000010f5a9051 chromedriver + 639057
+13  chromedriver                        0x000000010f96230e chromedriver + 4543246
+14  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+15  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+16  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+17  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+18  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+19  chromedriver                        0x000000010f986739 chromedriver + 4691769
+20  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+21  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+22  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+============================================================
+
+
+2022-11-06 17:28:21,672 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 3
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:28:53,860 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 5
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:04,786 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 6
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:15,553 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 7
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:26,333 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 8
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:37,706 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 9
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:48,468 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 10
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:29:59,211 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 11
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:30:10,093 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 12
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:30:21,138 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 13
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:30:31,885 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 14
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:30:42,642 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 15
+    ---
+    list index out of range
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 210, in <module>
+    next_button = driver.find_elements(
+IndexError: list index out of range
+
+============================================================
+
+
+2022-11-06 17:31:01,605 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 17
+    ---
+    Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 128, in <module>
+    single_page_profiles = driver.find_elements(
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 888, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+
+============================================================
+
+
+2022-11-06 17:31:01,614 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 18
+    ---
+    Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 128, in <module>
+    single_page_profiles = driver.find_elements(
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 888, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+
+============================================================
+
+
+2022-11-06 17:31:01,619 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 19
+    ---
+    Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 128, in <module>
+    single_page_profiles = driver.find_elements(
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 888, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+
+============================================================
+
+
+2022-11-06 17:31:01,623 - 
+    Error in Fetching Entire Page Profiles or Clicking Next Page
+    ---
+    Error for  Page Num: 20
+    ---
+    Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+Traceback (most recent call last):
+  File "/Users/franklemuchahary/Documents/MSIS5193-Assignments/Assignments - Fall 22/project-deliverable-1-data-janitors-1/code/get_profile_links.py", line 128, in <module>
+    single_page_profiles = driver.find_elements(
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 888, in find_elements
+    return self.execute(Command.FIND_ELEMENTS, {
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 428, in execute
+    self.error_handler.check_response(response)
+  File "/Users/franklemuchahary/opt/miniconda3/envs/mypy9/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 243, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Stacktrace:
+0   chromedriver                        0x000000010f9952c8 chromedriver + 4752072
+1   chromedriver                        0x000000010f915463 chromedriver + 4228195
+2   chromedriver                        0x000000010f578b18 chromedriver + 441112
+3   chromedriver                        0x000000010f555210 chromedriver + 295440
+4   chromedriver                        0x000000010f5dae3d chromedriver + 843325
+5   chromedriver                        0x000000010f5ee719 chromedriver + 923417
+6   chromedriver                        0x000000010f5d6b33 chromedriver + 826163
+7   chromedriver                        0x000000010f5a79fd chromedriver + 633341
+8   chromedriver                        0x000000010f5a9051 chromedriver + 639057
+9   chromedriver                        0x000000010f96230e chromedriver + 4543246
+10  chromedriver                        0x000000010f966a88 chromedriver + 4561544
+11  chromedriver                        0x000000010f96e6df chromedriver + 4593375
+12  chromedriver                        0x000000010f9678fa chromedriver + 4565242
+13  chromedriver                        0x000000010f93d2cf chromedriver + 4391631
+14  chromedriver                        0x000000010f9865b8 chromedriver + 4691384
+15  chromedriver                        0x000000010f986739 chromedriver + 4691769
+16  chromedriver                        0x000000010f99c81e chromedriver + 4782110
+17  libsystem_pthread.dylib             0x00007fff69faa109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff69fa5b8b thread_start + 15
+
+
+============================================================
+
+

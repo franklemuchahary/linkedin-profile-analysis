@@ -1,0 +1,303 @@
+profile_id_dummy,education_institute,degree_name,start_year_degree,end_year_degree
+0,Missouri Southern State University,"Bachelor's degree, Mathematics",2005,2010
+1,Delhi University,"Bachelor of Arts (B.A.), Economics",2002,2005
+1,Anna University,"Master of Science (M.Sc.), Economics",2006,2008
+2,Northcentral University,"Doctor of Philosophy - PhD, Data Science Specialization, Minor in Machine Learning",1900,1900
+2,The University of Iowa Tippie College of Business,"MBA, Business Analytics",2007,2007
+2,"Indian Institute of Technology, Bombay",Operations Research,1900,1900
+3,The University of Texas at Austin,"Master's degree, Quantitative Methods",1900,1900
+3,The University of Texas at Austin,"Master of Science - MS, Statistics and Data Sciences",2017,2018
+4,"National Institute of Technology, Tiruchirappalli","Bachelor of Technology (B.Tech.), Instrumentation and Control Engineering",2006,2010
+4,W. P. Carey School of Business – Arizona State University,"Master of Science (MS), Business Analytics",2014,2015
+4,Harvard Business School Online,"The Credential of Readiness, Business Analytics, Economics for Managers and Financial Accounting",2022,2022
+5,University of Mumbai,"Bachelor of Engineering (B.E.), Computer Engineering",2013,2017
+5,Saint Mary's College of California,"Certificate Program, Global Management Practices and Leadership Strategies",2016,2016
+5,Georgia Institute of Technology,"Master of Science - MS, Computer Science",2017,2018
+6,Central South University,"Master, Applied Probability",2003,2006
+6,Michigan State University,"PhD, Soil Science; Soil X-ray CT imaging",2006,2012
+6,Michigan State University,"Master, Applied Statistics",2006,2011
+7,Cornell University,"Bachelor of Science (B.S.), Electrical and Computer Engineering",2004,2008
+7,Cornell University,"Master of Engineering (M.Eng.), Electrical and Computer Engineering",2009,2010
+7,Vanderbilt University,"Doctor of Philosophy (Ph.D.), Electrical Engineering",2010,2014
+8,Sri Venkateswara University,"Master of Science( M.Sc.,) , Statistics",1998,2000
+8,Sri Venkateswara University,"Doctor of Philosophy - PhD, Statistics",2001,2005
+8,International Institute of Information Technology Bangalore,"Executive PG Program in Machine Learning & Artificial Intelligence, ML and AI",2020,2021
+9,University of Nevada-Las Vegas,"Post-doctoral, Artificial Intelligence",2015,2016
+9,Université Badji Mokhtar de Annaba,"Doctor of Philosophy (PhD), Artificial Intelligence and computer vision",2010,2014
+9,Université Badji Mokhtar de Annaba,"Master by Research, Artificial Intelligence and Pattern Recognition",2008,2010
+10,Indian Statistical Institute,"Master of Science - MS, Applied Statistics and Data Analysis",2007,2009
+10,St. Xavier's College,"B.Sc, Statistics",2004,2007
+11,National Institute of Technology Karnataka Surathkal,"B. Tech, Computer Science",2005,2009
+11,National Institute of Technology Karnataka,"B tech, Computer Science",2005,2009
+11,University of Waterloo,"MMath, Computer Science",2009,2011
+12,The George Washington University,"Master's degree, Computer Engineering",2010,2013
+12,The George Washington University,"Doctor of Philosophy (PhD), Computer Engineering",2014,2021
+12,Shahid Beheshti University,"Bachelor's degree, Electrical and Electronics Engineering",2004,2010
+13,University of Pittsburgh,"PhD, artificial intelligence, learning sciences",2008,2011
+13,Carnegie Mellon University,"Post-doctoral fellowship, Human Computer Interaction",2011,2013
+13,University of Pittsburgh,"MS, artificial intelligence, learning sciences",1999,2007
+14,Azad University (IAU),"Bachelor's degree, Industrial Engineering",1900,1900
+14,Iran University of Science and Technology,"Master's degree, Industrial Engineering",1900,1900
+14,Binghamton University,"Doctor of Philosophy - PhD, Industrial and Systems Engineering",1900,1900
+15,Università degli Studi di Milano,"BS, Physics",2000,2006
+15,Università degli Studi dell'Insubria,"PhD, Astronomy and astrophysics",2006,2009
+16,"Indian Institute of Technology, Kanpur","Master of Technology - MTech, Computer Science",2014,2016
+16,Panjab University,"Bachelor of Technology - BTech, Computer Science",2010,2014
+16,Delhi Public School - Bathinda,High School,1900,1900
+17,"Galvanize - Denver, Platte","Data Science Immersive, Data Science Immersive",2017,2017
+17,Colorado State University,"Doctor of Philosophy (Ph.D.), Biochemistry and Molecular Biology",2008,2012
+17,University of Arkansas,"Bachelor’s Degree, Chemistry and Biochemistry",2003,2007
+18,Georgia Institute of Technology,"Master of Science - MS, Electrical and Computer Engineering",1999,2001
+18,Georgia Institute of Technology,"Doctor of Philosophy - PhD, Electrical and Computer Engineering",2001,2006
+18,University of Central Florida,"Bachelor of Science (B.S.), Computer Engineering",1994,1998
+19,SSN College of Engineering,"Bachelor of Engineering (BE), Electrical and Electronics Engineering",2006,2010
+19,Carnegie Mellon University - Heinz College of Information Systems and Public Policy,"Master of Information Systems Management, Business Intelligence and Data Analytics",2014,2015
+19,Harrisburg University of Science and Technology,"Masters in Analytics, Machine Learning",2019,2019
+20,Georgia Institute of Technology,"Master of Science - MS, Computer Science",2023,2023
+20,UC Irvine,"Bachelor of Science - BS, Civil Engineering",2013,2013
+20,Peking University,University of California Education Abroad Program,2011,2011
+21,University of Reading,"PhD., Atmosphere, Oceans and Climate, Tropical Cyclones and Climate Change",2010,2014
+21,University of Southampton,"MOcean, Oceanography",2006,2010
+22,SVN College Madurai,"Bachelor of Science (B.Sc.), Mathematics",1999,2002
+22,"Sirumalar Girls Hr. Sec. School, Madurai",,1992,1999
+22,Thiagarajar College of Engineering,Master of Computer Applications (MCA),2002,2005
+23,Goa Institute of Management,"Master of Business Administration (M.B.A.), Finance, General",1900,1900
+23,"Birla Institute of Technology and Science, Pilani","M.Tech, Chemical Engineering",1900,1900
+23,Malaviya National Institute of Technology Jaipur,"Bachelor of Technology (BTech), Chemical Engineering",1900,1900
+24,Purdue University,"Doctor of Philosophy (PhD), Aerospace, Aeronautical and Astronautical Engineering",2012,2015
+24,Wright State University,"Master of Science (M.S.), Mechanical Engineering",2011,2012
+25,University of Florida,"Doctor of Philosophy - PhD, Mechanical and Aerospace Engg",2002,2005
+25,University of Florida,"M.S, Aerospace Engg",1999,2002
+25,"Indian Institute of Technology, Madras","Btech, Aerospace Engg",1995,1999
+26,Malaviya National Institute of Technology Jaipur,"B.Tech, Chemical Engineering",2006,2010
+26,National Chemical Laboratory Pune,"Master of Technology (M.Tech.), Chemical Engineering: Modeling and Simulation",2011,2013
+27,MIT Professional Education,Leadership & Innovation,2020,2020
+27,University of North Carolina at Charlotte,"Master's degree, Data Science and Business Analytics",2016,2017
+27,University of North Carolina at Charlotte,"Doctor of Philosophy - PhD, Computing and Information Systems",2018,2022
+28,Southeast University,"MS, Physics",2001,2004
+28,University of Missouri-Columbia,"PhD, Physics",2004,2010
+28,University of Missouri-Columbia,"MA, Statistics",2007,2010
+29,US Army,"Certified AMMO 67, Logistics and Transportation",2003,2009
+29,University of Colorado Denver,"Master's degree, Economics",2013,2016
+29,Western Michigan University,"Bachelor's, Economics, Anthropology",2010,2012
+30,Missouri University of Science and Technology,"Masters Degree, Computer Science",2014,2015
+30,Osmania University,"Bachelor of Engineering (B.E.), Computer Science",2010,2014
+30,Narayana Junior College,Mathematics Physics Chemistry,2008,2010
+31,"Indian Institute of Technology, Madras","Master's degree, Electrical, Electronics and Communications Engineering",2003,2005
+31,Udacity,"Nanodegree, Computer Vision",2018,2018
+31,Udacity,"Nanodegree, Deep Learning",2018,2018
+32,Beihang University,"Bachelor of Engineering (BE), Aerospace engineering & International Business",1900,1900
+32,University of Minnesota,"Ph.D., Mechanical Engineering",1900,1900
+32,Arizona State University,"MS, Mechanical Engineering",1900,1900
+33,Udacity,Computer Vision Nanodegree,2018,2018
+33,"T A Pai Management Institute, Manipal",MBA,2013,2015
+33,University of Cincinnati Carl H. Lindner College of Business,"MS, Business Analytics",2018,2019
+34,North Carolina State University - Institute for Advanced Analytics,"Master of Science in Analytics (MSA), Advanced Analytics",2013,2014
+34,North Carolina State University,"MBA, Operations & Services Innovation",2008,2010
+34,Duke University,"MS, Statistics",1996,1997
+35,Penn State University,"Graduate Certificate, Supply Chain Management",2014,2015
+35,Mississippi State University,"PhD, Industrial and Systems Engineering (Operations Research)",2009,2013
+35,Bangladesh University of Engineering and Technology,"M.Sc. Engineering, Industrial and Production Engineering",2006,2008
+36,Georgia Institute of Technology,"Master of Science - MS, Analytics",2021,2022
+36,National Institute of Technology Warangal,"Bachelor of Technology, Electrical & Electronics Engineering",1900,1900
+36,CDAC,"Diploma in Advanced Computing, Programming Languages (C, C++, Java, D2K, Networking, Unix and Operating System)",1900,1900
+37,AMITY University Gurgaon,"Master of Computer Applications (MCA), Computer Science",2013,2016
+37,International School of Engineering (INSOFE),Big Data Analytics and Optimization,2017,2018
+37,Indira Gandhi National Open University,"BCA, Computer Science",2009,2012
+38,Technical University of Munich,"Master of Science (MS), Communications Engineering",2011,2013
+38,National Institute of Technology Raipur,"Bachelor’s Degree, Electronics and Telecommunication",2006,2010
+39,Northwestern University,"Ph.D., Transportation",1999,2004
+40,"N C Jindal Public School, new delhi",Science,1900,1900
+40,Guru Gobind Singh Indraprastha University,"Bachelor of Technology (BTech), Computer Science",2009,2013
+40,San Jose State University,"Master's degree, Data Science",2018,2020
+41,"Indian Institute of Technology, Kanpur","Dual degree, Mathematics and Scientific Computing",2007,2012
+42,The Johns Hopkins University,"Data Science with R, six courses",2014,2015
+42,University of Notre Dame,"Bachelor's Degree, Mathematics/Business",1989,1993
+42,Babson F.W. Olin Graduate School of Business,"MBA, Magna Cum Laude",2009,2011
+43,Anna University,"B.E, Electrical, Electronics and Communications Engineering",2002,2006
+43,INDIAN SCHOOL OF BUSINESS MANAGEMENT AND ADMINISTRATION,"Master of Business Administration - MBA, Finance",2007,2009
+44,University of Tehran,"Master of Science, Petroleum Engineering (Reservoir Engineering)",2007,2009
+44,Sharif University of Technology,"Bachelor of Science, Petroleum Engineering",2004,2007
+44,Texas A&M University,"PhD, Petroleum Engineering",2009,2013
+45,Fergusson College,"Higher Secondary Certificate, Physics Mathematics Chemistry English Computer Science",2009,2011
+45,"Birla Institute of Technology and Science, Pilani","B.E. Hons, Electrical and Electronics Engineering",2011,2015
+45,University of Illinois Urbana-Champaign,"Master's degree, Data Science (MSIM)",2017,2018
+46,Indian Institute of Science (IISc),"Master of Engineering (M.Eng.), Computer Science",2014,2016
+46,"University Institute Of Engineering and Technology, MDU Rohtak","Bachelor of Technology (B.Tech.), Computer Science",2007,2011
+46,OS DAV Public School Kaithal,Higher Scondary,2005,2007
+47,Amity University,,1900,1900
+47,Netaji Subhas Institute of Technology,"Bachelor of Engineering, Computer Engineering",2013,2017
+47,Columbia University,"Master's degree, Data Science",2018,2019
+48,Udacity,"Self-driving Car Engineer Nano-Degree, Artificial Intelligence",2020,2022
+48,Udacity,Data Structures and Algorithms Nano-Degree,2019,2019
+48,Cornell University,"Ph.D, Mechanical Engineering",2006,2011
+49,JNTUH College of Engineering Hyderabad,"Bachelor of Technology (B.Tech.), Electronics and communications engineering",1900,1900
+50,Sri Sarada College for Women(Autonomous),"Bachelor's degree, Statistics",2009,2012
+50,Loyola College,"Master of Philosophy (M.Phil.), Statistics",2014,2015
+50,Loyola College,"Master’s Degree, Statistics",2014,2015
+52,University of Wisconsin-Parkside,"Master of Business Administration - MBA, Dual Concentration: Supply Chain Management / Data Analytics",2021,2022
+52,Georgia Institute of Technology,"Master of Science - MS, Cybersecurity",2019,2021
+52,University of Wisconsin-Green Bay,"Master of Science (MS), Data Science",2016,2018
+53,"Indian Institute of Science Education and Research, Kolkata","Master of Science (MS), Geological and Earth Sciences/Geosciences",2007,2012
+53,University of Massachusetts Amherst,"Doctor of Philosophy (Ph.D.), Computational Geoscience",2012,2017
+53,HBX | Harvard Business School,Core: Credential of Readiness,2015,2016
+54,University of Toronto,"Bachelor of Applied Science (BASc), Engineering",2011,2016
+54,University of Chicago,"Master’s Degree, Master of Science in Analytics (MScA)",2016,2018
+54,Oregon State University,"Bachelor of Science - BS, Computer Science",2019,2021
+55,Anna University,"Bachelor's degree, Electrical, Electronics and Communications Engineering",2009,2013
+55,Stevens Institute of Technology,"Masters in Financial Engineering, Finance",2017,2018
+56,University of Southern California,"Master's degree, Statistics",2010,2011
+56,University of Science and Technology of China,Bachelor's degree,2003,2007
+56,University of Southern California,"Doctor of Philosophy (PhD), Bioinformatics and Computational Biology",2007,2013
+57,"Indian Institute of Technology, Kharagpur","Dual Degree (BTech + MTech), Computer Science",2009,2014
+58,2021 Qiskit Global Summer School on Quantum Machine Learning,"Certificate of Quantum Excellence, Quantum Computing, Quantum Machine Learning",2021,2021
+58,"Tribhuvan University, Nepal","Bachelor's degree, Physics, Mathematics",2004,2006
+58,Florida International University,"Doctor of Philosophy (PhD), Theoretical and Mathematical Physics",2011,2017
+59,University of Waterloo,"PhD in Statistics, Financial Economectrics",2006,2012
+60,Bilkent University,"Master of Arts (M.A.), Economics",2007,2009
+60,Bilkent University,"Bachelor of Science (BS), Business Administration and Management, General",2003,2007
+60,University of Michigan,"Doctor of Philosophy (Ph.D.), Economics",2009,2015
+61,Indian Institute of Science (IISc),"Master of Engineering (M.Eng.), Aerospace Engineering",1999,2001
+61,"IIEST, Shibpur","Bachellor of Engineering, Civil Engineering",1995,1999
+61,Indian Institute of Science (IISc),"Ph.D, Aerospace Engineering",2001,2004
+62,Data Analytics Edge from MIT EDX,"Data Science certification, Data Science",2015,2015
+62,Stanford Center for Professional Development,Sustainability Studies,2019,2019
+62,Bharathiar University,"Bachelor in Engineering, Instrumentation and Control",1984,1988
+63,University of Maryland Global Campus,"Master, Software Engineering",2001,2003
+63,Columbia University,"Graduate Certificate in Health Informatics, Healthcare IT",2010,2011
+63,Drexel University,"Doctor of Health Science, Epidemiology, Biostat, AI/ML",2019,2022
+64,Stanford University,"Doctor of Philosophy (PhD), Theoretical Neuroscience",2011,2016
+64,Stanford University,"Master of Science (MS), Neuromorphic Engineering",2009,2011
+64,"University of California, Berkeley","BA, Physics, Neurobiology and minor in EECS",2005,2009
+65,University of Connecticut,"Master of Business Administration (MBA), MIS & Finance",1900,1900
+65,University of Connecticut,"Master of Science (M.S.), Applied Financial Mathematics",1900,1900
+65,University of Connecticut,"Ph.D., Electrical & Computer Engineering, Information & Decision Systems Concentrations, Applied Machine Learning & Computer Vision Research",2004,2009
+66,Muhlenberg College,"Bachelor of Science (B.S.), Physics and Mathematics",1995,1999
+66,University of Miami,"Doctor of Philosophy (Ph.D.), Geophysics",2001,2008
+67,"Indian Institute of Technology, Delhi","Bachelor of Technology (BTech), Mechanical Engineering",2012,2016
+67,Best High School,Higher secondary certificate,1900,1900
+68,University of Amsterdam,"Master's degree, Education Policy for Global Development",2018,2019
+68,University of Pennsylvania,"Master of Science - MS, Social Policy and Data Analytics",2020,2022
+68,Universitat Autònoma de Barcelona,"Master of Arts - MA, Education Policy Analysis",2017,2019
+69,University of Minnesota - Carlson School of Management,"Master of Science - MS, Business Analytics",2018,2019
+69,"National Institute of Technology, Tiruchirappalli","Bachelor of Technology - BTech, Mechanical Engineering",2011,2015
+70,University of Illinois Urbana-Champaign,"Master in Computer Science, Data Science",2018,2020
+70,Amity University,"Bachelor of Technology (B.Tech.), Computer Science",2008,2012
+71,University of Rochester,"Doctorate, Electrical and Computer Engineering",2007,2012
+71,Zhejiang University,"Bachelor, Measuring & Control Technology and Instrumentations",2003,2007
+71,RIT,,1900,1900
+72,KTH Royal Institute of Technology,"Ph.D.(Joint thesis), Theoretical and Computational Physics",1900,1900
+72,Peking University,"Ph.D  (Joint thesis), Theoretical and Computational Physics",1900,1900
+72,Shandong University,"Bachelor's degree, Physics",1900,1900
+73,Massachusetts Institute of Technology,"Master of Science (M.S.), Aerospace, Aeronautical and Astronautical Engineering",2007,2009
+73,Quantic School of Business and Technology,Executive MBA,2018,2019
+73,Massachusetts Institute of Technology,"Bachelor of Science (BS), Aerospace, Aeronautical and Astronautical Engineering",2003,2007
+74,"Indian Institute of Technology, Bombay","B.Tech, Chemical Engineering",1900,1900
+74,Rensselaer Polytechnic Institute - The Lally School of Management,"Master's degree, Business Analytics",2017,2018
+75,MIT Sloan School of Management,"MBA, Finance, Strategy",2001,2003
+75,"University of California, Los Angeles","MS, Electrical Engineering",1994,1996
+75,Massachusetts Institute of Technology,Master of Business Administration (M.B.A.),2001,2003
+76,"Birla Institute of Technology, Mesra","MCA, Computer Applications",2000,2003
+76,Nanyang Technological University Singapore,"Exchange Research Fellow, School of Communication & Information",2006,2006
+76,Indian Institute of Management Bangalore,"PhD, Quantitative Methods and Information Systems",2003,2008
+77,Institution of Electronics and Telecommunication Engineers,"Bachelor’s Degree, Electrical, Electronics and Communications Engineering",1989,1992
+77,Anna University,"Masters in Engineering, Electrical and Electronics Engineering",1993,1995
+77,Northeastern University,"Ph.D., Electrical and Computer Engineering",1997,2002
+78,Bangor University,"BSc, Mathematics",1994,1997
+78,University of Strathclyde,"PhD, Mathematical Biology",1998,2001
+78,Loughborough University,"MSc, Mathematical Modelling for Industry",1997,1998
+79,University of Washington,"Doctor of Philosophy (Ph.D.), Finance, General",2010,2015
+79,University of Washington,"MBA, Finance, General",2009,2010
+79,University of Washington - Michael G. Foster School of Business,"Master of Science (M.Sc.), Finance, General",2011,2014
+80,North Carolina State University,"Doctor of Philosophy - PhD, Major: ISE, Minor:  Statistics and Computer Science (Interdisciplinarity)",2017,2017
+81,Rice University,"Master's degree, statistics",2017,2019
+81,Shanghai University of International Business and Economics,"Bachelor of Science - BS, Applied Statistics",2013,2017
+82,California State Polytechnic University-Pomona,"Bachelors of Science, Mechanical Engineering",1900,1900
+82,University of Wisconsin-Madison,"Master of Science (MSc), Manufacturing Systems Engineering",1900,1900
+83,Esade,Exchange Program,2013,2013
+83,University of Illinois Urbana-Champaign,"Master's degree, Data science and analytics",2018,2020
+83,Tongji University,"Bachelor's degree, Engineering/Industrial Management",2010,2014
+84,Flatiron School,Data Science,1900,1900
+84,Purdue University,"Bachelor of Science - BS, Analytics",1900,1900
+85,Nova Southeastern University,"Doctor of Philosophy (PhD), Natural Language Processing",1900,1900
+85,Indira Gandhi National Open University,"MBA, Operations Research",1900,1900
+85,Manonmaniam Sundaranar University,"Master of Computer Applications - MCA, Computational and Applied Mathematics",1900,1900
+87,Stony Brook University,"Bachelor of Science (BS), Applied Mathematics and Statistics; Economics",2014,2017
+87,Columbia University,"Master's degree, Statistics",2017,2019
+88,Udacity,Machine Learning Engineer Nanodegree,2020,2020
+88,The University of Texas at Dallas,"Master of Science - MS, Business Analytics",2018,2020
+88,G H Patel College of Engineering & Technology,"Bachelor of Engineering - BE, Electronics and Communication",2009,2013
+89,"Indian Institute of Management, Indore","Master of Business Administration (M.B.A.), Marketing",2013,2014
+89,"IIEST, Shibpur","Bachelor of Engineering (B.E.), Mining and Mineral Engineering",2004,2007
+89,Texas McCombs School of Business,Advanced Business Analytics,2014,2014
+90,fast.ai,Deep Learning,2017,2018
+90,National Institute of Technology Warangal,"Bachelor's Degree, Electrical and Electronics Engineering",2008,2012
+91,Columbia University,"MS, Data Science",2018,2019
+91,Banasthali Vidyapith,Bachelor of computer Applications,2009,2012
+91,Jawaharlal Nehru University,"Master of Computer Applications (MCA), Computer Science",2012,2015
+92,"DAV Group of Schools (TNAES), Chennai","Primary to Higher Secondary, Science (Biology)",2003,2013
+92,The University of Texas at Dallas,"Master of Science - MS, Management Information Systems, General",2019,2021
+92,Anna University,"Bachelor's degree, Electrical and Electronics Engineering",2013,2017
+93,"University of California, Davis","Doctor of Philosophy (Ph.D.), Biostatistics",2012,2017
+93,California State University Channel Islands,"Bachelor's degree, Mathematics",2008,2010
+94,Pontifícia Universidade Católica do Rio de Janeiro,"Graduate, Business Administration and Management, General",1994,1997
+94,Pontifícia Universidade Católica do Rio de Janeiro,"Master of Science, Business Administration",2004,2006
+94,Ibmec,"Master of Business Administration (MBA), Banking, Corporate, Finance, and Securities Law",1998,2000
+95,University of Illinois Springfield,"Master of Science (MS), Management Information Systems (MIS)",2011,2012
+95,The Institution of Engineers India,"Bachelor’s Degree, Numerical programming and Fortran",1992,1996
+96,New York University,"Master of Science (M.S.), Data Science",2014,2016
+96,Brandeis University,"Bachelor of Arts (B.A.), Economics and Mathematics",2010,2014
+97,"Indian Institute of Technology, Indore","Bachelor of Technology (B.Tech.), Electrical Engineering",2010,2014
+97,University of Cincinnati Carl H. Lindner College of Business,"Master of Science - MS, Business Analytics",2017,2018
+98,careers for Thrikkakkara,"Bachelor of Technology (B.Tech.), Electronics and Communications Engineering",2006,2010
+98,University of Connecticut School of Business,"Master of Science (MS), Business Analytics and Project Management",2017,2018
+99,George Mason University,"Masters in Data Analytics Engineering, Data Science",2016,2018
+99,"University of Engineering and Technology, Taxila","Bachelor of Science (B.S.), Computer Science",2012,2016
+100,"Indian Institute of Technology, Bombay","Bachelor of Technology (BTech), Computer Science and Engineering",2009,2013
+101,"Indian Institute of Technology, Roorkee","Bachelor of Technology (B.Tech.), Chemical Engineering",2003,2007
+101,Oklahoma State University,"Masters Degree, Business Analytics and Data Sciences",1900,1900
+102,Bal Bharati Public School,"12th Grade, Science",1990,1997
+102,"Indian Institute of Technology, Kanpur","B. Tech., Chemical Engineering",1998,2002
+102,University of Florida,"Ph.D., Chemical Engineering",2002,2007
+103,Electrical and computer Engineering,"Doctor of Philosophy (PhD), Deep Learning",2018,2022
+103,Addis Ababa University,"Master of Science (M.S.), Mathematics (Combinatorics)",2009,2012
+103,Oklahoma State University,"Master of Science (M.S.), Electrical and Computer Engineering",2014,2016
+104,The George Washington University,"MS, Computer Science",2001,2003
+104,The George Washington University,"MA, Physics",1999,2001
+104,Shanghai Jiao Tong University,"BS, Applied Physics",1988,1992
+105,Stanford University,"Graduate Certificate in Data Mining (High Honours), Statistics",1900,1900
+105,University of Vermont,"Doctor of Philosophy (Ph.D.) (ABD), Mechanical Engineering",1900,1900
+105,The Johns Hopkins University,"Master of Science (M.S.) with Honors, Data Science",1900,1900
+106,University at Buffalo,"Ph.D., Chemical and Biological Engineering",2001,2008
+106,Xiamen University,"MS, Chemical Engineering",1998,2001
+106,Xiamen University,"BE, Chemical Engineering",1994,1998
+107,Capella University,"Master’s Degree, Information Technology - Enterprise Software Architecture",2009,2015
+107,The George Washington University,"Graduate Certificate, Project Management",2004,2006
+107,University of Wisconsin-La Crosse,"Master’s Degree, Data Science",2016,2021
+108,University of Oklahoma,"Master of Science (MS), Computer Science",2004,2005
+108,Dartmouth College,"PhD Student, Computer Science",2005,2006
+108,Duke University,"Doctor of Philosophy (PhD), Computer Science",2006,2012
+109,Maharaja Surajmal Institute Of Technology msitnewdelhi,"Bachelor of Technology (BTech), Information Technology",2016,2019
+109,Illinois Institute of Technology,"Master's degree, Data science",2022,2023
+110,University of Michigan,"Master's degree, Industrial and Operations Engineering",2004,2007
+110,University of Michigan,"MA, Statistics",2006,2009
+110,University of Michigan,"PhD, Industrial Engineering and Mechanical Engineering",2004,2010
+111,Michigan State University,"Master of Science (MS), Computer Science and Engineering",1900,1900
+111,"Indian Institute of Technology, Kharagpur","Bachelor of Technology (BTech), Computer Science",1900,1900
+112,Bengal College of Engineering and Technology,"Bachelor of Technology (B.Tech.), Electronics and Commu",2008,2012
+112,University of Southern California,"Master of Science (MS), Computer Science",2014,2015
+113,West Virginia University,"Doctor of Philosophy (Ph.D.), Engineering",2010,2014
+113,West Virginia University,"Master of Science (MSc), Petroleum and Natural Gas Engineering",2010,2012
+113,Sharif University of Technology,"Bachelor of Science (BSc), Petroleum Engineering",2005,2010
+114,University at Buffalo,"Master's degree, Geography",2000,2000
+114,Clark University,"Bachelor's degree, Geography",1992,1996
+115,The Ohio State University,"Doctor of Philosophy (Ph.D.), Statistics",2012,2017
+115,Fudan University,"B.S., Mathematics",2012,2012
+116,University of Delaware,"Doctor of Philosophy (Ph.D.), Bioinformatics and Systems Biology",1900,1900
+116,Louisiana State University,Masters,1900,1900
+117,New York University,"Master's degree, Computer Engineering",2019,2020
+117,Delhi College of Engineering,"Bachelor of Technology, Electronics and Communication with specialization in Applied Physics",2015,2019
+117,"Frank Anthony Public School,New Delhi",,2001,2015
+118,Penn State University,"Ph.D., Computer Engineering",2014,2014
+118,Dalhousie University,"BE, Electrical Engineering",2004,2004
+119,Dhirubhai Ambani Institute of Information and Communication Technology,"Bachelor of Technology (B.Tech.), ICT (Information And Communication Technology)",2006,2010
