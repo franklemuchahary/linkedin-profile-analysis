@@ -3,10 +3,16 @@ This file contains all the code for data cleaning and transformations
 required for creating visualizations
 '''
 
-import pandas as pd
-import numpy as np
+#################################################
+#################### Imports ####################
+
 import re
 from datetime import datetime
+import pandas as pd
+import numpy as np
+
+######################################################################
+#################### Load the Created Final Files ####################
 
 skills_df = pd.read_csv('data/final_cleaned_files/all_skills_info.csv')
 edu_df = pd.read_csv('data/final_cleaned_files/all_education_info.csv')
@@ -21,6 +27,7 @@ profile_category_mapping = {
 skills_df['profile_category'] = skills_df['profile_category'].map(profile_category_mapping)
 edu_df['profile_category'] = edu_df['profile_category'].map(profile_category_mapping)
 exp_df['profile_category'] = exp_df['profile_category'].map(profile_category_mapping)
+
 
 ##################################################################
 #################### Education Level Analysis ####################
@@ -105,6 +112,7 @@ highest_education_level = highest_education_level.sort_values(
 print(highest_education_level.head())
 
 
+
 ##################################################################
 #################### Major Type Analysis #########################
 def engineering_business_degree(x):
@@ -162,10 +170,12 @@ popular_major_type_df = popular_major_type_df.sort_values(
 print(popular_major_type_df.head())
 
 
+
 #################################################################################
 #################### Total Years of Experience Analysis #########################
 
 exp_df['positions'] = exp_df['positions'].str.lower()
+exp_df['positions'].fillna('', inplace=True)
 
 single_prof_exp = exp_df.copy()
 single_prof_exp.sort_values(['profile_category', 'profile_id_dummy', 'start_date'], inplace=True)
@@ -189,7 +199,8 @@ overall_years_of_exp = single_prof_exp.groupby([
     'profile_category', 'profile_id_dummy', 'end_date'
 ])['start_date'].min().reset_index()
 
-overall_years_of_exp['months_exp'] = (((overall_years_of_exp['end_date'] - overall_years_of_exp['start_date']).dt.days)/30).astype(int)
+overall_years_of_exp['months_exp'] = ((
+    (overall_years_of_exp['end_date'] - overall_years_of_exp['start_date']).dt.days)/30).astype(int)
 
 overall_years_of_exp = overall_years_of_exp.groupby(
     ['profile_category', 'profile_id_dummy']
@@ -206,8 +217,128 @@ overall_years_of_exp = overall_years_of_exp[
 print(overall_years_of_exp.head())
 
 
+
 ##########################################################################
 #################### Previous Role Type Analysis #########################
 
+def previous_role_type_analysis(profile_type, exp_df,
+                                role_title1 = '', role_title1_name = '',
+                                role_title2 = '', role_title2_name = '',
+                                role_title3 = '', role_title3_name = ''):
+    '''
+    helper function for analyzing previous role types
+    '''
 
-print(1)
+    single_prof_exp = exp_df[exp_df['profile_category'] == profile_type].copy()
+    single_prof_exp['positions'].fillna('', inplace = True)
+
+    single_prof_exp[role_title1_name] = single_prof_exp['positions'].str.contains(role_title1)
+    single_prof_exp[role_title2_name] = single_prof_exp['positions'].str.contains(role_title2)
+    
+    if profile_type == 'Principal Data Scientists':
+        role_title3_neg = 'machine learning'
+        single_prof_exp[role_title3_name] = (
+            (single_prof_exp['positions'].str.contains(role_title3)) & 
+            ~(single_prof_exp['positions'].str.contains(role_title3_neg))
+        )
+        
+        list_cols = [role_title1_name, role_title2_name, role_title3_name]
+    else:
+        list_cols = [role_title1_name, role_title2_name]
+        
+    subset_profiles_roles = single_prof_exp.groupby(
+        'profile_id_dummy'
+    )[list_cols].max().reset_index()
+
+    plt_df = subset_profiles_roles.groupby(role_title1_name)['profile_id_dummy'].nunique().reset_index()
+    print(plt_df)
+    
+    return subset_profiles_roles
+
+### principal data scientists
+pds_roles_df = previous_role_type_analysis(
+    profile_type = 'Principal Data Scientists',
+    exp_df = exp_df.copy(),
+    role_title1 = 'intern',
+    role_title1_name = 'Intern Roles',
+    role_title2 = 'analyst',
+    role_title2_name = 'Analyst Roles',
+    role_title3 = 'engineer',
+    role_title3_name = 'Engineer Roles'
+)
+
+### chief technology officers
+cto_roles_df = previous_role_type_analysis(
+    profile_type = 'Chief Technology Officers',
+    exp_df = exp_df.copy(),
+    role_title1 = r'(manager|lead|head)',
+    role_title1_name = 'Managerial Roles',
+    role_title2 = r'software engineer|architect|staff engineer|scientist',
+    role_title2_name = 'Software Engineer/Architect/Research Scientist'
+)
+
+### senior consultants
+consultant_roles_df = previous_role_type_analysis(
+    profile_type = 'Senior Consultants',
+    exp_df = exp_df.copy(),
+    role_title1 = r'(analyst|trainee|business analytics)',
+    role_title1_name = 'Analyst Roles',
+    role_title2 = r'intern',
+    role_title2_name = 'Intern Roles'
+)
+
+
+##########################################################################################
+#################### Length of Relationship With Current Company #########################
+
+exp_df['positions'] = exp_df['positions'].str.lower()
+exp_df['positions'].fillna('', inplace=True)
+exp_df['start_date'] = pd.to_datetime(exp_df['start_date'])
+exp_df['end_date'] = pd.to_datetime(exp_df['end_date'])
+
+exp_df['company_max_end_date'] = exp_df.groupby(
+        ['profile_id_dummy', 'company']
+    )['end_date'].transform('max')
+
+exp_df['company_exp_ranked'] = exp_df.groupby(
+    ['profile_category', 'profile_id_dummy']
+)['company_max_end_date'].transform(lambda x: x.rank(method='dense', ascending=False))
+
+
+###### Number of Months in Latest Company ######
+# get the latest company
+latest_company_info = exp_df[exp_df['company_exp_ranked'] == 1].copy()
+
+# calculate time in latest company
+time_period_latest_company = latest_company_info.groupby(
+    ['profile_category', 'profile_id_dummy'])[['start_date', 'end_date']].agg({
+        'start_date': 'min', 
+        'end_date': 'max'
+    }).reset_index()
+
+time_period_latest_company['months_of_exp_latest'] = round(
+    ((time_period_latest_company['end_date'] - time_period_latest_company['start_date']).dt.days)/30, 0
+).astype(int)
+
+print(time_period_latest_company.head())
+
+###### Number of Roles in Latest Company ######
+num_roles_latest_company = latest_company_info.groupby(
+    ['profile_category', 'profile_id_dummy']
+)['positions'].nunique().reset_index()
+
+num_roles_latest_company = num_roles_latest_company.groupby(
+    ['profile_category', 'positions']
+)['profile_id_dummy'].nunique().reset_index()
+
+num_roles_latest_company['percent_people'] = round((num_roles_latest_company['profile_id_dummy']/num_roles_latest_company.groupby(
+    ['profile_category']
+)['profile_id_dummy'].transform('sum'))*100,1)
+num_roles_latest_company['positions'] = num_roles_latest_company['positions'].astype(str)
+
+print(num_roles_latest_company.head())
+
+
+
+##########################################################################################
+print("************* Done *************")
