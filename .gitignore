@@ -3,3 +3,4 @@
 .ipynb_checkpoints
 *checkpoints.csv
 iframe_figures/
+__pycache__/
