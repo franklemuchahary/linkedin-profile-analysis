@@ -305,7 +305,7 @@ time_period_latest_company['months_of_exp_latest'] = round(
 ).astype(int)
 ```
 
-###### 5.2.4 Number of roles in the current company
+##### 5.2.4 Number of roles in the current company
 
 The impetus behind the analysis was to find if the professional had directly switched into this role from any other company, or was promoted into this role.
 
@@ -316,6 +316,8 @@ num_roles_latest_company = num_roles_latest_company.groupby(
     ['profile_category', 'positions']
 )['profile_id_dummy'].nunique().reset_index()
 ```
+
+----------------------------------------------------------end of edits here-----------------------------------------------------------------------
 
 ### Data Reduction
 
