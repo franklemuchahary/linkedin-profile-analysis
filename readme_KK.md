@@ -206,6 +206,49 @@ exploded_skills_df['val'] = 1
 
 4.	On the other hand, we had to convert experience into long format for multiple roles worked within the same company. It was something of the format ['Chief Information Officer', 'Managing Director, Advanced Technology, Analytics, and Architecture'] before processing, but we converted it into five different rows, one for each position respectively.
 
+-----------------------------Added after deliverable 1---------------------------------------------
+
+5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out:
+
+#### 5.1 Education Data
+
+First off we wanted to know what is the highest level of education a certain professional has. In order to find that out, we wrote a regex to extract if the professional had a certain level of education or not. This regex was made as exhaustive as possible to capture all the variations, including spelling mistakes in the text data.
+
+To extract if a professional had a bachelor's degree or not, the following regular expression was used:
+```Python
+bachelor_pattern = (
+    r'^(b\.{0,}\s{0,1}tech\.{0,}|b\.{0,}s\.{0,}|bachelor\’{0,}\'{0,}s{0,}|bachellor|'
+    r'b\.{0,}sc\.{0,}|b\.{0,}a\.{0,}|b\.{0,}b\.{0,}a\.{0,}|b\.{0,}e\.{0,})(?:,|\)|\(|\s)'
+)
+```
+
+Similarty, for master's the regex was as below:
+```Python
+master_pattern = (
+    r"^(master\'{0,1}\’{0,1}s{0,1}|m\.{0,1}s\.{0,1}|m\.{0,1}a\.{0,1}|m\.{0,1}sc\.{0,1}|"
+    r"m\.{0,1}eng\.{0,1}|mca|post graduate)(?:,|\)|\(|\s)"
+)
+```
+
+We had used some other regular expressions to find out the possibility of a PhD and MBA as well.
+
+The next step was to find out the highest level of education pursued. This was done using a simple if-else block
+
+```Python
+def get_highest_level_of_edu(x):
+    if 'phd' in x:
+        edu_level = 'PhD'
+    elif 'mba' in x:
+        edu_level = 'MBA'
+    elif 'master' in x:
+        edu_level = 'Master'
+    elif 'bachelor' in x:
+        edu_level = 'Bachelor'
+    else:
+        edu_level = 'Other'
+    return 
+```
+
 ### Data Reduction
 
 A few initiatives were taken outside of data cleaning to further reduce the size of our data.
