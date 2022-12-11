@@ -520,3 +520,26 @@ In the next phase of our project, we will be analyzing the information that we h
 <br><br>
 Finally, using the insights obtained from our exploratory analysis, our goal is to create a playbook that university students, early career professionals, people looking to switch careers, and people returning to the workforce after a career break can follow in order to help them be successful in their pursuit of these fields. The outcomes and insights from this project can serve as a guidance tool or reference book for our target audience so that they are not lost and have a focused path to follow in order to achieve their dream positions in the industry. It could also help young professionals and students develop the right skill sets required 
 
+----------------------------------------skills story----------------------------------------
+
+### Skills
+
+#### Data Scientists
+The following graph shows that Python is indeed the top skill possessed by 80% of data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
+
+![Data Scientist skills](assets/data_scientist_skills.png)
+
+Note that these categories are not mutually exclusive, and a professional might have multiple skills that they bring to the table.
+
+#### Senior Consultants
+When it comes to senior consultants, business strategy is the top skill. As we will see in upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting MBA in strategy if they wish to be consultants.
+
+Also, the point to note is that after 4 management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
+
+![Consultants skills](assets/consultant_skills.png)
+
+#### CTO
+
+CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
+
+![CTO skills](assets/CTO_skills.png)
