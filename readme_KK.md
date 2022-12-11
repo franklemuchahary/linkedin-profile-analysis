@@ -295,9 +295,27 @@ consultant_roles_df = previous_role_type_analysis(
 )
 ```
 
-##### 5.2.3 Experience in the current company
+##### 5.2.3 Months of Experience in the current company
 
+This was achieved by ranking all the experiences in the descending order of experience ending date. The company with rank 1 (most recent company) was filtered and the duration was counted by subtracting the most recent date by starting date. This was again divided by 30 to get months of experience.
 
+```Python
+time_period_latest_company['months_of_exp_latest'] = round(
+    ((time_period_latest_company['end_date'] - time_period_latest_company['start_date']).dt.days)/30, 0
+).astype(int)
+```
+
+###### 5.2.4 Number of roles in the current company
+
+The impetus behind the analysis was to find if the professional had directly switched into this role from any other company, or was promoted into this role.
+
+Since we already had the positions held by each professional in each company, this was achieved by just counting the total number of roles for the recent company.
+
+```Python
+num_roles_latest_company = num_roles_latest_company.groupby(
+    ['profile_category', 'positions']
+)['profile_id_dummy'].nunique().reset_index()
+```
 
 ### Data Reduction
 
