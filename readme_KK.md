@@ -210,7 +210,9 @@ exploded_skills_df['val'] = 1
 
 5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out:
 
-#### 5.1 Education Data
+#### 5.1 Education
+
+##### 5.1.1 Level of Education
 
 First off we wanted to know what is the highest level of education a certain professional has. In order to find that out, we wrote a regex to extract if the professional had a certain level of education or not. This regex was made as exhaustive as possible to capture all the variations, including spelling mistakes in the text data.
 
@@ -248,6 +250,54 @@ def get_highest_level_of_edu(x):
         edu_level = 'Other'
     return 
 ```
+
+##### 5.1.2 Major
+
+The second point analyzed from the data was the major. This was also implemented using regex as below
+```Python
+ stem_match = re.search(
+        r"(computer|stat|physics|chem|math|data science|machine|quant|bio|operations research)", x)
+```
+
+It was then categorized further into fewer buckets like engineering, Business/Economics and STEM (Non-Engineering).
+
+```Python
+if 'engineer' in x:
+        major_type = 'Engineering'
+elif 'business' in x or 'econ' in x or mba_match is not None:
+    major_type = 'Business/Economics'
+elif 'engineer' not in x and stem_match is not None:
+    major_type = 'STEM (Non-Engineering)'
+else:
+    major_type = ''
+```
+
+#### 5.2 Experience
+
+##### 5.2.1 Total Duration
+We first wanted to understand how much of experience is required in order to be a chief data scientist, CTO and Consultant respectively. First off, we fixed some outlier values for some of the professionals. One noteworthy example was of a professional whose job started in 1800s. This was fixed by filtering only the profiles which had their jobs starting after 1930.
+
+The next step was to find out the total experience by finding the number of days between starting date of employment and the most recent date of employment. This was divided by 30 to obtain total months of experience.
+
+##### 5.2.2 Previous Role
+The second theme was to find out what kind of roles a certain professional has worked on. This would help us find a career path someone has followed. For example, a principal data scientist might have worked on an internship, data/business analyst, software engineering or other roles in the past to come to where he is now.
+
+This was an easy process as we had separated out all the different roles a person had been into. The following code was used to find out different pre-set roles:
+
+```Python
+consultant_roles_df = previous_role_type_analysis(
+    profile_type = 'Senior Consultants',
+    exp_df = exp_df.copy(),
+    role_title1 = r'(analyst|trainee|business analytics)',
+    role_title1_name = 'Analyst Roles',
+    role_title2 = r'intern',
+    role_title2_name = 'Intern Roles'
+)
+```
+
+##### 5.2.3 Experience in the current company
+
+
 
 ### Data Reduction
 
