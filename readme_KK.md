@@ -379,6 +379,19 @@ def remap_skills_basic(skills_list):
 
 We decided to not record profile locations because experience locations were initially recorded. However, this did not seem relevant to our overall objective, so we discarded it. 
 
+**Example 3**
+
+There were some experience values that were off the charts. So we considered the values that fall between 3 standard deviations of the mean.
+
+```Python
+upper_threshold = np.mean(overall_years_of_exp['months_exp']) + 3*np.std(overall_years_of_exp['months_exp'])
+lower_threshold = np.mean(overall_years_of_exp['months_exp']) - 3*np.std(overall_years_of_exp['months_exp'])
+
+overall_years_of_exp = overall_years_of_exp[
+    (overall_years_of_exp['months_exp'] < upper_threshold) &
+    (overall_years_of_exp['months_exp'] > lower_threshold)
+].copy()
+```
 
 ### Data Consolidation
 
