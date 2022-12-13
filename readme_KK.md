@@ -556,3 +556,49 @@ Also, the point to note is that after 4 management related topics, data analysis
 CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
 
 ![CTO skills](assets/CTO_skills.png)
+
+
+----------------------------------------Education story----------------------------------------
+
+### Education
+
+Moving onto our second story, let’s take a deep look into what education background one ought to take to climb the ladder of success towards Principal Data Scientists, Senior Consultants, or Chief Technology Officers, broken down by the most popular education levels and majors for each profile type.
+
+#### Highest Education Level
+
+Referencing the image below, let’s look at the percentage of people compared to education levels. The majority of Principle Data Scientists, or 83%, have completed a Master’s or PhD. Very few have obtained an MBA or just a Bachelor’s, proving that this field, in particular, requires the highest level of education. Moving over to Senior Consultants, 61% have completed their MBA, excessively overshadowing those who have acquired a Master’s, Bachelor’s alone, or PhD. Finally, there is relative wiggle room when it comes to Chief Technology Officers. Creating a career from just a Bachelor’s was the most popular route, with 30%, but with a 4% difference from Master’s to PhD, MBA, and Other, it may be concluded that experience trumps education within this domain. 
+
+![Highest education level per career](assets/education_highest_level.png)
+
+#### Most Popular Majors
+
+While we now know what types of degrees are popular amongst the leaders of each field, it’s important to set the path for success up right by understanding which degree ought to be pursued. Referencing the image below, the percent of people within each field is compared to Types of Majors. Starting with Principal Data Scientists, STEM (Non-Engineering) tops the charts with 31% obtaining degrees like Master’s in Data Science, Physics, or Computer Science. Next in line is plain Engineering at 20%, which includes those with PhD’s or Master’s, supporting the previous findings from Principal Data Scientists most popular highest education. In total, Engineer associated degrees make up 76% of the total majors within this realm, Engineering & STEM meaning they got one or the other in undergrad with the other as a Master’s or PhD. When looking at Senior Consultants, 39% majored in Engineering and completed an MBA. Following in a close second, many consultant professionals majored in Business. Both conclusions make sense as Consultants’ work utilizes soft skills for presentation of data cross industry. For this career path, one can’t go wrong with combining Business and Engineering or STEM. Like Principal Data Scientists, Chief Technology Officers’ popular degrees readily move from STEM (Non-Engineering) like Data Science, to Engineering such as Computer Science degree, so on to Other, MBA, etc. To advance into this position, a degree palate of Data or Computer Science with an incorporation of Business skills would be best. 
+
+Planning out a degree path to reach the preferred career goal can seem intimidating. After looking at the data, it’s evident that the most relevant degrees across the board are STEM (Non-Engineering), Engineering, and Business. Obtaining a Master’s in Data Science, Computer Science, or Business Administration are all great choices. A PhD can be helpful for Principal Data Scientistic but is not necessarily needed to climb the ladder of Senior Consultants or CTOs.
+
+![Most popular majors per career](assets/education_popular_majors.png)
+
+### Experience
+
+#### Experience Needed Prior to Position
+
+Going beyond Skills and Education, the final piece to the story is Experience. Here we will uncover the amount of experience (in months) prior to the acquiring positions, previous roles held, experience (in months) at current company, plus positions held at current company of Principal Data Scientists, Senior Consultants, and CTOs. 
+
+##### Principal Data Scientists
+
+Everyone starts somewhere, and experience is essential to climbing the ladder of career success. When comparing the percentage of people to months of experience, for Principal Data Scientists, 40-139 months, or about five to 11 years, is the amount of time it took to get to this position. Months of experience ranges from 0-19 months all the way to 260-270 months, as seen in the right skewed bar chart. 
+
+![Principal data scientist prior years of experience within career](assets/experience_data_scientist1.png)
+
+##### Senior Consultants
+
+Similarly skewed, Senior Consultants most prevalent experience is shorter, falling within 20-119 months, or a little over a year to 10 years of experience. This might be due to the known long hours that come with being a consultant.
+
+![Senior consultant prior years of experience within career](assets/experience_consultant1.png)
+
+##### CTO
+
+Displaying a more normalized distribution, it’s evident that working up to a CTO requires a lot of experience. In this bar graph, many CTOs have 100 to 259 months, or eight to 13 years, of prior work experience. Patience is a virtue!
+
+![CTO prior years of experience within career](assets/experience_CTO1.png)
+
