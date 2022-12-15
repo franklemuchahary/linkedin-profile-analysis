@@ -209,6 +209,7 @@ exploded_skills_df['val'] = 1
 4.	On the other hand, we had to convert experience into long format for multiple roles worked within the same company. It was something of the format ['Chief Information Officer', 'Managing Director, Advanced Technology, Analytics, and Architecture'] before processing, but we converted it into five different rows, one for each position respectively.
 
 5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out: <br>
+
 `Note: These steps were carried out only for preparing the data for visualizations and these intermediate columns or datasets are not stored as text files`
 #### 5.1 Education
 
@@ -517,9 +518,9 @@ Note:
 ## Visualizations
 
 In this project, our primary goal was to analyze how people in top positions within three different career tracks have built their careers up in terms of skills developed, education levels, and past experiences. To analyze this, we have scrapped LinkedIn profiles from three career tracks (Principal Data Scientists, Senior Consultants, and Chief Technology Officers) and analyzed the information that these people have listed in terms of skills, education levels, and past experiences on LinkedIn. These are the three main components we will be looking at, and the following three exploratory analyses listed are the three main stories we will be focusing on:
-1. Skills: We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people are interested in as one of the paths to actively pursue.
-2. Education: For education, we will look at two main aspects, the education levels and the majors pursued by the professionals from the above-mentioned career paths. Based on this, we will analyze if there are any common patterns for each path.
-3. Experience: For experience, we will mainly analyze the past experiences of the professionals in the three paths. We will analyze three aspects related to experience, the number of months of work experience held by the professionals previously,  past roles held, and finally, the number of years/number of positions held by these professionals at their current companies.
+1. **Skills:** We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people are interested in as one of the paths to actively pursue.
+2. **Education:** For education, we will look at two main aspects, the education levels and the majors pursued by the professionals from the above-mentioned career paths. Based on this, we will analyze if there are any common patterns for each path.
+3. **Experience:** For experience, we will mainly analyze the past experiences of the professionals in the three paths. We will analyze three aspects related to experience, the number of months of work experience held by the professionals previously,  past roles held, and finally, the number of years/number of positions held by these professionals at their current companies.
 
 ### Target Variable and Predictive Analytics Problem:
 The goal of the project is to work mainly on the exploratory data analysis (EDA) part and try to find interesting patterns in terms of skills, education, and experience that are specific to each of the career paths mentioned earlier. These patterns can help people (students, early career professionals, and even experienced professionals) streamline their career paths. We can build predictive models to gauge which career path will best suit a person based on their existing skills, education, and experience. Hence, we can also frame a Multinomial Classification Problem with 'Career Path' as the target variable and predict the path with the highest likelihood by using the information related to skills, education levels, and experience as predictor variables.<br>
