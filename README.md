@@ -514,7 +514,6 @@ Note:
 | data warehousing              | Indicator whether the person has listed this as their skill or not (expanded wide format of skills\_list column)        | integer   | [https://www.linkedin.com](https://www.linkedin.com/) | [all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)        | 1/0 binary variable                                                                                                                                                                                                                                                                       |
 ## Visualizations
 
-### Background:
 In this project, our primary goal is to analyze how people at top positions in three different career tracks have built up their careers in terms of skills developed, education levels, and past experiences. To analyze this, we have scrapped LinkedIn profiles from three career tracks (Principal Data Scientists, Senior Consultants, and Chief Technology Officers) and analyzed the information that these people have listed in terms of skills, education levels, and past experiences on LinkedIn. These are the three main components we will be looking at, and the following three exploratory analyses listed are the three main stories we will be focusing on:
 1. Skills: We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people interested in one of the paths should actively pursue.
 2. Education: For education, we will look at two main aspects, the education levels and the majors pursued by the professionals from the above-mentioned career paths. Based on this, we will analyze if there are any common patterns for each path.
@@ -526,8 +525,8 @@ All the visualizations and analyses shown below will be segregated based on the 
 
 ### 1. Skills (Technical & Non-Technical)
 
-##### Data Scientists
-The following graph shows that Python is indeed the top skill possessed by 80% of data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
+##### Principal Data Scientists
+The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
 
 ![Data Scientist skills](assets/data_scientist_skills.png)
 
@@ -540,7 +539,7 @@ Also, the point to note is that after 4 management related topics, data analysis
 
 ![Consultants skills](assets/consultant_skills.png)
 
-##### CTO
+##### Chief Technology Officers
 
 CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
 
@@ -552,7 +551,7 @@ Moving onto our second story, let’s take a deep look into what education backg
 
 #### 2.1 Highest Education Level
 
-Referencing the image below, let’s look at the percentage of people compared to education levels. The majority of Principle Data Scientists, or 83%, have completed a Master’s or PhD. Very few have obtained an MBA or just a Bachelor’s, proving that this field, in particular, requires the highest level of education. Moving over to Senior Consultants, 61% have completed their MBA, excessively overshadowing those who have acquired a Master’s, Bachelor’s alone, or PhD. Finally, there is relative wiggle room when it comes to Chief Technology Officers. Creating a career from just a Bachelor’s was the most popular route, with 30%, but with a 4% difference from Master’s to PhD, MBA, and Other, it may be concluded that experience trumps education within this domain. 
+Referencing the image below, let’s look at the percentage of people compared to education levels. The majority of Principal Data Scientists, or 83%, have completed a Master’s or PhD. Very few have obtained an MBA or just a Bachelor’s, proving that this field, in particular, requires the highest level of education. Moving over to Senior Consultants, 61% have completed their MBA, excessively overshadowing those who have acquired a Master’s, Bachelor’s alone, or PhD. Finally, there is relative wiggle room when it comes to Chief Technology Officers. Creating a career from just a Bachelor’s was the most popular route, with 30%, but with a 4% difference from Master’s to PhD, MBA, and Other, it may be concluded that experience trumps education within this domain. 
 
 ![Highest education level per career](assets/education_highest_level.png)
 
@@ -566,9 +565,11 @@ Planning out a degree path to reach the preferred career goal can seem intimidat
 
 ### 3. Experience
 
+Going beyond Skills and Education, the final piece to the story is Experience. Here we will uncover the amount of experience (in months) prior to the acquiring positions, previous roles held, experience (in months) at current company, plus number of positions held at the current company (internal promotions) of Principal Data Scientists, Senior Consultants, and CTOs. 
+
 #### 3.1 Experience Needed Prior to Position
 
-Going beyond Skills and Education, the final piece to the story is Experience. Here we will uncover the amount of experience (in months) prior to the acquiring positions, previous roles held, experience (in months) at current company, plus positions held at current company of Principal Data Scientists, Senior Consultants, and CTOs. 
+We will begin by looking at the number of years of expereince that these professionals had before they entered into their current roles. This will help the people in gauging the average years of experience required for landing these different types of roles. 
 
 ##### Principal Data Scientists
 
@@ -582,11 +583,33 @@ Similarly skewed, Senior Consultants most prevalent experience is shorter, falli
 
 ![Senior consultant prior years of experience within career](assets/experience_consultant1.png)
 
-##### CTO
+##### Chief Technology Officers
 
 Displaying a more normalized distribution, it’s evident that working up to a CTO requires a lot of experience. In this bar graph, many CTOs have 100 to 259 months, or eight to 13 years, of prior work experience. Patience is a virtue!
 
 ![CTO prior years of experience within career](assets/experience_CTO1.png)
+
+#### 3.2 Previous Roles Held by the Professionals
+
+As we were talking about having to begin from somewhere, we will now move on to looking at some specific roles that the professionals held prior to landing their current roles. These can help us in understanding the roles that these senior professionals have used as building blocks to progress further in their careers. Additionally, it can also help people looking for switching careers in assessing how easy or difficult it would be to move on from their current roles to one of the paths that we are analyzing.
+
+##### Principal Data Scientists
+
+For Principal Data Scientists, based on our background understanding, we have picked up three related or early career positions that could be relevant for Principal Data Scientists. These three roles are "Data Science/Analyst Interns", "Data/Business/Research Analyst Roles", and "Software Engineer/Any Other Engineering Roles". We are analyzing the % of professionals that have previously held these roles at some point in their careers. The observations from the chart below show us that around 26% of the Principal Data Scientists have held some Intern roles previously in their careers. This tells us that data science internships can be a good way for students to break into the field and work their way upward in this career path. Around 21% of them have held an Analyst (Data/Business/Research) role in the past which tells us that people can begin their professional careers as analysts and slowly move up the ladder into becoming Principal Data Scientists (It's not the end of the world if you have to begin your career as a Business Analyst). Finally, there's a good proportion of engineers (around 29%) switching to become Principal Data Scientists. This makes sense as the two fields are quite closely related and the skills are quite transferable. So, if someone is planning to switch their career from this field, it's a good bet.
+
+![pds previous roles](assets/previous_role_pds.png)
+
+##### Senior Consultants
+
+For Senior Consultant, again, we have picked up professionals that held some Analyst Roles (Associate Analysts, Business Analysts, Research Analysts - we chose these because most consultants at the Big4 firms start out their careers as analysts and associates) and Internship Roles. We are analyzing a similar metric i.e. % of professionals that have previously held these roles in their careers. The chart below shows us that around 34% of these professionals start out as analysts and around 38% of them have interned at some point in their careers. Hence, internships and analyst roles are good entry-level roles for breaking into the consulting world.
+
+![senior consultants previous roles](assets/previous_role_consultants.png)
+
+##### Chief Technology Officers
+
+For Chief Technology Officers, we decided to analyze more senior positions compared to the other two career paths since the role of the CTO is also a significantly more senior role and people with senior engineering positions or managerial positions are the ones usually moving into this position. We picked Managerial Roles (Team Leads, Project Leads, Project Managers) and Senior Engineering Roles (Software Architect, Staff Software Engineer, Research Scientist) as the two past roles that we would be looking at for CTOs. The metric being analyzed is the same as the previous two i.e. % of professionals. The chart shows us that 38% of CTOs have held some managerial role in the past and around 33% have held a senior engineering or research role in the past. This shows us that people eyeing the role of a CTO as a part of their future career plans should focus on obtaining some much-needed managerial experience or focus on becoming technical experts in their fields.
+
+![cto previous roles](assets/previous_role_cto.png)
 
 
 
