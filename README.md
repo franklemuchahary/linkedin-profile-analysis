@@ -1,6 +1,6 @@
 # Analysis of LinkedIn Profiles to Create a Career Success Playbook
 
-The goal of this project is to analyze the career paths of multiple top professionals (e.g., CTOs, Marketing Heads, Lead Data Scientists, Lead Software Engineers, Product Managers, etc.) and build a career success playbook. This playbook could potentially act as a guide to help people be more job-ready or move up the corporate ladder by taking inspiration from the paths of professionals who have already reached the top of the ladder.<br><br>
+The goal of this project is to analyze the career paths of multiple top professionals (Principal Data Scientists, Senior Consultants, Chief Technology Officers) and build a career success playbook. This playbook could potentially act as a guide to help people be more job-ready or move up the corporate ladder by taking inspiration from the paths of professionals who have already reached the top of the ladder.<br><br>
 Having the right skillset increases the “job readiness” of the candidates and reduces the investment an employer needs to make in re-training their hirees. Employers have reported that there is a steadily widening “skills gap” that is hurting workers, businesses, and the economy.[1] There are also reports explaining how skill-based hiring has been increasing over the past few years.[2] So, having the right skills to focus on for a dream job has become even more important. We envision that the playbook will be helpful for current students, early career professionals, people looking for work after a resume gap, and professionals looking to switch careers by obtaining the right skill sets needed for their career goals.
 <br><br>
 [1] https://www.businessroundtable.org/policy-perspectives/building-americas-tomorrow-ready-workforce/closing-the-skills-gap/the-skills-gap-explained
@@ -12,9 +12,9 @@ Having the right skillset increases the “job readiness” of the candidates an
 This project is aimed at finding the career paths that stalwarts of their fields have followed. This will help readers be more task oriented about the career path they choose to follow. 
 
 We plan to look for 3 different careers:
-- Data Scientist
-- Chief Technology Officer (CTO)
-- Principal Consultant
+- Principal Data Scientists
+- Chief Technology Officers (CTOs)
+- Senior Consultants (primarily Partners, Principals, Associate Partners at top consulting firms like McKinsey, BCG, Bain & Company etc.)
 
 We plan to get the following data points from mentioned successful individuals:
 - Level of education (High school, Bachelors, Masters or PhD)
@@ -25,10 +25,12 @@ We plan to get the following data points from mentioned successful individuals:
 
 We then intend to analyze the following data points to obtain the career paths they have followed:
 - Average experience in each company (will help our readers know the ideal time to switch companies)
-- Most popular education by career path
+- Past professional roles held by these professionals
+- Most popular education level by career path
+- Most popular majors by career path
 - The most popular skills by career path
 
-The entire analysis will be performed in Python
+The entire analysis will be performed in Python and we will be using libraries like `Selenium`, `Plotly`, `Dash`, `re`, `multiprocessing`
 
 ### Deliverables:
 
@@ -207,7 +209,7 @@ exploded_skills_df['val'] = 1
 4.	On the other hand, we had to convert experience into long format for multiple roles worked within the same company. It was something of the format ['Chief Information Officer', 'Managing Director, Advanced Technology, Analytics, and Architecture'] before processing, but we converted it into five different rows, one for each position respectively.
 
 5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out:
-
+`Note: These steps were carried out only for preparing the data for visualizations and these intermediate columns or datasets are not stored as text files`
 #### 5.1 Education
 
 ##### 5.1.1 Level of Education
@@ -375,9 +377,9 @@ def remap_skills_basic(skills_list):
 
 We decided to not record profile locations because experience locations were initially recorded. However, this did not seem relevant to our overall objective, so we discarded it. 
 
-**Example 3**
+**Example 3 (Only for Creating Visualizations)**
 
-There were some experience values that were off the charts. So we instead considered the values that fall between 3 standard deviations of the mean.
+There were some experience values that were off the charts. We observed these scenarios when we started creating visualization. So, we instead considered the values that fall between 3 standard deviations of the mean to avoid skewing the visualizations due to just a few observations.
 
 ```Python
 upper_threshold = np.mean(overall_years_of_exp['months_exp']) + 3*np.std(overall_years_of_exp['months_exp'])
@@ -525,23 +527,25 @@ All the visualizations and analyses shown below will be segregated based on the 
 
 ### 1. Skills (Technical & Non-Technical)
 
+For analyzing the top/hot skills in each field, we looked at all the skills that were listed by the professionals on LinkedIn and obtained the percentage of professionals that listed each of these skills on their profiles. Based on this percentage, we obtained the top 30 skills for each field by sorting it in a descending manner.
+
 ##### Principal Data Scientists
-The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is the way to go.
+The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important. But, in addition to this, skills like Statistics and SQL are also very important and young professionals should focus on developing these skills too.
 
 ![Data Scientist skills](assets/skills_data_scientist.png)
 
 Note that these categories are not mutually exclusive, and a professional might have multiple skills that they bring to the table.
 
 ##### Senior Consultants
-When it comes to senior consultants, business strategy is the top skill. As we will see in an upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting MBA in strategy if they wish to be consultants.
+When it comes to senior consultants, business strategy is the top skill. As we will see in an upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting an MBA in Strategy if they wish to be consultants.
 
-Also, the point to note is that after four management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
+Also, the point to note is that after four management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants. Providing data-backed insights during their presentations would definitely help these consultants.
 
 ![Consultants skills](assets/skills_consultant.png)
 
 ##### Chief Technology Officers
 
-CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
+CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. These top skills are a combination of technical and soft management related skills. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
 
 ![CTO skills](assets/skills_CTO.png)
 
@@ -640,6 +644,8 @@ Here, we are trying to analyze the number of positions that professionals have h
 
 ![promotions current company](assets/promotions_current_company.png)
 
+<br><br>
+`Note:` All these visualizations and insights are available in the form of an interactive dashboard that can be <a href="https://datajanitors.pythonanywhere.com/">accessed here</a>
 
 ## Conclusion and Discussion
 In the data gathering and consolidation phase of the project, we started by identifying the methods that were available to us for gathering and extracting data from LinkedIn (Scraping or APIs). We decided to go ahead with the scraping approach because of the requirements associated with getting an API key and the rate limits that were involved in using the APIs. Once, the required data was scraped from LinkedIn, we cleaned & transformed the data obtained into a structured format. Finally, in this pahse, we created three final files that would be used for all further analysis. 
@@ -656,7 +662,7 @@ In the second phase of our project, we analyzed the information that we collecte
 
 <br>
 Using the insights obtained from our exploratory analysis, we have created a career playbook in the form of an interactive dashboard that university students, early career professionals, people looking to switch careers, and people returning to the workforce after a career break can refer to in order to help them be successful in their pursuit of these fields. The observations and insights from the interactive dashboard can serve as a guidance tool or reference book for our target audience so that they are not lost and have a focused path to follow in order to achieve their dream positions in the industry. It could also help young professionals and students develop the right skill sets required for setting their foot into one of these career paths. Dashboards like these can also be leveraged by career counselors at universities and private career consultants so that they are able to guide the students or clients in a much more effective manner backed by data. Finally, another main advantage of dashboards like these would be that they are quite easily automatable and can provide up-to-date information in terms of what skills/tools/technologies are popular in the current job market.<br>
-
+<br>
 <a href="https://datajanitors.pythonanywhere.com/">Link to the Interactive Dashboard.</a>
 
 
