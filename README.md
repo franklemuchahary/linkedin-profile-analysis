@@ -1,7 +1,7 @@
 # Analysis of LinkedIn Profiles to Create a Career Success Playbook
 
 The goal of this project is to analyze the career paths of multiple top professionals (e.g., CTOs, Marketing Heads, Lead Data Scientists, Lead Software Engineers, Product Managers, etc.) and build a career success playbook. This playbook could potentially act as a guide to help people be more job-ready or move up the corporate ladder by taking inspiration from the paths of professionals who have already reached the top of the ladder.<br><br>
-Having the right skillset increases the “job readiness” of the candidates and reduces the investment an employer needs to make in re-training their hirees. Employers have reported that there is a steadily widening “skills gap” that is hurting workers, businesses, and the economy.[1] There are also reports explaining how skill-based hiring has been increasing over the past few years.[2] So, having the right skills to focus on for a dream job has become even more important. We envision that the playbook will be helpful for current students, early career professionals, people looking for work after a resume gap, and professionals looking to switch careers by obtaining the right skill sets based on their career goals.
+Having the right skillset increases the “job readiness” of the candidates and reduces the investment an employer needs to make in re-training their hirees. Employers have reported that there is a steadily widening “skills gap” that is hurting workers, businesses, and the economy.[1] There are also reports explaining how skill-based hiring has been increasing over the past few years.[2] So, having the right skills to focus on for a dream job has become even more important. We envision that the playbook will be helpful for current students, early career professionals, people looking for work after a resume gap, and professionals looking to switch careers by obtaining the right skill sets needed for their career goals.
 <br><br>
 [1] https://www.businessroundtable.org/policy-perspectives/building-americas-tomorrow-ready-workforce/closing-the-skills-gap/the-skills-gap-explained
 <br>
@@ -44,7 +44,7 @@ The entire analysis will be performed in Python
 
 ## Data Preparation
 
-The data preparation process of this project involves searching for profiles on `LinkedIn` for three types of positions using multiple keywords, extracting profile links of multiple professionals in these fields, scraping information from individual profiles, and cleaning/consolidating data. These careers/positions are Chief Technology Officer, Principal Data Scientists, and Management Consultants. We carried out the scraping process in a two-step process where we first fetched the links, followed by detailed information from each profile, further detailed below. `Selenium` has been used as the key tool for scraping and `multiprocessing` has been used to aid in speeding up the process. Further, we have cleaned and transformed the scraped data using `regex`, `pandas`, and `dateutil`. At the end of the entire process, this scraped data has been saved as three different files, each containing three different sets of information, i.e `eduation information`, `experience information`, and `skills information`. We did not merge these three datasets into one single consolidated master file as a part of our data preparation step because they contain different sets of information that will mostly be analyzed individually (or could be merged as and when required for our analysis). Additionally, all three are at different levels of granularity, which will be detailed below. However, `profile_id_dummy` is the key that can be used to tie all three datasets back together. Further information on all the steps of our data preparation process has been detailed below.
+The data preparation process of this project involves searching for profiles on `LinkedIn` for three types of positions using multiple keywords, extracting profile links of multiple professionals in these fields, scraping information from individual profiles, and cleaning/consolidating data. These careers/positions are Chief Technology Officer, Principal Data Scientists, and Management Consultants. We carried out the scraping process in a two-step process where we first fetched the links, followed by detailed information from each profile, further detailed below. `Selenium` has been used as the key tool for scraping and `multiprocessing` has been used to aid in speeding up the process. Further, we have cleaned and transformed the scraped data using `regex`, `pandas`, and `dateutil`. At the end of the entire process, this scraped data has been saved as three different files, each containing three different sets of information, i.e `eduation information`, `experience information`, and `skills information`. We did not merge these three datasets into one single consolidated master file as a part of our data preparation step because they contain different sets of information that will mostly be analyzed individually (or could be merged if or when required for our analysis). Additionally, all three are at different levels of granularity, which will be detailed below. The key used to tie all three datasets together is `profile_id_dummy`. Further information on all the steps of our data preparation process has been detailed below.
 
 **Final Datasets**
 - [all_education_info.csv](data/final_cleaned_files/all_education_info.csv): Education Data for all profiles
@@ -111,12 +111,12 @@ In total, there were six of such CSVs created, as listed below:
 - DataScienceProfiles.csv
 
 
-Each CSV looks something along these lines:
+Each CSV looks like something along these lines:
 
 <img src="assets/data_access2.JPG/" alt="drawing" height="100" width="900"/>
 
 #### Step 2
-Next, we started off by creating a primary key against each profile, which will act as a unique identifier. 
+Next, we started off by creating a primary key against each profile to act as a unique identifier. 
 As we now have the profile URLs, extracting other information from the profile pages becomes much easier. We extracted the following information attributes from each profile:
 
 **Experience:** 
@@ -145,15 +145,15 @@ Since there are a lot of profiles to scrape for, we used `multiprocessing` to sc
 
 ### Data Cleaning
 
-First, we compiled all the individual files into three, one for each attribute.
+1.  Initially, we compiled all the individual files into three, one for each attribute.
 
-1.	After that, we cleaned the null values. There are multiple company pages that were scraped instead of people’s pages, but those pages did not have sections for education and skills, so it was easy to clean.
+2.	Next, we cleaned the null values. There are multiple company pages that were scraped instead of people’s pages, but those pages did not have sections for education and skills, so it was easy to clean.
 
-2.	As we just talked about, the skills were extracted in the form of lists. They were then converted into strings.
+3.	As we just talked about, the skills were extracted in the form of lists. They were then converted into strings.
 
-3.	Dropped duplicate profiles: some duplicate profiles got scrapped due to multiple search terms used for consultants.
+4.	Dropped duplicate profiles: some duplicate profiles got scrapped due to multiple search terms used for consultants.
 
-4.	Extracted the dates from the degree strings using `regex`. An un-cleaned example is below:
+5.	Extracted the dates from the degree strings using `regex`. An un-cleaned example is below:
 
 ![](assets/data_cleaning4.JPG)
 
@@ -189,7 +189,7 @@ First, we compiled all the individual files into three, one for each attribute.
     return start, end
 ```
 
-3.	Converted the skills into a wide format using one-hot encoding, i.e. made a superset of all the skills in our dataset and created a flag variable whose value would be one if the person has that skill, 0 otherwise.
+3.	Converted the skills into a wide format using one-hot encoding, i.e. we made a superset of all the skills in our dataset and created a flag variable whose value would be one if the person possesses said skill, 0 otherwise.
 
 ```Python
 exploded_skills_df = skills_df.explode('skills_list_cleaned').reset_index(drop=True)
@@ -212,7 +212,7 @@ exploded_skills_df['val'] = 1
 
 ##### 5.1.1 Level of Education
 
-First off we wanted to know what is the highest level of education a certain professional has. In order to find that out, we wrote a regex to extract if the professional had a certain level of education or not. This regex was made as exhaustive as possible to capture all the variations, including spelling mistakes in the text data.
+First off, we wanted to know what the highest level of education professional in all career roles have had. To find that out, we wrote a regex to extract if the professional had a certain level of education or not. This regex was made as exhaustive as possible to capture all the variations, including spelling mistakes in the text data.
 
 To extract if a professional had a bachelor's degree or not, the following regular expression was used:
 ```Python
@@ -222,7 +222,7 @@ bachelor_pattern = (
 )
 ```
 
-Similarty, for master's the regex was as below:
+Similarly, for master's the regex below was used:
 ```Python
 master_pattern = (
     r"^(master\'{0,1}\’{0,1}s{0,1}|m\.{0,1}s\.{0,1}|m\.{0,1}a\.{0,1}|m\.{0,1}sc\.{0,1}|"
@@ -232,7 +232,7 @@ master_pattern = (
 
 We had used some other regular expressions to find out the possibility of a PhD and MBA as well.
 
-The next step was to find out the highest level of education pursued. This was done using a simple if-else block
+The next step was to find out the highest level of education pursued. This was done using a simple if-else block.
 
 ```Python
 def get_highest_level_of_edu(x):
