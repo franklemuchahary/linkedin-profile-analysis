@@ -189,7 +189,7 @@ Since there are a lot of profiles to scrape for, we used `multiprocessing` to sc
     return start, end
 ```
 
-3.	Converted the skills into a wide format using one-hot encoding, i.e. we made a superset of all the skills in our dataset and created a flag variable whose value would be one if the person possesses said skill, 0 otherwise.
+3.	Next, we converted the skills into a wide format using one-hot encoding, i.e. we made a superset of all the skills in our dataset and created a flag variable whose value would be one if the person possesses said skill, 0 otherwise.
 
 ```Python
 exploded_skills_df = skills_df.explode('skills_list_cleaned').reset_index(drop=True)
@@ -251,7 +251,7 @@ def get_highest_level_of_edu(x):
 
 ##### 5.1.2 Major
 
-The second point analyzed from the data was the major. This was also implemented using regex as below
+The second point analyzed from the data was the major. This was also implemented using regex as seen below.
 ```Python
  stem_match = re.search(
         r"(computer|stat|physics|chem|math|data science|machine|quant|bio|operations research)", x)
@@ -273,14 +273,14 @@ else:
 #### 5.2 Experience
 
 ##### 5.2.1 Total Duration
-We first wanted to understand how much of experience is required in order to be a chief data scientist, CTO and Consultant respectively. First off, we fixed some outlier values for some of the professionals. One noteworthy example was of a professional whose job started in 1800s. This was fixed by filtering only the profiles which had their jobs starting after 1930.
+We first wanted to understand how much of experience is required in order to be a Principal Data Scientist, CTO and Senior Consultant respectively. We fixed a few outlier values for some of the professionals. One noteworthy example was of a professional whose job started in 1800s. This was fixed by filtering only the profiles which had their jobs starting after 1930.
 
-The next step was to find out the total experience by finding the number of days between starting date of employment and the most recent date of employment. This was divided by 30 to obtain total months of experience.
+To find the total experience, we found the number of days between the starting date and most recent data of employment. This was divided by 30 to obtain total months of experience.
 
 ##### 5.2.2 Previous Role
-The second theme was to find out what kind of roles a certain professional has worked on. This would help us find a career path someone has followed. For example, a principal data scientist might have worked on an internship, data/business analyst, software engineering or other roles in the past to come to where he is now.
+The second theme was to find out what kind of roles a certain professional has worked on to showcase their followed career path. For example, a principal data scientist might have worked on an internship, data/business analyst, software engineering or another role in the past to get to where he's at now.
 
-This was an easy process as we had separated out all the different roles a person had been into. The following code was used to find out different pre-set roles:
+This was an easy process since we separated out all the different roles a person had held. The following code was used to find out different pre-set roles:
 
 ```Python
 consultant_roles_df = previous_role_type_analysis(
@@ -303,11 +303,11 @@ time_period_latest_company['months_of_exp_latest'] = round(
 ).astype(int)
 ```
 
-##### 5.2.4 Number of roles in the current company
+##### 5.2.4 Number of roles at current company
 
-The impetus behind the analysis was to find if the professional had directly switched into this role from any other company, or was promoted into this role.
+The impetus behind the analysis was to see if the professional had switched directly into this role from any other company, or was promoted into the role.
 
-Since we already had the positions held by each professional in each company, this was achieved by just counting the total number of roles for the recent company.
+Since we already had the positions held by each professional via each company, this was achieved by just counting the total number of roles for the recent company.
 
 ```Python
 num_roles_latest_company = num_roles_latest_company.groupby(
@@ -321,7 +321,7 @@ A few initiatives were taken outside of data cleaning to further reduce the size
 
 **Example 1**
 
-We primarily ensured that all skills were in lowercase and then mapped similar skills with different names through `lemmatization`, WordNetLemmatizer(), and `mapping` to reduce redundant data.
+We primarily ensured that all skills were in lowercase before mapping similar skills with different names through `lemmatization`, WordNetLemmatizer(), and `mapping` to reduce redundant data.
 ```Python
 lemmatizer = WordNetLemmatizer()
 
@@ -377,7 +377,7 @@ We decided to not record profile locations because experience locations were ini
 
 **Example 3**
 
-There were some experience values that were off the charts. So we considered the values that fall between 3 standard deviations of the mean.
+There were some experience values that were off the charts. So we instead considered the values that fall between 3 standard deviations of the mean.
 
 ```Python
 upper_threshold = np.mean(overall_years_of_exp['months_exp']) + 3*np.std(overall_years_of_exp['months_exp'])
@@ -484,7 +484,7 @@ exp_df.to_csv('data/final_cleaned_files/all_name_and_experience_info.csv', index
 The data dictionary has been detailed out below in the form of a table. It contains information about three different csv files that were generated as the final set of files at the end of our data preparation process. The file that these specific columns are present in can be identified using the file name and path present in the column `Data`. <br><br>
 <i>
 Note:
-- At the end of the data dictionary table, we have listed out only three out of 100s of such skills that are present in the `all_skills_info.csv` dataset because of the one-hot encoded wide format of this dataset. We carried out this encoding process to help us in making quick calculations to see which skills are listed by how many people.
+- At the end of the data dictionary table, we have only listed out three of 100s of such skills that are present in the `all_skills_info.csv` dataset because of the one-hot encoded wide format of this dataset. We carried out this encoding process to help us in making quick calculations to see which skills are listed by how many people.
 - GitHub might not render these files directly due to the large number of columns present inside it.
 </i><br><br>
 
@@ -500,10 +500,10 @@ Note:
 | company                       | The name of the company the person has worked for.                                                                      | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | Tesla, Ford, Reliance Industries Limited.                                                                                                                                                                                                                                                 |
 | positions                     | The position within a company held by the individual.                                                                   | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | CTO, Chief Data Analyst, Senior Data Scientist, Associate Partner, Principal Data Scientist                                                                                                                                                                                               |
 | durations\_cleaned            | The date that is left in string format.                                                                                 | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | May 2010 - May 2012, June 2015 - July 2022                                                                                                                                                                                                                                                |
-| start\_date                   | The begining of the individual's tenure was their role within the company as actual date columns.                       | date      | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | 2006-11-03, 2010-05-03                                                                                                                                                                                                                                                                    |
+| start\_date                   | The beginning of the individual's tenure was their role within the company as actual date columns.                       | date      | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | 2006-11-03, 2010-05-03                                                                                                                                                                                                                                                                    |
 | end\_date                     | The end of the individual's tenure was their role within the company as actual date columns.                            | date      | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | 11-3-2010, 2012-05-03                                                                                                                                                                                                                                                                     |
 | names                         | The first and surname of the professional.                                                                              | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | David Benham, Siddharth Mahapatra, Vamsi Nellutla, etc.                                                                                                                                                                                                                                   |
-| profile\_url                  | The URL address for the professional's linkedin profile.                                                                | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | [https://www.linkedin.com/in/david-benham-4582b755](https://www.linkedin.com/in/david-benham-4582b755)                                                                                                                                                                                    |
+| profile\_url                  | The URL address for the professional's LinkedIn profile.                                                                | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | [https://www.linkedin.com/in/david-benham-4582b755](https://www.linkedin.com/in/david-benham-4582b755)                                                                                                                                                                                    |
 | profile\_heading              | The written heading section on the professional's LinkedIn profile.                                                     | string    | [https://www.linkedin.com](https://www.linkedin.com/) | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | [https://www.linkedin.com/in/david-benham-4582b755?miniProfileUrn=urn%3Ali%3Afs\_miniProfile%3AACoAAAuc1MQBqmRe5MvgDqNH9CmL8LcaUgOGaGk](https://www.linkedin.com/in/david-benham-4582b755?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAuc1MQBqmRe5MvgDqNH9CmL8LcaUgOGaGk)             |
 | profile\_category             | The career field of the individual (The categories that we have decided to analyze for this project)                    | string    | Internally Generated                                  | [all_name_and_experience_info.csv](data/final_cleaned_files/all_name_and_experience_info.csv)  | Data Science, Consultant, CTO                                                                                                                                                                                                                                                             |
 | profile\_id\_dummy            | The nominal identifier assigned to the individual (used for uniquely identifying users and joining all tables together) | string    | Internally Generated                                  | [all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)         | This will contain unique indentifiers manually created by us like: "DataScience\_0", "Consulting\_0", etc.                                                                                                                                                                                |
@@ -514,28 +514,28 @@ Note:
 | data warehousing              | Indicator whether the person has listed this as their skill or not (expanded wide format of skills\_list column)        | integer   | [https://www.linkedin.com](https://www.linkedin.com/) | [all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)        | 1/0 binary variable                                                                                                                                                                                                                                                                       |
 ## Visualizations
 
-In this project, our primary goal is to analyze how people at top positions in three different career tracks have built up their careers in terms of skills developed, education levels, and past experiences. To analyze this, we have scrapped LinkedIn profiles from three career tracks (Principal Data Scientists, Senior Consultants, and Chief Technology Officers) and analyzed the information that these people have listed in terms of skills, education levels, and past experiences on LinkedIn. These are the three main components we will be looking at, and the following three exploratory analyses listed are the three main stories we will be focusing on:
-1. Skills: We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people interested in one of the paths should actively pursue.
+In this project, our primary goal was to analyze how people in top positions within three different career tracks have built their careers up in terms of skills developed, education levels, and past experiences. To analyze this, we have scrapped LinkedIn profiles from three career tracks (Principal Data Scientists, Senior Consultants, and Chief Technology Officers) and analyzed the information that these people have listed in terms of skills, education levels, and past experiences on LinkedIn. These are the three main components we will be looking at, and the following three exploratory analyses listed are the three main stories we will be focusing on:
+1. Skills: We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people are interested in as one of the paths to actively pursue.
 2. Education: For education, we will look at two main aspects, the education levels and the majors pursued by the professionals from the above-mentioned career paths. Based on this, we will analyze if there are any common patterns for each path.
-3. Experience: For experience, we will mainly analyze the past experiences of the professionals in the three paths. We will analyze three aspects related to experience, the number of months of work experience held by the professionals previously before their current roles,  past roles held by these professionals, and finally, the number of years/number of positions held by these professionals at their current companies.
+3. Experience: For experience, we will mainly analyze the past experiences of the professionals in the three paths. We will analyze three aspects related to experience, the number of months of work experience held by the professionals previously,  past roles held, and finally, the number of years/number of positions held by these professionals at their current companies.
 
 ### Target Variable and Predictive Analytics Problem:
-The goal of the project is to mainly work on the exploratory data analysis (EDA) part and try to find interesting patterns in terms of skills, education, and experience that are specific to each of the career paths mentioned earlier. These patterns can help people (students, early career professionals, and even experienced professionals) streamline their career paths. We can build predictive models to gauge which career path will suit best for a person based on their existing skills, education, and experience. Hence, we can also frame a Multinomial Classification Problem with 'Career Path' as the target variable and predict the path with the highest likelihood by using the information related to skills, education levels, and experience as predictor variables.<br>
+The goal of the project is to work mainly on the exploratory data analysis (EDA) part and try to find interesting patterns in terms of skills, education, and experience that are specific to each of the career paths mentioned earlier. These patterns can help people (students, early career professionals, and even experienced professionals) streamline their career paths. We can build predictive models to gauge which career path will best suit a person based on their existing skills, education, and experience. Hence, we can also frame a Multinomial Classification Problem with 'Career Path' as the target variable and predict the path with the highest likelihood by using the information related to skills, education levels, and experience as predictor variables.<br>
 All the visualizations and analyses shown below will be segregated based on the three career paths mentioned. These visualizations will explore the relationship between these career paths with various other variables related to skills, education, and experience.
 
 ### 1. Skills (Technical & Non-Technical)
 
 ##### Principal Data Scientists
-The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
+The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is the way to go.
 
 ![Data Scientist skills](assets/skills_data_scientist.png)
 
 Note that these categories are not mutually exclusive, and a professional might have multiple skills that they bring to the table.
 
 ##### Senior Consultants
-When it comes to senior consultants, business strategy is the top skill. As we will see in upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting MBA in strategy if they wish to be consultants.
+When it comes to senior consultants, business strategy is the top skill. As we will see in an upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting MBA in strategy if they wish to be consultants.
 
-Also, the point to note is that after 4 management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
+Also, the point to note is that after four management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
 
 ![Consultants skills](assets/skills_consultant.png)
 
@@ -547,7 +547,7 @@ CTOs are a mixed bag of skills. They do not have a major skill that differentiat
 
 ### 2. Education
 
-Moving onto our second story, let’s take a deep look into what education background one ought to take to climb the ladder of success towards Principal Data Scientists, Senior Consultants, or Chief Technology Officers, broken down by the most popular education levels and majors for each profile type.
+Moving onto our second story, let’s take a deep dive into what education background one ought to take to climb the ladder of success towards Principal Data Scientists, Senior Consultants, or Chief Technology Officers, broken down by the most popular education levels and majors for each profile type.
 
 #### 2.1 Highest Education Level
 
@@ -595,7 +595,7 @@ As we were talking about having to begin from somewhere, we will now move on to 
 
 ##### Principal Data Scientists
 
-For Principal Data Scientists, based on our background understanding, we have picked up three related or early career positions that could be relevant for Principal Data Scientists. These three roles are "Data Science/Analyst Interns", "Data/Business/Research Analyst Roles", and "Software Engineer/Any Other Engineering Roles". We are analyzing the % of professionals that have previously held these roles at some point in their careers. The observations from the chart below show us that around 26% of the Principal Data Scientists have held some Intern roles previously in their careers. This tells us that data science internships can be a good way for students to break into the field and work their way upward in this career path. Around 21% of them have held an Analyst (Data/Business/Research) role in the past which tells us that people can begin their professional careers as analysts and slowly move up the ladder into becoming Principal Data Scientists (It's not the end of the world if you have to begin your career as a Business Analyst). Finally, there's a good proportion of engineers (around 29%) switching to become Principal Data Scientists. This makes sense as the two fields are quite closely related and the skills are quite transferable. So, if someone is planning to switch their career from this field, it's a good bet.
+For Principal Data Scientists, based on our background understanding, we have picked up three related or early career positions that could be relevant for Principal Data Scientists. These three roles are "Data Science/Analyst Interns", "Data/Business/Research Analyst Roles", and "Software Engineer/Any Other Engineering Roles". We are analyzing the % of professionals that have previously held these roles at some point in their careers. The observations from the chart below show us that around 26% of the Principal Data Scientists have held some Intern roles previously in their careers. This tells us that data science internships can be a good way for students to break into the field and work their way upward in this career path. Around 21% of them have held an Analyst (Data/Business/Research) role in the past which tells us that people can begin their professional careers as analysts and slowly move up the ladder into becoming Principal Data Scientists (it's not the end of the world if you have to begin your career as a Business Analyst). Finally, there's a good proportion of engineers (around 29%) switching to become Principal Data Scientists. This makes sense as the two fields are closely related and the skills are quite transferable. So, if someone is planning to switch their career from this field, it's a good bet.
 
 ![pds previous roles](assets/previous_role_pds.png)
 
@@ -611,7 +611,7 @@ For Chief Technology Officers, we decided to analyze more senior positions compa
 
 ![cto previous roles](assets/previous_role_cto.png)
 
-#### 3.3 Experience(in Months) at Current Company and Number of Internal Promotions within Current Company
+#### 3.3 Experience (in Months) at Current Company and Number of Internal Promotions within Current Company
 
 In this final section, we will be analyzing the distribution of the number of months these senior professionals have spent at their current companies and also the number of positions they have held at their companies. The objective of analyzing this is to understand how much loyalty is worth in each of these paths and if one of them tends to reward loyalty more than the others. This can also help people in understanding if they should go job hunting to move up in their careers or stick around and work their way up through internal promotions. 
 We will begin by looking at the distribution of the number of months of experience the professionals have stuck with their current companies and then we will move on to analyzing the number of internal promotions (measured in terms of number of positions held at the current company) that they have had within their current companies.
@@ -630,7 +630,7 @@ Based on the distribution, Senior Consultants tend to be more loyal than Princip
 
 ##### Chief Technology Officers
 
-We have a slightly surprising observation for Chief Technology Officers. Based on the distribution, they tend to have spent more time at their current companies compared to Principal Data Scientists but seem to have spent a lower amount of time compared to Senior Consultants (63% of people have spent less than 50 months compared to 76% for Principal Data Scientists and 52% for Senior Consultants). We expected professionals from this path to have spent the highest number of months with their companies since it's a much more senior role compared to the other two. However, it might just be due to the data that we scraped that could be biasing this result. We could have potentially scraped a higher number of CTOs that are also founders of their own companies rather than CTOs from Fortune 500 firms. This could be driving the number that we see and cross-checking the data can help us confirm it.
+We have a somewhat surprising observation for Chief Technology Officers. Based on the distribution, they tend to have spent more time at their current companies compared to Principal Data Scientists, but seem to have spent a lower amount of time compared to Senior Consultants (63% of people have spent less than 50 months compared to 76% for Principal Data Scientists and 52% for Senior Consultants). We expected professionals from this path to have spent the highest number of months with their companies since it's a much more senior role compared to the other two. This might, however, just be due to the data that we scraped that could be biasing this result. We could have potentially scraped a higher number of CTOs that are also founders of their own companies rather than CTOs from Fortune 500 firms. This could be driving the number that we see and cross-checking the data can help us confirm it.
 
 ![cto current exp](assets/current_comp_exp_cto.png)
 
