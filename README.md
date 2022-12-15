@@ -208,7 +208,7 @@ exploded_skills_df['val'] = 1
 
 4.	On the other hand, we had to convert experience into long format for multiple roles worked within the same company. It was something of the format ['Chief Information Officer', 'Managing Director, Advanced Technology, Analytics, and Architecture'] before processing, but we converted it into five different rows, one for each position respectively.
 
-5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out:
+5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out: <br>
 `Note: These steps were carried out only for preparing the data for visualizations and these intermediate columns or datasets are not stored as text files`
 #### 5.1 Education
 
