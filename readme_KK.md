@@ -206,8 +206,6 @@ exploded_skills_df['val'] = 1
 
 4.	On the other hand, we had to convert experience into long format for multiple roles worked within the same company. It was something of the format ['Chief Information Officer', 'Managing Director, Advanced Technology, Analytics, and Architecture'] before processing, but we converted it into five different rows, one for each position respectively.
 
------------------------------Added after deliverable 1---------------------------------------------
-
 5. The next step entailed creation of data to make it easy for analysis. This was achieved by performing relevant processing on each individual dataset. This would enable us to plot visualizations effectively. The following transformations were carried out:
 
 #### 5.1 Education
@@ -316,8 +314,6 @@ num_roles_latest_company = num_roles_latest_company.groupby(
     ['profile_category', 'positions']
 )['profile_id_dummy'].nunique().reset_index()
 ```
-
-----------------------------------------------------------end of edits here-----------------------------------------------------------------------
 
 ### Data Reduction
 
@@ -516,61 +512,51 @@ Note:
 | c#                            | Indicator whether the person has listed this as their skill or not (expanded wide format of skills\_list column)        | integer   | [https://www.linkedin.com](https://www.linkedin.com/) | [all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)          | 1/0 binary variable                                                                                                                                                                                                                                                                       |
 | python (programming language) | Indicator whether the person has listed this as their skill or not (expanded wide format of skills\_list column)        | integer   | [https://www.linkedin.com](https://www.linkedin.com/) |[all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)          | 1/0 binary variable                                                                                                                                                                                                                                                                       |
 | data warehousing              | Indicator whether the person has listed this as their skill or not (expanded wide format of skills\_list column)        | integer   | [https://www.linkedin.com](https://www.linkedin.com/) | [all_skills_info.csv](data/final_cleaned_files/all_skills_info.csv)        | 1/0 binary variable                                                                                                                                                                                                                                                                       |
+## Visualizations
 
-## Conclusion and Discussion
-In the data gathering and consolidation phase of the project, we started by identifying the methods that were available to us for gathering and extracting data from LinkedIn. This essentially boiled down to two main techniques for obtaining the data: `LinkedIn APIs` and `Web Scraping`. We decided to go ahead with the scraping approach because of the requirements associated with getting an API key and the rate limits that were involved in using the APIs. Additionally, we wanted to put our recently attained scraping skills to the test. 
+### Background:
+In this project, our primary goal is to analyze how people at top positions in three different career tracks have built up their careers in terms of skills developed, education levels, and past experiences. To analyze this, we have scrapped LinkedIn profiles from three career tracks (Principal Data Scientists, Senior Consultants, and Chief Technology Officers) and analyzed the information that these people have listed in terms of skills, education levels, and past experiences on LinkedIn. These are the three main components we will be looking at, and the following three exploratory analyses listed are the three main stories we will be focusing on:
+1. Skills: We will be analyzing the skills that the people from these three different career paths listed on their LinkedIn and if there are certain specific skills that people interested in one of the paths should actively pursue.
+2. Education: For education, we will look at two main aspects, the education levels and the majors pursued by the professionals from the above-mentioned career paths. Based on this, we will analyze if there are any common patterns for each path.
+3. Experience: For experience, we will mainly analyze the past experiences of the professionals in the three paths. We will analyze three aspects related to experience, the number of months of work experience held by the professionals previously before their current roles,  past roles held by these professionals, and finally, the number of years/number of positions held by these professionals at their current companies.
 
-We used the `selenium library` as our key tool for scraping profile links and individual profile information from LinkedIn. There were two major challenges that we faced while trying to scrape this information using selenium:<br>
-- Trying to avoid getting blocked by LinkedIn and trying to avoid being hit with a captcha in the middle of the scraping process and losing all the       progress achieved.
-- Speeding up the scraping process in order to be able to scrape more profiles in a shorter span of time.
+### Target Variable and Predictive Analytics Problem:
+The goal of the project is to mainly work on the exploratory data analysis (EDA) part and try to find interesting patterns in terms of skills, education, and experience that are specific to each of the career paths mentioned earlier. These patterns can help people (students, early career professionals, and even experienced professionals) streamline their career paths. We can build predictive models to gauge which career path will suit best for a person based on their existing skills, education, and experience. Hence, we can also frame a Multinomial Classification Problem with 'Career Path' as the target variable and predict the path with the highest likelihood by using the information related to skills, education levels, and experience as predictor variables.<br>
+All the visualizations and analyses shown below will be segregated based on the three career paths mentioned. These visualizations will explore the relationship between these career paths with various other variables related to skills, education, and experience.
 
-We used a few hacks to solve these issues like applying random `sleep timers` to pause the code for a while, saving files in each loop to maintain progress, and using `multiprocessing` to parallelly create multiple instances of selenium and scrape multiple profiles at once. We believe that some of these might not be the best way to solve these problems and there might be better ways to handle these issues like the following:<br>
-- Using proxy IP addresses and rotating them regularly to avoid getting blocked
-- Analyzing if scraping the website actually needs selenium due to dynamic JS elements. It might be much faster to scrape using a combination of           `requests`, `beautiful_soup`, and `multithreading` if there are no dynamic JS elements involved.
-- Saving progress in batches instead of each and every file to speed up the process and reduce the number of times we are writing csv files.
-<br>
-In the next phase of our project, we will be analyzing the information that we has been collected on the experience, education, and skillsets of multiple top profiles in three different fields. Our goal is to find common patterns that successful people in these fields have followed in the past. We will start looking at their education, how the early phases of their careers started, and the path that they took to reach where they are today. We will also analyze the top skills and educational degrees that people in each of these fields tend to have. 
-<br><br>
-Finally, using the insights obtained from our exploratory analysis, our goal is to create a playbook that university students, early career professionals, people looking to switch careers, and people returning to the workforce after a career break can follow in order to help them be successful in their pursuit of these fields. The outcomes and insights from this project can serve as a guidance tool or reference book for our target audience so that they are not lost and have a focused path to follow in order to achieve their dream positions in the industry. It could also help young professionals and students develop the right skill sets required 
+### 1. Skills (Technical & Non-Technical)
 
-----------------------------------------skills story----------------------------------------
-
-### Skills
-
-#### Data Scientists
+##### Data Scientists
 The following graph shows that Python is indeed the top skill possessed by 80% of data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
 
 ![Data Scientist skills](assets/data_scientist_skills.png)
 
 Note that these categories are not mutually exclusive, and a professional might have multiple skills that they bring to the table.
 
-#### Senior Consultants
+##### Senior Consultants
 When it comes to senior consultants, business strategy is the top skill. As we will see in upcoming section about education, most of the consultants have an MBA. So, the readers of this playbook should focus on getting MBA in strategy if they wish to be consultants.
 
 Also, the point to note is that after 4 management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
 
 ![Consultants skills](assets/consultant_skills.png)
 
-#### CTO
+##### CTO
 
 CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
 
 ![CTO skills](assets/CTO_skills.png)
 
-
-----------------------------------------Education story----------------------------------------
-
-### Education
+### 2. Education
 
 Moving onto our second story, let’s take a deep look into what education background one ought to take to climb the ladder of success towards Principal Data Scientists, Senior Consultants, or Chief Technology Officers, broken down by the most popular education levels and majors for each profile type.
 
-#### Highest Education Level
+#### 2.1 Highest Education Level
 
 Referencing the image below, let’s look at the percentage of people compared to education levels. The majority of Principle Data Scientists, or 83%, have completed a Master’s or PhD. Very few have obtained an MBA or just a Bachelor’s, proving that this field, in particular, requires the highest level of education. Moving over to Senior Consultants, 61% have completed their MBA, excessively overshadowing those who have acquired a Master’s, Bachelor’s alone, or PhD. Finally, there is relative wiggle room when it comes to Chief Technology Officers. Creating a career from just a Bachelor’s was the most popular route, with 30%, but with a 4% difference from Master’s to PhD, MBA, and Other, it may be concluded that experience trumps education within this domain. 
 
 ![Highest education level per career](assets/education_highest_level.png)
 
-#### Most Popular Majors
+#### 2.2 Most Popular Majors
 
 While we now know what types of degrees are popular amongst the leaders of each field, it’s important to set the path for success up right by understanding which degree ought to be pursued. Referencing the image below, the percent of people within each field is compared to Types of Majors. Starting with Principal Data Scientists, STEM (Non-Engineering) tops the charts with 31% obtaining degrees like Master’s in Data Science, Physics, or Computer Science. Next in line is plain Engineering at 20%, which includes those with PhD’s or Master’s, supporting the previous findings from Principal Data Scientists most popular highest education. In total, Engineer associated degrees make up 76% of the total majors within this realm, Engineering & STEM meaning they got one or the other in undergrad with the other as a Master’s or PhD. When looking at Senior Consultants, 39% majored in Engineering and completed an MBA. Following in a close second, many consultant professionals majored in Business. Both conclusions make sense as Consultants’ work utilizes soft skills for presentation of data cross industry. For this career path, one can’t go wrong with combining Business and Engineering or STEM. Like Principal Data Scientists, Chief Technology Officers’ popular degrees readily move from STEM (Non-Engineering) like Data Science, to Engineering such as Computer Science degree, so on to Other, MBA, etc. To advance into this position, a degree palate of Data or Computer Science with an incorporation of Business skills would be best. 
 
@@ -578,9 +564,9 @@ Planning out a degree path to reach the preferred career goal can seem intimidat
 
 ![Most popular majors per career](assets/education_popular_majors.png)
 
-### Experience
+### 3. Experience
 
-#### Experience Needed Prior to Position
+#### 3.1 Experience Needed Prior to Position
 
 Going beyond Skills and Education, the final piece to the story is Experience. Here we will uncover the amount of experience (in months) prior to the acquiring positions, previous roles held, experience (in months) at current company, plus positions held at current company of Principal Data Scientists, Senior Consultants, and CTOs. 
 
@@ -601,4 +587,25 @@ Similarly skewed, Senior Consultants most prevalent experience is shorter, falli
 Displaying a more normalized distribution, it’s evident that working up to a CTO requires a lot of experience. In this bar graph, many CTOs have 100 to 259 months, or eight to 13 years, of prior work experience. Patience is a virtue!
 
 ![CTO prior years of experience within career](assets/experience_CTO1.png)
+
+
+
+
+## Conclusion and Discussion
+In the data gathering and consolidation phase of the project, we started by identifying the methods that were available to us for gathering and extracting data from LinkedIn. This essentially boiled down to two main techniques for obtaining the data: `LinkedIn APIs` and `Web Scraping`. We decided to go ahead with the scraping approach because of the requirements associated with getting an API key and the rate limits that were involved in using the APIs. Additionally, we wanted to put our recently attained scraping skills to the test. 
+
+We used the `selenium library` as our key tool for scraping profile links and individual profile information from LinkedIn. There were two major challenges that we faced while trying to scrape this information using selenium:<br>
+- Trying to avoid getting blocked by LinkedIn and trying to avoid being hit with a captcha in the middle of the scraping process and losing all the       progress achieved.
+- Speeding up the scraping process in order to be able to scrape more profiles in a shorter span of time.
+
+We used a few hacks to solve these issues like applying random `sleep timers` to pause the code for a while, saving files in each loop to maintain progress, and using `multiprocessing` to parallelly create multiple instances of selenium and scrape multiple profiles at once. We believe that some of these might not be the best way to solve these problems and there might be better ways to handle these issues like the following:<br>
+- Using proxy IP addresses and rotating them regularly to avoid getting blocked
+- Analyzing if scraping the website actually needs selenium due to dynamic JS elements. It might be much faster to scrape using a combination of           `requests`, `beautiful_soup`, and `multithreading` if there are no dynamic JS elements involved.
+- Saving progress in batches instead of each and every file to speed up the process and reduce the number of times we are writing csv files.
+<br>
+In the next phase of our project, we will be analyzing the information that we has been collected on the experience, education, and skillsets of multiple top profiles in three different fields. Our goal is to find common patterns that successful people in these fields have followed in the past. We will start looking at their education, how the early phases of their careers started, and the path that they took to reach where they are today. We will also analyze the top skills and educational degrees that people in each of these fields tend to have. 
+<br><br>
+Finally, using the insights obtained from our exploratory analysis, our goal is to create a playbook that university students, early career professionals, people looking to switch careers, and people returning to the workforce after a career break can follow in order to help them be successful in their pursuit of these fields. The outcomes and insights from this project can serve as a guidance tool or reference book for our target audience so that they are not lost and have a focused path to follow in order to achieve their dream positions in the industry. It could also help young professionals and students develop the right skill sets required
+
+
 
