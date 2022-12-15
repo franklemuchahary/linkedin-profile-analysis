@@ -528,7 +528,7 @@ All the visualizations and analyses shown below will be segregated based on the 
 ##### Principal Data Scientists
 The following graph shows that Python is indeed the top skill possessed by 80% of principal data scientists, followed by Machine Learning. R programming language stands 3rd. This clears one of the major confusions potential data scientists have: whether to go with Python or R. Our analysis says Python and R both are important, but if you have to pick one, Python is your way to go.
 
-![Data Scientist skills](assets/data_scientist_skills.png)
+![Data Scientist skills](assets/skills_data_scientist.png)
 
 Note that these categories are not mutually exclusive, and a professional might have multiple skills that they bring to the table.
 
@@ -537,13 +537,13 @@ When it comes to senior consultants, business strategy is the top skill. As we w
 
 Also, the point to note is that after 4 management related topics, data analysis shows up. It is probably one of those good-to-have skills learnt by 42% of consultants.
 
-![Consultants skills](assets/consultant_skills.png)
+![Consultants skills](assets/skills_consultant.png)
 
 ##### Chief Technology Officers
 
 CTOs are a mixed bag of skills. They do not have a major skill that differentiates them, instead, they have 5 skills that are acquired by the somewhat equal number of CTOs. The top 5 skills are: Management (48%), software engineering (48%), Cloud computing (47%), leadership (47%) and finally agile (45%)
 
-![CTO skills](assets/CTO_skills.png)
+![CTO skills](assets/skills_CTO.png)
 
 ### 2. Education
 
@@ -611,7 +611,34 @@ For Chief Technology Officers, we decided to analyze more senior positions compa
 
 ![cto previous roles](assets/previous_role_cto.png)
 
+#### 3.3 Experience(in Months) at Current Company and Number of Internal Promotions within Current Company
 
+In this final section, we will be analyzing the distribution of the number of months these senior professionals have spent at their current companies and also the number of positions they have held at their companies. The objective of analyzing this is to understand how much loyalty is worth in each of these paths and if one of them tends to reward loyalty more than the others. This can also help people in understanding if they should go job hunting to move up in their careers or stick around and work their way up through internal promotions. 
+We will begin by looking at the distribution of the number of months of experience the professionals have stuck with their current companies and then we will move on to analyzing the number of internal promotions (measured in terms of number of positions held at the current company) that they have had within their current companies.
+
+##### Principal Data Scientists (Experience at Current Company in Months)
+
+We can see from the distribution that the distribution of months of experience for Principal Data Scientists is concentrated towards the lower end with around 33% of people in the first bin and around 76% having less than 50 months. This shows that people in data science tend to switch jobs sooner than the other two paths. However, this could also be biased due to data science being a relatively newer field compared to the other two paths that we are analyzing.
+
+![pds current exp](assets/current_comp_exp_pds.png)
+
+##### Senior Consultants
+
+Based on the distribution, Senior Consultants tend to be more loyal than Principal Data Scientists with just 23.8% of people in the first bin and just 52% with less than 50 months (compared to 76% for Principal Data Scientists). This potentially shows us that the top consultancy firms tend to focus on more internal promotions for filling senior positions (like Partner, Associate Partner, and Principal) rather than direct external hires. They seem to like to push people they have groomed into these senior consultancy roles.
+
+![consultants current exp](assets/current_comp_exp_consultants.png)
+
+##### Chief Technology Officers
+
+We have a slightly surprising observation for Chief Technology Officers. Based on the distribution, they tend to have spent more time at their current companies compared to Principal Data Scientists but seem to have spent a lower amount of time compared to Senior Consultants (63% of people have spent less than 50 months compared to 76% for Principal Data Scientists and 52% for Senior Consultants). We expected professionals from this path to have spent the highest number of months with their companies since it's a much more senior role compared to the other two. However, it might just be due to the data that we scraped that could be biasing this result. We could have potentially scraped a higher number of CTOs that are also founders of their own companies rather than CTOs from Fortune 500 firms. This could be driving the number that we see and cross-checking the data can help us confirm it.
+
+![cto current exp](assets/current_comp_exp_cto.png)
+
+##### Number of Internal Promotions within Current Company
+
+Here, we are trying to analyze the number of positions that professionals have held within their current companies. This can be a proxy for the number of internal promotions professionals have gotten within their current companies. We are analyzing the % of people for each number of positions (a proxy for the number of promotions). The observation from the chart below is in line with what we observed from the histograms of the months of experience in their current companies. It shows us that a larger % of Senior Consultants tend to have worked their way up a much higher number of internal promotions within their companies and tend to be more loyal.
+
+![promotions current company](assets/promotions_current_company.png)
 
 
 ## Conclusion and Discussion
